@@ -33,7 +33,7 @@ MonoBehaviour:
     nodes:
     - fullName: UnityEngineTransform.__SetPositionAndRotation__UnityEngineVector3_UnityEngineQuaternion__SystemVoid
       uid: 00463a73-48a8-411f-87ae-489de6da2803
-      position: {x: 1063, y: 510}
+      position: {x: 1296.0503, y: 516.1501}
       nodeUIDs:
       - 
       - 27c181c8-a052-4372-8b8c-3bf502c85789|0
@@ -50,13 +50,13 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null|{"x":0.0,"y":0.0,"z":0.0,"w":0.0}
     - fullName: VRCSDKBaseNetworking.__get_LocalPlayer__VRCSDKBaseVRCPlayerApi
       uid: cb0e31fd-653b-4de8-a812-18418ed030e1
-      position: {x: 322, y: 630}
+      position: {x: 585, y: 606}
       nodeUIDs: []
       flowUIDs: []
       nodeValues: []
     - fullName: VRCSDKBaseVRCPlayerApi.__GetPosition__UnityEngineVector3
       uid: 27c181c8-a052-4372-8b8c-3bf502c85789
-      position: {x: 617, y: 525}
+      position: {x: 831, y: 530}
       nodeUIDs:
       - cb0e31fd-653b-4de8-a812-18418ed030e1|0
       flowUIDs: []
@@ -65,7 +65,7 @@ MonoBehaviour:
         stringValue: 
     - fullName: VRCSDKBaseVRCPlayerApi.__GetRotation__UnityEngineQuaternion
       uid: 7201ab9e-50af-4d7a-9f8f-5df5b8d05c87
-      position: {x: 625, y: 756}
+      position: {x: 829, y: 683}
       nodeUIDs:
       - cb0e31fd-653b-4de8-a812-18418ed030e1|0
       flowUIDs: []
@@ -74,14 +74,14 @@ MonoBehaviour:
         stringValue: 
     - fullName: Event_Update
       uid: a0fad215-f139-46be-ba0a-c394bfdc5d86
-      position: {x: 614, y: 357}
+      position: {x: 1155.0502, y: 307.15}
       nodeUIDs: []
       flowUIDs:
       - 00463a73-48a8-411f-87ae-489de6da2803
       nodeValues: []
     - fullName: VRCSDKBaseVRCPlayerApiTrackingData.__get_position__UnityEngineVector3
       uid: d3ef0326-6206-4f0c-8d17-47806073c243
-      position: {x: 714, y: 898}
+      position: {x: 880.7, y: 1210.3002}
       nodeUIDs:
       - 6f773669-86e5-4508-b45a-7e28f42d03df|0
       flowUIDs: []
@@ -91,7 +91,7 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null|{"position":{"x":0.0,"y":0.0,"z":0.0},"rotation":{"x":0.0,"y":0.0,"z":0.0,"w":0.0}}
     - fullName: VRCSDKBaseVRCPlayerApi.__GetTrackingData__VRCSDKBaseVRCPlayerApiTrackingDataType__VRCSDKBaseVRCPlayerApiTrackingData
       uid: 6f773669-86e5-4508-b45a-7e28f42d03df
-      position: {x: 362, y: 897}
+      position: {x: 528.7001, y: 1209.3002}
       nodeUIDs:
       - 
       - 
@@ -102,6 +102,19 @@ MonoBehaviour:
       - unityObjectValue: {fileID: 0}
         stringValue: VRC.SDKBase.VRCPlayerApi+TrackingDataType, VRCSDKBase, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null|RightHand
+    - fullName: VRCSDKBaseVRCPlayerApi.__GetBonePosition__UnityEngineHumanBodyBones__UnityEngineVector3
+      uid: cec7d863-1ad5-459c-9320-70c05bf3bbe6
+      position: {x: 550, y: 1010}
+      nodeUIDs:
+      - 
+      - 
+      flowUIDs: []
+      nodeValues:
+      - unityObjectValue: {fileID: 0}
+        stringValue: 
+      - unityObjectValue: {fileID: 0}
+        stringValue: UnityEngine.HumanBodyBones, UnityEngine.AnimationModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null|Head
     updateOrder: 0
   graphElementData: []
   version: 1.0.0
