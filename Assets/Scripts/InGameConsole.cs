@@ -30,14 +30,14 @@ public class InGameConsole : MonoBehaviour
         locPlayer = Networking.LocalPlayer;
         Vector3 rh = locPlayer.GetBonePosition(HumanBodyBones.RightHand);
         Vector3 lh = locPlayer.GetBonePosition(HumanBodyBones.LeftHand);
-        Vector3 ch = locPlayer.GetBonePosition(HumanBodyBones.Neck);
+        Vector3 ch = locPlayer.GetBonePosition(HumanBodyBones.Chest);
         Vector3 hd = locPlayer.GetBonePosition(HumanBodyBones.Head);
         AddMessage("IGS@Right Hand Bone Position: " + rh);
-        AddMessage("IGS@Neck Bone Position: " + ch);
+        AddMessage("IGS@Chest Bone Position: " + ch);
         AddMessage("IGS@Dist: " + Vector3.Distance(rh, lh));
 
         PrintToUI();
-        sphGO.GetComponent<MeshRenderer>().material = (Vector3.Distance(rh, lh) < thresh) ? greenMat : grayMat;
+        // sphGO.GetComponent<MeshRenderer>().material = (Vector3.Distance(rh, lh) < thresh) ? greenMat : grayMat;
     }
 
     // void OnEnable() {
