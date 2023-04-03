@@ -22,14 +22,14 @@ MonoBehaviour:
     null\r\n    __b_0: %UnityEngineVector3, null\r\n    __instance_0: %VRCSDKBaseVRCPlayerApi,
     null\r\n    __tt_0: %UnityEngineHumanBodyBones, null\r\n    __instance_1: %VRCSDKBaseVRCPlayerApi,
     null\r\n    __tt_1: %UnityEngineHumanBodyBones, null\r\n    __Single_2: %SystemSingle,
-    null\r\n    __Single_3: %SystemSingle, null\r\n    __value_0: %SystemSingle,
-    null\r\n    __Single_4: %SystemSingle, null\r\n    __Single_5: %SystemSingle,
-    null\r\n    __instance_2: %UnityEngineMeshRenderer, null\r\n    __value_1: %UnityEngineMaterial,
-    null\r\n    __instance_3: %UnityEngineMeshRenderer, null\r\n    __value_2: %UnityEngineMaterial,
-    null\r\n    __instance_4: %UnityEngineMeshRenderer, null\r\n    __value_3: %UnityEngineMaterial,
-    null\r\n    greenMat: %UnityEngineMaterial, null\r\n    grayMat: %UnityEngineMaterial,
-    null\r\n    sphereRenderer: %UnityEngineMeshRenderer, null\r\n    oldD: %SystemSingle,
-    null\r\n    newD: %SystemSingle, null\r\n    redMat: %UnityEngineMaterial, null\r\n\r\n.data_end\r\n\r\n.code_start\r\n\r\n   
+    null\r\n    __Single_3: %SystemSingle, null\r\n    __Single_4: %SystemSingle,
+    null\r\n    __Single_5: %SystemSingle, null\r\n    __instance_2: %UnityEngineMeshRenderer,
+    null\r\n    __value_0: %UnityEngineMaterial, null\r\n    __instance_3: %UnityEngineMeshRenderer,
+    null\r\n    __value_1: %UnityEngineMaterial, null\r\n    __instance_4: %UnityEngineMeshRenderer,
+    null\r\n    __value_2: %UnityEngineMaterial, null\r\n    greenMat: %UnityEngineMaterial,
+    null\r\n    grayMat: %UnityEngineMaterial, null\r\n    sphereRenderer: %UnityEngineMeshRenderer,
+    null\r\n    oldD: %SystemSingle, null\r\n    newD: %SystemSingle, null\r\n   
+    redMat: %UnityEngineMaterial, null\r\n\r\n.data_end\r\n\r\n.code_start\r\n\r\n   
     .export _update\r\n    \r\n    _update:\r\n    \r\n        PUSH, newD\r\n       
     PUSH, oldD\r\n        COPY\r\n        PUSH, __instance_0\r\n        EXTERN, \"VRCSDKBaseNetworking.__get_LocalPlayer__VRCSDKBaseVRCPlayerApi\"\r\n       
     PUSH, __instance_0\r\n        PUSH, __tt_0\r\n        PUSH, __a_0\r\n       
@@ -41,26 +41,25 @@ MonoBehaviour:
     PUSH, __instance_0\r\n        PUSH, __instance_1\r\n        COPY\r\n        PUSH,
     newD\r\n        PUSH, __Single_0\r\n        COPY\r\n        PUSH, newD\r\n       
     PUSH, __Single_1\r\n        PUSH, __Boolean_0\r\n        EXTERN, \"SystemSingle.__op_LessThan__SystemSingle_SystemSingle__SystemBoolean\"\r\n       
-    PUSH, __Boolean_0\r\n        JUMP_IF_FALSE, 0x00000244\r\n        PUSH, __instance_0\r\n       
+    PUSH, __Boolean_0\r\n        JUMP_IF_FALSE, 0x0000022C\r\n        PUSH, __instance_0\r\n       
     PUSH, __instance_1\r\n        COPY\r\n        PUSH, newD\r\n        PUSH, __Single_0\r\n       
     COPY\r\n        PUSH, __Boolean_0\r\n        PUSH, __Boolean_2\r\n        COPY\r\n       
-    PUSH, newD\r\n        PUSH, oldD\r\n        PUSH, __value_0\r\n        EXTERN,
+    PUSH, newD\r\n        PUSH, oldD\r\n        PUSH, __Single_2\r\n        EXTERN,
     \"SystemSingle.__op_Subtraction__SystemSingle_SystemSingle__SystemSingle\"\r\n       
-    PUSH, __value_0\r\n        PUSH, __Single_2\r\n        EXTERN, \"SystemMath.__Abs__SystemSingle__SystemSingle\"\r\n       
     PUSH, __Single_2\r\n        PUSH, __Single_3\r\n        PUSH, __Boolean_3\r\n       
     EXTERN, \"SystemSingle.__op_GreaterThanOrEqual__SystemSingle_SystemSingle__SystemBoolean\"\r\n       
     PUSH, __Boolean_0\r\n        PUSH, __Boolean_3\r\n        PUSH, __Boolean_1\r\n       
     EXTERN, \"SystemBoolean.__op_ConditionalAnd__SystemBoolean_SystemBoolean__SystemBoolean\"\r\n       
-    PUSH, __Boolean_1\r\n        JUMP_IF_FALSE, 0x000001FC\r\n        PUSH, sphereRenderer\r\n       
+    PUSH, __Boolean_1\r\n        JUMP_IF_FALSE, 0x000001E4\r\n        PUSH, sphereRenderer\r\n       
     PUSH, __instance_2\r\n        COPY\r\n        PUSH, greenMat\r\n        PUSH,
-    __value_1\r\n        COPY\r\n        PUSH, __instance_2\r\n        PUSH, __value_1\r\n       
+    __value_0\r\n        COPY\r\n        PUSH, __instance_2\r\n        PUSH, __value_0\r\n       
     EXTERN, \"UnityEngineMeshRenderer.__set_material__UnityEngineMaterial__SystemVoid\"\r\n       
-    JUMP, 0x0000023C\r\n        PUSH, sphereRenderer\r\n        PUSH, __instance_3\r\n       
-    COPY\r\n        PUSH, redMat\r\n        PUSH, __value_2\r\n        COPY\r\n       
-    PUSH, __instance_3\r\n        PUSH, __value_2\r\n        EXTERN, \"UnityEngineMeshRenderer.__set_material__UnityEngineMaterial__SystemVoid\"\r\n       
-    JUMP, 0x00000284\r\n        PUSH, sphereRenderer\r\n        PUSH, __instance_4\r\n       
-    COPY\r\n        PUSH, grayMat\r\n        PUSH, __value_3\r\n        COPY\r\n       
-    PUSH, __instance_4\r\n        PUSH, __value_3\r\n        EXTERN, \"UnityEngineMeshRenderer.__set_material__UnityEngineMaterial__SystemVoid\"\r\n       
+    JUMP, 0x00000224\r\n        PUSH, sphereRenderer\r\n        PUSH, __instance_3\r\n       
+    COPY\r\n        PUSH, redMat\r\n        PUSH, __value_1\r\n        COPY\r\n       
+    PUSH, __instance_3\r\n        PUSH, __value_1\r\n        EXTERN, \"UnityEngineMeshRenderer.__set_material__UnityEngineMaterial__SystemVoid\"\r\n       
+    JUMP, 0x0000026C\r\n        PUSH, sphereRenderer\r\n        PUSH, __instance_4\r\n       
+    COPY\r\n        PUSH, grayMat\r\n        PUSH, __value_2\r\n        COPY\r\n       
+    PUSH, __instance_4\r\n        PUSH, __value_2\r\n        EXTERN, \"UnityEngineMeshRenderer.__set_material__UnityEngineMaterial__SystemVoid\"\r\n       
     JUMP, 0xFFFFFFFC\r\n    \r\n\r\n.code_end\r\n"
   assemblyError: 
   graphData:
@@ -75,7 +74,7 @@ MonoBehaviour:
       nodeValues: []
     - fullName: Event_Update
       uid: a0fad215-f139-46be-ba0a-c394bfdc5d86
-      position: {x: 807.625, y: 220.32253}
+      position: {x: 967, y: 219}
       nodeUIDs: []
       flowUIDs:
       - 99b79622-a2a7-4333-854e-a53a5fef6018
@@ -180,7 +179,7 @@ MonoBehaviour:
         stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|none
     - fullName: Branch
       uid: 2c89542d-30eb-44ce-9b34-ac21c9ae8fd4
-      position: {x: 1574, y: 329}
+      position: {x: 1589, y: 404}
       nodeUIDs:
       - a73d9bc4-9f02-455e-bd17-6c71c6f902f2|0
       flowUIDs:
@@ -238,7 +237,7 @@ MonoBehaviour:
         stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|none
     - fullName: Get_Variable
       uid: 8dda5de3-5b86-4103-932c-5b6bb650df42
-      position: {x: 1564, y: 445}
+      position: {x: 1579, y: 520}
       nodeUIDs:
       - 
       flowUIDs: []
@@ -249,7 +248,7 @@ MonoBehaviour:
         stringValue: 
     - fullName: UnityEngineMeshRenderer.__set_material__UnityEngineMaterial__SystemVoid
       uid: 265a9e42-35b3-43c9-941a-0a8802bb41b5
-      position: {x: 1888, y: 348}
+      position: {x: 1905, y: 427}
       nodeUIDs:
       - 8dda5de3-5b86-4103-932c-5b6bb650df42|0
       - d0391d19-7fbc-4217-9dd8-eb8a1c56ef64|0
@@ -261,7 +260,7 @@ MonoBehaviour:
         stringValue: 
     - fullName: Get_Variable
       uid: d0391d19-7fbc-4217-9dd8-eb8a1c56ef64
-      position: {x: 1637, y: 541}
+      position: {x: 1652, y: 616}
       nodeUIDs:
       - 
       flowUIDs: []
@@ -318,7 +317,7 @@ MonoBehaviour:
         stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|none
     - fullName: Get_Variable
       uid: 38866c4d-8116-4179-8941-5843af0e7c98
-      position: {x: 964.85004, y: 1046.75}
+      position: {x: 1078, y: 1028}
       nodeUIDs:
       - 
       flowUIDs: []
@@ -357,7 +356,7 @@ MonoBehaviour:
           PublicKeyToken=b77a5c561934e089|False
     - fullName: Set_Variable
       uid: 9a65c7f8-89fe-415c-bc0d-d60ee9bae6a0
-      position: {x: 1341, y: 550}
+      position: {x: 1348, y: 541}
       nodeUIDs:
       - 
       - 647205cf-e981-4fa7-91b8-a983f0bdf626|0
@@ -388,7 +387,7 @@ MonoBehaviour:
           PublicKeyToken=b77a5c561934e089|False
     - fullName: Get_Variable
       uid: 09b82353-380c-4545-8232-5dd044f3ce6e
-      position: {x: 965.85004, y: 951.75}
+      position: {x: 1079, y: 933}
       nodeUIDs:
       - 
       flowUIDs: []
@@ -422,7 +421,7 @@ MonoBehaviour:
         stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|none
     - fullName: SystemSingle.__op_Subtraction__SystemSingle_SystemSingle__SystemSingle
       uid: 6bd8087c-fb14-42da-bd64-18b6ff68e6cc
-      position: {x: 1137.8501, y: 985.7501}
+      position: {x: 1251, y: 967}
       nodeUIDs:
       - 09b82353-380c-4545-8232-5dd044f3ce6e|0
       - 38866c4d-8116-4179-8941-5843af0e7c98|0
@@ -432,20 +431,11 @@ MonoBehaviour:
         stringValue: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|0
       - unityObjectValue: {fileID: 0}
         stringValue: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|0
-    - fullName: SystemMath.__Abs__SystemSingle__SystemSingle
-      uid: 1f2c3049-88b8-416b-b9c7-881adbc0d2ef
-      position: {x: 1334.8502, y: 965.7501}
-      nodeUIDs:
-      - 6bd8087c-fb14-42da-bd64-18b6ff68e6cc|0
-      flowUIDs: []
-      nodeValues:
-      - unityObjectValue: {fileID: 0}
-        stringValue: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|0
     - fullName: SystemSingle.__op_GreaterThanOrEqual__SystemSingle_SystemSingle__SystemBoolean
       uid: 5c02e548-485c-495e-96dc-f1c5f1017835
       position: {x: 1525.6002, y: 966.20013}
       nodeUIDs:
-      - 1f2c3049-88b8-416b-b9c7-881adbc0d2ef|0
+      - 6bd8087c-fb14-42da-bd64-18b6ff68e6cc|0
       - 
       flowUIDs: []
       nodeValues:
@@ -467,7 +457,7 @@ MonoBehaviour:
           PublicKeyToken=b77a5c561934e089|False
     - fullName: Get_Variable
       uid: 366eeb12-db7a-4107-a4e4-2d9094e26ddc
-      position: {x: 1953.7001, y: 645.9501}
+      position: {x: 2032, y: 649}
       nodeUIDs:
       - 
       flowUIDs: []
@@ -478,7 +468,7 @@ MonoBehaviour:
         stringValue: 
     - fullName: Get_Variable
       uid: d187c729-da4e-4f06-b7b4-56ca6419ce85
-      position: {x: 2290.0002, y: 979.10016}
+      position: {x: 2178, y: 910}
       nodeUIDs:
       - 
       flowUIDs: []
@@ -499,6 +489,36 @@ MonoBehaviour:
         stringValue: 
       - unityObjectValue: {fileID: 0}
         stringValue: 
+    - fullName: UnityEngineMaterial.__GetColor__SystemString__UnityEngineColor
+      uid: bd06f9b8-1935-4235-88b4-611a23a3b743
+      position: {x: 2296.348, y: 1042.3914}
+      nodeUIDs:
+      - 
+      - 
+      flowUIDs: []
+      nodeValues:
+      - unityObjectValue: {fileID: 0}
+        stringValue: 
+      - unityObjectValue: {fileID: 0}
+        stringValue: 
+    - fullName: UnityEngineMaterial.__Lerp__UnityEngineMaterial_UnityEngineMaterial_SystemSingle__SystemVoid
+      uid: 3c7df36d-4136-4195-9feb-6dde7e79e643
+      position: {x: 2816.652, y: 819.86957}
+      nodeUIDs:
+      - 
+      - 
+      - 
+      - 
+      flowUIDs: []
+      nodeValues:
+      - unityObjectValue: {fileID: 0}
+        stringValue: 
+      - unityObjectValue: {fileID: 0}
+        stringValue: 
+      - unityObjectValue: {fileID: 0}
+        stringValue: 
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|0
     updateOrder: 0
   graphElementData: []
   version: 1.0.0
