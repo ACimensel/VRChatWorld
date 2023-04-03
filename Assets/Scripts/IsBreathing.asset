@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4f11136daadff0b44ac2278a314682ab, type: 3}
-  m_Name: CloseToChest
+  m_Name: IsBreathing
   m_EditorClassIdentifier: 
-  serializedUdonProgramAsset: {fileID: 11400000, guid: b51902e1e59e65e4aa1acf4a0b959dfe,
+  serializedUdonProgramAsset: {fileID: 11400000, guid: 393eed014f5685e4e8ede69faa436e25,
     type: 2}
-  udonAssembly: ".data_start\r\n\r\n    .export cyanMat\r\n    .export grayMat\r\n   
+  udonAssembly: ".data_start\r\n\r\n    .export greenMat\r\n    .export grayMat\r\n   
     .export ConsoleText\r\n    .export sphereRenderer\r\n    \r\n    __instance_0:
     %TMProTextMeshProUGUI, null\r\n    __value_0: %SystemString, null\r\n    __str0_0:
     %SystemString, null\r\n    __str1_0: %SystemString, null\r\n    __str2_0: %SystemString,
@@ -22,16 +22,18 @@ MonoBehaviour:
     __String_1: %SystemString, null\r\n    __value_1: %SystemDouble, null\r\n   
     __value_2: %SystemDouble, null\r\n    __digits_0: %SystemInt32, null\r\n    __value_3:
     %SystemSingle, null\r\n    __String_2: %SystemString, null\r\n    __String_3:
-    %SystemString, null\r\n    __instance_3: %SystemBoolean, null\r\n    __Boolean_0:
+    %SystemString, null\r\n    __instance_3: %SystemBoolean, null\r\n    __String_4:
+    %SystemString, null\r\n    __String_5: %SystemString, null\r\n    __Boolean_0:
     %SystemBoolean, null\r\n    __Single_0: %SystemSingle, null\r\n    __Single_1:
-    %SystemSingle, null\r\n    __a_0: %UnityEngineVector3, null\r\n    __b_0: %UnityEngineVector3,
-    null\r\n    __instance_1: %VRCSDKBaseVRCPlayerApi, null\r\n    __tt_0: %UnityEngineHumanBodyBones,
-    null\r\n    __instance_2: %VRCSDKBaseVRCPlayerApi, null\r\n    __tt_1: %UnityEngineHumanBodyBones,
-    null\r\n    __instance_4: %UnityEngineMeshRenderer, null\r\n    __value_4: %UnityEngineMaterial,
-    null\r\n    __instance_5: %UnityEngineMeshRenderer, null\r\n    __value_5: %UnityEngineMaterial,
-    null\r\n    cyanMat: %UnityEngineMaterial, null\r\n    grayMat: %UnityEngineMaterial,
-    null\r\n    ConsoleText: %TMProTextMeshProUGUI, null\r\n    sphereRenderer: %UnityEngineMeshRenderer,
-    null\r\n    oldD: %SystemSingle, null\r\n    newD: %SystemSingle, null\r\n\r\n.data_end\r\n\r\n.code_start\r\n\r\n   
+    %SystemSingle, null\r\n    __instance_4: %UnityEngineMeshRenderer, null\r\n   
+    __value_4: %UnityEngineMaterial, null\r\n    __instance_5: %UnityEngineMeshRenderer,
+    null\r\n    __value_5: %UnityEngineMaterial, null\r\n    __a_0: %UnityEngineVector3,
+    null\r\n    __b_0: %UnityEngineVector3, null\r\n    __instance_1: %VRCSDKBaseVRCPlayerApi,
+    null\r\n    __tt_0: %UnityEngineHumanBodyBones, null\r\n    __instance_2: %VRCSDKBaseVRCPlayerApi,
+    null\r\n    __tt_1: %UnityEngineHumanBodyBones, null\r\n    greenMat: %UnityEngineMaterial,
+    null\r\n    grayMat: %UnityEngineMaterial, null\r\n    ConsoleText: %TMProTextMeshProUGUI,
+    null\r\n    sphereRenderer: %UnityEngineMeshRenderer, null\r\n    oldD: %SystemSingle,
+    null\r\n    newD: %SystemSingle, null\r\n\r\n.data_end\r\n\r\n.code_start\r\n\r\n   
     .export _update\r\n    \r\n    _update:\r\n    \r\n        PUSH, ConsoleText\r\n       
     PUSH, __instance_0\r\n        COPY\r\n        PUSH, __instance_1\r\n        EXTERN,
     \"VRCSDKBaseNetworking.__get_LocalPlayer__VRCSDKBaseVRCPlayerApi\"\r\n       
@@ -54,19 +56,24 @@ MonoBehaviour:
     PUSH, __instance_3\r\n        PUSH, __String_3\r\n        EXTERN, \"SystemBoolean.__ToString__SystemString\"\r\n       
     PUSH, __String_2\r\n        PUSH, __String_3\r\n        PUSH, __str1_0\r\n       
     EXTERN, \"SystemString.__op_Addition__SystemString_SystemString__SystemString\"\r\n       
+    PUSH, __String_4\r\n        PUSH, __String_5\r\n        PUSH, __str2_0\r\n       
+    EXTERN, \"SystemString.__op_Addition__SystemString_SystemString__SystemString\"\r\n       
     PUSH, __str0_0\r\n        PUSH, __str1_0\r\n        PUSH, __str2_0\r\n       
     PUSH, __str3_0\r\n        PUSH, __value_0\r\n        EXTERN, \"SystemString.__Concat__SystemString_SystemString_SystemString_SystemString__SystemString\"\r\n       
     PUSH, __instance_0\r\n        PUSH, __value_0\r\n        EXTERN, \"TMProTextMeshProUGUI.__set_text__SystemString__SystemVoid\"\r\n       
     PUSH, __instance_1\r\n        PUSH, __instance_2\r\n        COPY\r\n        PUSH,
     __value_3\r\n        PUSH, __Single_0\r\n        COPY\r\n        PUSH, __instance_3\r\n       
     PUSH, __Boolean_0\r\n        COPY\r\n        PUSH, __instance_3\r\n        JUMP_IF_FALSE,
-    0x00000264\r\n        PUSH, sphereRenderer\r\n        PUSH, __instance_4\r\n       
-    COPY\r\n        PUSH, cyanMat\r\n        PUSH, __value_4\r\n        COPY\r\n       
+    0x00000284\r\n        PUSH, sphereRenderer\r\n        PUSH, __instance_4\r\n       
+    COPY\r\n        PUSH, greenMat\r\n        PUSH, __value_4\r\n        COPY\r\n       
     PUSH, __instance_4\r\n        PUSH, __value_4\r\n        EXTERN, \"UnityEngineMeshRenderer.__set_material__UnityEngineMaterial__SystemVoid\"\r\n       
-    JUMP, 0x000002A4\r\n        PUSH, sphereRenderer\r\n        PUSH, __instance_5\r\n       
+    JUMP, 0x000002C4\r\n        PUSH, sphereRenderer\r\n        PUSH, __instance_5\r\n       
     COPY\r\n        PUSH, grayMat\r\n        PUSH, __value_5\r\n        COPY\r\n       
     PUSH, __instance_5\r\n        PUSH, __value_5\r\n        EXTERN, \"UnityEngineMeshRenderer.__set_material__UnityEngineMaterial__SystemVoid\"\r\n       
-    JUMP, 0xFFFFFFFC\r\n    \r\n\r\n.code_end\r\n"
+    PUSH, newD\r\n        PUSH, oldD\r\n        COPY\r\n        PUSH, __instance_1\r\n       
+    PUSH, __instance_2\r\n        COPY\r\n        PUSH, __value_3\r\n        PUSH,
+    newD\r\n        COPY\r\n        PUSH, __value_3\r\n        PUSH, newD\r\n       
+    COPY\r\n        JUMP, 0xFFFFFFFC\r\n    \r\n\r\n.code_end\r\n"
   assemblyError: 
   graphData:
     name: 
@@ -151,7 +158,7 @@ MonoBehaviour:
       - unityObjectValue: {fileID: 0}
         stringValue: 
       - unityObjectValue: {fileID: 0}
-        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|cyanMat
+        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|greenMat
       - unityObjectValue: {fileID: 0}
         stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
           PublicKeyToken=b77a5c561934e089|True
@@ -259,7 +266,7 @@ MonoBehaviour:
       nodeUIDs:
       - 8a0b034b-e499-4163-ac80-ee40627b6ee8|0
       - bb949f1a-5758-44a9-aa43-0cc68455792d|0
-      - 
+      - 8e8b2878-1973-4986-93cd-7db940d75c45|0
       - 
       flowUIDs: []
       nodeValues:
@@ -384,7 +391,31 @@ MonoBehaviour:
       flowUIDs:
       - 0ce155dc-aa1b-415e-aef5-6ddd1e6053c8
       - 2c89542d-30eb-44ce-9b34-ac21c9ae8fd4
+      - 99b79622-a2a7-4333-854e-a53a5fef6018
       nodeValues: []
+    - fullName: UnityEngineVector3.__ToString__SystemString
+      uid: a47b396f-af88-4d48-93b0-63384b9ac3b3
+      position: {x: 623, y: 554}
+      nodeUIDs:
+      - 
+      flowUIDs: []
+      nodeValues:
+      - unityObjectValue: {fileID: 0}
+        stringValue: UnityEngine.Vector3, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null|{"x":0.0,"y":0.0,"z":0.0}
+    - fullName: SystemString.__op_Addition__SystemString_SystemString__SystemString
+      uid: 8e8b2878-1973-4986-93cd-7db940d75c45
+      position: {x: 856, y: 556}
+      nodeUIDs:
+      - 
+      - 
+      flowUIDs: []
+      nodeValues:
+      - unityObjectValue: {fileID: 0}
+        stringValue: 'System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089|, Diff Z: '
+      - unityObjectValue: {fileID: 0}
+        stringValue: 
     - fullName: SystemMath.__Round__SystemDouble_SystemInt32__SystemDouble
       uid: 6f7c4db5-affd-45a6-b414-2f4d9086520a
       position: {x: 558.38257, y: -271.49}
@@ -461,6 +492,61 @@ MonoBehaviour:
           PublicKeyToken=b77a5c561934e089|False
       - unityObjectValue: {fileID: 0}
         stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|none
+    - fullName: Get_Variable
+      uid: 38866c4d-8116-4179-8941-5843af0e7c98
+      position: {x: 1426.0226, y: 985.73755}
+      nodeUIDs:
+      - 
+      flowUIDs: []
+      nodeValues:
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|6d6ecbae-574c-43bc-9ed8-947ad002ed3f
+      - unityObjectValue: {fileID: 0}
+        stringValue: 
+    - fullName: Get_Variable
+      uid: b10ead34-7ec2-40ea-91b7-d0e25395a8c0
+      position: {x: 1211.1503, y: 536.1501}
+      nodeUIDs:
+      - 
+      flowUIDs: []
+      nodeValues:
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|18994a35-7d6b-4fd0-9a4e-d3f338991010
+      - unityObjectValue: {fileID: 0}
+        stringValue: 
+    - fullName: Set_Variable
+      uid: 99b79622-a2a7-4333-854e-a53a5fef6018
+      position: {x: 1396.1875, y: 558.805}
+      nodeUIDs:
+      - 
+      - b10ead34-7ec2-40ea-91b7-d0e25395a8c0|0
+      - 
+      flowUIDs:
+      - 9a65c7f8-89fe-415c-bc0d-d60ee9bae6a0
+      nodeValues:
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|6d6ecbae-574c-43bc-9ed8-947ad002ed3f
+      - unityObjectValue: {fileID: 0}
+        stringValue: 
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089|False
+    - fullName: Set_Variable
+      uid: 9a65c7f8-89fe-415c-bc0d-d60ee9bae6a0
+      position: {x: 1593.3501, y: 797.55005}
+      nodeUIDs:
+      - 
+      - 647205cf-e981-4fa7-91b8-a983f0bdf626|0
+      - 
+      flowUIDs: []
+      nodeValues:
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|18994a35-7d6b-4fd0-9a4e-d3f338991010
+      - unityObjectValue: {fileID: 0}
+        stringValue: 
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089|False
     updateOrder: 0
   graphElementData: []
   version: 1.0.0
