@@ -1,11 +1,656 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!641289076 &-2916087314285212288
+--- !u!641289076 &-8996900947493858998
 AudioBuildInfo:
   m_IsAudioDisabled: 0
-  m_AudioClipCount: 1
+  m_AudioClipCount: 0
   m_AudioMixerCount: 0
---- !u!382020655 &-936162500512521626
+--- !u!1126 &-4511579816541790322
+PackedAssets:
+  m_File: 1
+  m_ShortPath: BuildPlayer-ArtunTestScene.sharedAssets
+  m_Overhead: 82925
+  m_Contents:
+  - fileID: 1
+    classID: 150
+    packedSize: 85
+    offset: 84248
+    sourceAssetGUID: 00000000000000000000000000000000
+    buildTimeAssetPath: 
+  - fileID: 2
+    classID: 142
+    packedSize: 168
+    offset: 84336
+    sourceAssetGUID: 00000000000000000000000000000000
+    buildTimeAssetPath: 
+  - fileID: 3
+    classID: 21
+    packedSize: 1052
+    offset: 84504
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 4
+    classID: 21
+    packedSize: 252
+    offset: 85560
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 5
+    classID: 21
+    packedSize: 1064
+    offset: 85816
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 6
+    classID: 21
+    packedSize: 1036
+    offset: 86880
+    sourceAssetGUID: 7b2405b9286794840873c049383b02fe
+    buildTimeAssetPath: Assets/Assets_FenceChained/models/Materials/metal_fence-1.mat
+  - fileID: 7
+    classID: 21
+    packedSize: 528
+    offset: 87920
+    sourceAssetGUID: 120f55af476fc6246a60fff054e2ab3a
+    buildTimeAssetPath: Assets/Cartoon Stadiums Pack/Materials/Basket net.mat
+  - fileID: 8
+    classID: 21
+    packedSize: 892
+    offset: 88448
+    sourceAssetGUID: d9db6624cca63b84a9637d313799970c
+    buildTimeAssetPath: Assets/Cartoon Stadiums Pack/Materials/Basket.mat
+  - fileID: 9
+    classID: 21
+    packedSize: 904
+    offset: 89344
+    sourceAssetGUID: 79a90729d929e2a49b59723d886f04ba
+    buildTimeAssetPath: Assets/Cartoon Stadiums Pack/Materials/Basketball Ground.mat
+  - fileID: 10
+    classID: 21
+    packedSize: 904
+    offset: 90248
+    sourceAssetGUID: 1a7838bfd382cd9468a92af76bbaa686
+    buildTimeAssetPath: Assets/Cartoon Stadiums Pack/Materials/Basketball Stadium.mat
+  - fileID: 11
+    classID: 21
+    packedSize: 680
+    offset: 91152
+    sourceAssetGUID: c02e07491059e1b4ea05e1288895b950
+    buildTimeAssetPath: Assets/Materials/Cyan.mat
+  - fileID: 12
+    classID: 21
+    packedSize: 680
+    offset: 91832
+    sourceAssetGUID: eb5c04a14f65f8645a099f5c392366b1
+    buildTimeAssetPath: Assets/Materials/Gray.mat
+  - fileID: 13
+    classID: 21
+    packedSize: 684
+    offset: 92512
+    sourceAssetGUID: e407b07d98accdc4f939f39064a32bf1
+    buildTimeAssetPath: Assets/Materials/Green.mat
+  - fileID: 14
+    classID: 21
+    packedSize: 684
+    offset: 93200
+    sourceAssetGUID: 926492df2b03b9b45b116dd07923f665
+    buildTimeAssetPath: Assets/Materials/Greenish.mat
+  - fileID: 15
+    classID: 21
+    packedSize: 688
+    offset: 93888
+    sourceAssetGUID: c8b5a5ac24e0f06439aa2f35766e0c5e
+    buildTimeAssetPath: Assets/Materials/LightGray.mat
+  - fileID: 16
+    classID: 21
+    packedSize: 680
+    offset: 94576
+    sourceAssetGUID: ba6eedcd7eecb4847bff9b8f82baaa3e
+    buildTimeAssetPath: Assets/Materials/Red.mat
+  - fileID: 17
+    classID: 21
+    packedSize: 1140
+    offset: 95256
+    sourceAssetGUID: c815f7613a04b724089c206857e57c6a
+    buildTimeAssetPath: Packages/com.vrchat.base/Runtime/VRCSDK/Sample Assets/Materials/MirrorReflection.mat
+  - fileID: 18
+    classID: 21
+    packedSize: 528
+    offset: 96400
+    sourceAssetGUID: c706afb4295d44a48a7a860f31d36150
+    buildTimeAssetPath: Packages/com.vrchat.worlds/Samples/UdonExampleScene/Materials/LineMaterial.mat
+  - fileID: 19
+    classID: 21
+    packedSize: 136
+    offset: 96928
+    sourceAssetGUID: e3265ab4bf004d28a9537516768c1c75
+    buildTimeAssetPath: Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+  - fileID: 20
+    classID: 21
+    packedSize: 2004
+    offset: 97064
+    sourceAssetGUID: 2e498d1c8094910479dc3e1b768306a4
+    buildTimeAssetPath: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans
+      SDF - Fallback.asset
+  - fileID: 21
+    classID: 21
+    packedSize: 944
+    offset: 99072
+    sourceAssetGUID: 8f586378b4e144a9851e7b34d9b748ee
+    buildTimeAssetPath: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans
+      SDF.asset
+  - fileID: 22
+    classID: 28
+    packedSize: 21964
+    offset: 100016
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 23
+    classID: 28
+    packedSize: 94372
+    offset: 121984
+    sourceAssetGUID: 21a2c046198d4ba48a2a66abe1da3c51
+    buildTimeAssetPath: Assets/Cartoon Stadiums Pack/Stadiums Textures/Basket.png
+  - fileID: 24
+    classID: 28
+    packedSize: 337592
+    offset: 216360
+    sourceAssetGUID: 2ca69883c541ffa4c9a496e6178c90ac
+    buildTimeAssetPath: Assets/Assets_FenceChained/models/Materials/metal_fence-1_specular.tga
+  - fileID: 25
+    classID: 28
+    packedSize: 182428
+    offset: 553952
+    sourceAssetGUID: 752d7d5c2778f3a47b36be0aeb798dc7
+    buildTimeAssetPath: Assets/Assets_FenceChained/models/Materials/metal_fence-1.tga
+  - fileID: 26
+    classID: 28
+    packedSize: 42096
+    offset: 736384
+    sourceAssetGUID: 75c91175b8fc0ea44a09a9ab3b912699
+    buildTimeAssetPath: Assets/Cartoon Stadiums Pack/Stadiums Textures/Basketball
+      Stadium.png
+  - fileID: 27
+    classID: 28
+    packedSize: 108
+    offset: 778480
+    sourceAssetGUID: e3265ab4bf004d28a9537516768c1c75
+    buildTimeAssetPath: Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+  - fileID: 28
+    classID: 28
+    packedSize: 1398244
+    offset: 778592
+    sourceAssetGUID: e743dc00728506548928e9e8468102a7
+    buildTimeAssetPath: Assets/Assets_FenceChained/models/Materials/metal_fence-1_NORMAL.tga
+  - fileID: 29
+    classID: 28
+    packedSize: 48424
+    offset: 2176840
+    sourceAssetGUID: ec5b42fbf18fe804f8111b05d826fa81
+    buildTimeAssetPath: Assets/Cartoon Stadiums Pack/Stadiums Textures/Basketball
+      Ground.png
+  - fileID: 30
+    classID: 28
+    packedSize: 120
+    offset: 2225264
+    sourceAssetGUID: 2e498d1c8094910479dc3e1b768306a4
+    buildTimeAssetPath: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans
+      SDF - Fallback.asset
+  - fileID: 31
+    classID: 28
+    packedSize: 1048696
+    offset: 2225384
+    sourceAssetGUID: 8f586378b4e144a9851e7b34d9b748ee
+    buildTimeAssetPath: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans
+      SDF.asset
+  - fileID: 32
+    classID: 43
+    packedSize: 130136
+    offset: 3274080
+    sourceAssetGUID: 9a054218110e7774cb00b700ee363f87
+    buildTimeAssetPath: Assets/Assets_FenceChained/models/chainlink_group-1.FBX
+  - fileID: 33
+    classID: 43
+    packedSize: 105944
+    offset: 3404216
+    sourceAssetGUID: b96fc74c65fd9db40bfde7740f7a9d17
+    buildTimeAssetPath: Assets/Assets_FenceChained/models/chainlink_group-2.FBX
+  - fileID: 34
+    classID: 43
+    packedSize: 57344
+    offset: 3510160
+    sourceAssetGUID: fccc49bf3e108b94c8202230c83d6e92
+    buildTimeAssetPath: Assets/Assets_FenceChained/models/chainlink_group-3.FBX
+  - fileID: 35
+    classID: 43
+    packedSize: 25568
+    offset: 3567504
+    sourceAssetGUID: 9a054218110e7774cb00b700ee363f87
+    buildTimeAssetPath: Assets/Assets_FenceChained/models/chainlink_group-1.FBX
+  - fileID: 36
+    classID: 43
+    packedSize: 33092
+    offset: 3593072
+    sourceAssetGUID: b96fc74c65fd9db40bfde7740f7a9d17
+    buildTimeAssetPath: Assets/Assets_FenceChained/models/chainlink_group-2.FBX
+  - fileID: 37
+    classID: 43
+    packedSize: 21248
+    offset: 3626168
+    sourceAssetGUID: fccc49bf3e108b94c8202230c83d6e92
+    buildTimeAssetPath: Assets/Assets_FenceChained/models/chainlink_group-3.FBX
+  - fileID: 38
+    classID: 43
+    packedSize: 1252
+    offset: 3647416
+    sourceAssetGUID: 8c706eee523a891409559c3ee3f2f8f7
+    buildTimeAssetPath: Assets/Cartoon Stadiums Pack/Cartoon Stadiums Pack.FBX
+  - fileID: 39
+    classID: 43
+    packedSize: 7704
+    offset: 3648672
+    sourceAssetGUID: 8c706eee523a891409559c3ee3f2f8f7
+    buildTimeAssetPath: Assets/Cartoon Stadiums Pack/Cartoon Stadiums Pack.FBX
+  - fileID: 40
+    classID: 43
+    packedSize: 53596
+    offset: 3656376
+    sourceAssetGUID: 8c706eee523a891409559c3ee3f2f8f7
+    buildTimeAssetPath: Assets/Cartoon Stadiums Pack/Cartoon Stadiums Pack.FBX
+  - fileID: 41
+    classID: 43
+    packedSize: 25472
+    offset: 3709976
+    sourceAssetGUID: 8c706eee523a891409559c3ee3f2f8f7
+    buildTimeAssetPath: Assets/Cartoon Stadiums Pack/Cartoon Stadiums Pack.FBX
+  - fileID: 42
+    classID: 48
+    packedSize: 23380
+    offset: 3735448
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 43
+    classID: 48
+    packedSize: 63704
+    offset: 3758832
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 44
+    classID: 48
+    packedSize: 543844
+    offset: 3822536
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 45
+    classID: 48
+    packedSize: 165480
+    offset: 4366384
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 46
+    classID: 48
+    packedSize: 25304
+    offset: 4531864
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 47
+    classID: 48
+    packedSize: 65664
+    offset: 4557168
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 48
+    classID: 48
+    packedSize: 13452
+    offset: 4622832
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 49
+    classID: 48
+    packedSize: 39268
+    offset: 4636288
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 50
+    classID: 48
+    packedSize: 38676
+    offset: 4675560
+    sourceAssetGUID: 0b7113dea2069fc4e8943843eff19f70
+    buildTimeAssetPath: Packages/com.vrchat.base/Runtime/VRCSDK/Sample Assets/Shaders/Mobile/VRChat-Mobile-StandardLite.shader
+  - fileID: 51
+    classID: 48
+    packedSize: 11616
+    offset: 4714240
+    sourceAssetGUID: 2dcd9e0568e0a6f45b92c60ba2eb16a0
+    buildTimeAssetPath: Packages/com.vrchat.base/Runtime/VRCSDK/Sample Assets/Shaders/Mobile/VRChat-Mobile-Diffuse.shader
+  - fileID: 52
+    classID: 48
+    packedSize: 5672
+    offset: 4725856
+    sourceAssetGUID: 693137b858e4dc64c83be531351f45e6
+    buildTimeAssetPath: Packages/com.vrchat.base/Runtime/VRCSDK/Sample Assets/Shaders/Mirror.shader
+  - fileID: 53
+    classID: 48
+    packedSize: 4984
+    offset: 4731528
+    sourceAssetGUID: 8b39b95ac85682040beff730e0cfc77a
+    buildTimeAssetPath: Packages/com.vrchat.base/Runtime/VRCSDK/Sample Assets/Shaders/Mobile/VRChat-Mobile-Particle-Alpha.shader
+  - fileID: 54
+    classID: 48
+    packedSize: 4088
+    offset: 4736512
+    sourceAssetGUID: e0d6325b9fc1e0245861ec87a0cd2113
+    buildTimeAssetPath: Assets/Cartoon Stadiums Pack/DoublesidedCutout/AlphaTest-DiffuseDoublesided.shader
+  - fileID: 55
+    classID: 48
+    packedSize: 19276
+    offset: 4740600
+    sourceAssetGUID: fe393ace9b354375a9cb14cdbbc28be4
+    buildTimeAssetPath: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader
+  - fileID: 56
+    classID: 115
+    packedSize: 100
+    offset: 82784
+    sourceAssetGUID: 661092b4961be7145bfbe56e1e62337b
+    buildTimeAssetPath: Packages/com.vrchat.worlds/Runtime/VRCSDK/Plugins/VRCSDK3.dll
+  - fileID: 57
+    classID: 115
+    packedSize: 96
+    offset: 82888
+    sourceAssetGUID: 4ecd63eff847044b68db9453ce219299
+    buildTimeAssetPath: Packages/com.vrchat.base/Runtime/VRCSDK/Plugins/VRCCore-Editor.dll
+  - fileID: 58
+    classID: 115
+    packedSize: 108
+    offset: 82984
+    sourceAssetGUID: 661092b4961be7145bfbe56e1e62337b
+    buildTimeAssetPath: Packages/com.vrchat.worlds/Runtime/VRCSDK/Plugins/VRCSDK3.dll
+  - fileID: 59
+    classID: 115
+    packedSize: 108
+    offset: 83096
+    sourceAssetGUID: 661092b4961be7145bfbe56e1e62337b
+    buildTimeAssetPath: Packages/com.vrchat.worlds/Runtime/VRCSDK/Plugins/VRCSDK3.dll
+  - fileID: 60
+    classID: 115
+    packedSize: 96
+    offset: 83208
+    sourceAssetGUID: 0cd44c1031e13a943bb63640046fad76
+    buildTimeAssetPath: Packages/com.unity.ugui/Runtime/UI/Core/Layout/CanvasScaler.cs
+  - fileID: 61
+    classID: 115
+    packedSize: 88
+    offset: 83304
+    sourceAssetGUID: 45115577ef41a5b4ca741ed302693907
+    buildTimeAssetPath: Packages/com.vrchat.worlds/Runtime/Udon/UdonBehaviour.cs
+  - fileID: 62
+    classID: 115
+    packedSize: 128
+    offset: 83392
+    sourceAssetGUID: 4f231c4fb786f3946a6b90b886c48677
+    buildTimeAssetPath: Packages/com.unity.ugui/Runtime/EventSystem/InputModules/StandaloneInputModule.cs
+  - fileID: 63
+    classID: 115
+    packedSize: 100
+    offset: 83520
+    sourceAssetGUID: 71c1514a6bd24e1e882cebbe1904ce04
+    buildTimeAssetPath: Packages/com.unity.textmeshpro/Scripts/Runtime/TMP_FontAsset.cs
+  - fileID: 64
+    classID: 115
+    packedSize: 104
+    offset: 83624
+    sourceAssetGUID: 76c392e42b5098c458856cdf6ecaaaa1
+    buildTimeAssetPath: Packages/com.unity.ugui/Runtime/EventSystem/EventSystem.cs
+  - fileID: 65
+    classID: 115
+    packedSize: 128
+    offset: 83728
+    sourceAssetGUID: bf61d954ecb803046953c666facfb904
+    buildTimeAssetPath: Packages/com.vrchat.worlds/Runtime/Udon/ProgramSources/SerializedUdonProgramAsset.cs
+  - fileID: 66
+    classID: 115
+    packedSize: 104
+    offset: 83856
+    sourceAssetGUID: dc42784cf147c0c48a680349fa168899
+    buildTimeAssetPath: Packages/com.unity.ugui/Runtime/UI/Core/GraphicRaycaster.cs
+  - fileID: 67
+    classID: 115
+    packedSize: 100
+    offset: 83960
+    sourceAssetGUID: f4688fdb7df04437aeb418b961361dc5
+    buildTimeAssetPath: Packages/com.unity.textmeshpro/Scripts/Runtime/TextMeshProUGUI.cs
+  - fileID: 68
+    classID: 115
+    packedSize: 88
+    offset: 84064
+    sourceAssetGUID: fe87c0e1cc204ed48ad3b37840f39efc
+    buildTimeAssetPath: Packages/com.unity.ugui/Runtime/UI/Core/Image.cs
+  - fileID: 69
+    classID: 115
+    packedSize: 92
+    offset: 84152
+    sourceAssetGUID: 661092b4961be7145bfbe56e1e62337b
+    buildTimeAssetPath: Packages/com.vrchat.worlds/Runtime/VRCSDK/Plugins/VRCSDK3.dll
+  - fileID: 70
+    classID: 128
+    packedSize: 352462
+    offset: 4759880
+    sourceAssetGUID: e3265ab4bf004d28a9537516768c1c75
+    buildTimeAssetPath: Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+  - fileID: 71
+    classID: 114
+    packedSize: 13604
+    offset: 5112344
+    sourceAssetGUID: cc71485b169f25245a1548f3f90d53b4
+    buildTimeAssetPath: Assets/SerializedUdonPrograms/017cc608ac6591848b47d74cfa397d07.asset
+  - fileID: 72
+    classID: 114
+    packedSize: 15092
+    offset: 5125952
+    sourceAssetGUID: a69737911cef84b4d9c5ff714fcba69e
+    buildTimeAssetPath: Assets/SerializedUdonPrograms/38535d3256553964e9720cb8d0834c6b.asset
+  - fileID: 73
+    classID: 114
+    packedSize: 12608
+    offset: 5141048
+    sourceAssetGUID: 1b4d62b01c4b9184cacdf65cf3c46970
+    buildTimeAssetPath: Assets/SerializedUdonPrograms/6435b41e5cc77b243bd8cc93505b8353.asset
+  - fileID: 74
+    classID: 114
+    packedSize: 32692
+    offset: 5153656
+    sourceAssetGUID: b51902e1e59e65e4aa1acf4a0b959dfe
+    buildTimeAssetPath: Assets/SerializedUdonPrograms/6903d0f60eab6bc47a2ed966e6112d4e.asset
+  - fileID: 75
+    classID: 114
+    packedSize: 40840
+    offset: 5186352
+    sourceAssetGUID: 17e6d005e9827ce44a198bc7686165bf
+    buildTimeAssetPath: Assets/SerializedUdonPrograms/78fbbfa18f3fd0a43a0198ac0e48eb3c.asset
+  - fileID: 76
+    classID: 114
+    packedSize: 16524
+    offset: 5227192
+    sourceAssetGUID: 80dc128376fb21d42bf195882bf772a2
+    buildTimeAssetPath: Assets/SerializedUdonPrograms/beb54a4a19810b44a8678b1b5e92acbf.asset
+  - fileID: 77
+    classID: 114
+    packedSize: 17068
+    offset: 5243720
+    sourceAssetGUID: ccb5e0f139937f54690a6ff709d4dba2
+    buildTimeAssetPath: Assets/SerializedUdonPrograms/c8df303ceb45ae84f85a11591f741734.asset
+  - fileID: 78
+    classID: 114
+    packedSize: 12832
+    offset: 5260792
+    sourceAssetGUID: 1e67cfbb252f4bb44966867635a9da69
+    buildTimeAssetPath: Assets/SerializedUdonPrograms/d973a29ce033b604aba333e1f0499240.asset
+  - fileID: 79
+    classID: 114
+    packedSize: 12832
+    offset: 5273624
+    sourceAssetGUID: 953bd7b8a81b5b640bc9d55b8ab40bf2
+    buildTimeAssetPath: Assets/SerializedUdonPrograms/f546b709d3b278747b77ac404a43417e.asset
+  - fileID: 80
+    classID: 114
+    packedSize: 1152
+    offset: 5286456
+    sourceAssetGUID: 2e498d1c8094910479dc3e1b768306a4
+    buildTimeAssetPath: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans
+      SDF - Fallback.asset
+  - fileID: 81
+    classID: 114
+    packedSize: 27760
+    offset: 5287608
+    sourceAssetGUID: 8f586378b4e144a9851e7b34d9b748ee
+    buildTimeAssetPath: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans
+      SDF.asset
+  - fileID: 82
+    classID: 114
+    packedSize: 63716
+    offset: 5315368
+    sourceAssetGUID: e393818b9bb38234ab7ba8cd52e84604
+    buildTimeAssetPath: Packages/com.vrchat.worlds/Samples/UdonExampleScene/SerializedUdonPrograms/2de31a7dfc5718c47aa82772c351b8a3.asset
+  - fileID: 83
+    classID: 114
+    packedSize: 28084
+    offset: 5379088
+    sourceAssetGUID: 869c42aa9d0e8aa4cbba7e1cb2f1d469
+    buildTimeAssetPath: Packages/com.vrchat.worlds/Samples/UdonExampleScene/SerializedUdonPrograms/46df060d25eb3bc42be5fcfae616147c.asset
+--- !u!1125 &1
+BuildReport:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: LastWindowsBuild
+  m_Summary:
+    buildStartTime:
+      serializedVersion: 2
+      ticks: 638185199185166046
+    buildGUID: 00000000000000000000000000000000
+    platformName: Win64
+    platformGroupName: Standalone
+    options: 16
+    assetBundleOptions: 32
+    outputPath: C:/Users/Artun/AppData/Local/Temp/DefaultCompany/FirstWorld/scene-standalonewindows64-artuntestscene.vrcw
+    crc: 889832917
+    totalSize: 2018844
+    totalTimeTicks: 146726705
+    totalErrors: 0
+    totalWarnings: 0
+    buildType: 1
+    buildResult: 1
+  m_Files:
+  - path: D:/Software/Unity Projects/FirstVRChatWorld/scene-standalonewindows64-artuntestscene.vrcw/BuildPlayer-ArtunTestScene
+    role: Scene
+    id: 0
+    totalSize: 512372
+  - path: D:/Software/Unity Projects/FirstVRChatWorld/scene-standalonewindows64-artuntestscene.vrcw/BuildPlayer-ArtunTestScene.sharedAssets
+    role: SharedAssets
+    id: 1
+    totalSize: 5407172
+  - path: D:/Software/Unity Projects/FirstVRChatWorld/scene-standalonewindows64-artuntestscene.vrcw
+    role: AssetBundle
+    id: 2
+    totalSize: 2014947
+  - path: D:/Software/Unity Projects/FirstVRChatWorld/scene-standalonewindows64-artuntestscene.vrcw.manifest
+    role: AssetBundleTextManifest
+    id: 3
+    totalSize: 2668
+  - path: D:/Software/Unity Projects/FirstVRChatWorld/FirstWorld/CAB-c3b0b544834c54fe7c9d47f7af9bc428
+    role: ResourcesFile
+    id: 4
+    totalSize: 4316
+  - path: D:/Software/Unity Projects/FirstVRChatWorld/FirstWorld
+    role: ManifestAssetBundle
+    id: 5
+    totalSize: 1056
+  - path: D:/Software/Unity Projects/FirstVRChatWorld/FirstWorld.manifest
+    role: AssetBundleTextManifest
+    id: 6
+    totalSize: 173
+  m_BuildSteps:
+  - stepName: Build Asset Bundles
+    durationTicks: 146726705
+    depth: 0
+    messages: []
+  - stepName: Calculate asset bundles to be built
+    durationTicks: 334167
+    depth: 1
+    messages: []
+  - stepName: Compile scripts
+    durationTicks: 47901824
+    depth: 1
+    messages: []
+  - stepName: Build player
+    durationTicks: 37213030
+    depth: 1
+    messages:
+    - type: 3
+      content: HTTPFormUseage:UrlEncoded
+  - stepName: Prepare assets for target platform
+    durationTicks: 1824359
+    depth: 2
+    messages: []
+  - stepName: Building scenes
+    durationTicks: 7425769
+    depth: 2
+    messages: []
+  - stepName: Building scene Assets/Scenes/ArtunTestScene.unity
+    durationTicks: 7397211
+    depth: 3
+    messages: []
+  - stepName: Writing asset files
+    durationTicks: 3846008
+    depth: 2
+    messages: []
+  - stepName: Packaging assets - archive:/BuildPlayer-ArtunTestScene/BuildPlayer-ArtunTestScene.sharedAssets
+    durationTicks: 3804940
+    depth: 3
+    messages: []
+  - stepName: Creating compressed player package
+    durationTicks: 9867845
+    depth: 2
+    messages: []
+  - stepName: Postprocess built player
+    durationTicks: 134046
+    depth: 2
+    messages: []
+  m_Appendices:
+  - {fileID: 3635319015708218819}
+  - {fileID: -4511579816541790322}
+  - {fileID: 5229232118982225899}
+  - {fileID: -8996900947493858998}
+  - {fileID: 3778531827156917192}
+--- !u!668709126 &3635319015708218819
+BuiltAssetBundleInfoSet:
+  bundleInfos:
+  - bundleName: scene-standalonewindows64-artuntestscene.vrcw
+    bundleArchiveFile: 2
+    packagedFileIndices: 0000000001000000
+  - bundleName: FirstWorld
+    bundleArchiveFile: 5
+    packagedFileIndices: 04000000
+--- !u!1126 &3778531827156917192
+PackedAssets:
+  m_File: 4
+  m_ShortPath: CAB-c3b0b544834c54fe7c9d47f7af9bc428
+  m_Overhead: 4096
+  m_Contents:
+  - fileID: 1
+    classID: 142
+    packedSize: 104
+    offset: 4096
+    sourceAssetGUID: 00000000000000000000000000000000
+    buildTimeAssetPath: AssetBundle Object
+  - fileID: 2
+    classID: 290
+    packedSize: 116
+    offset: 4200
+    sourceAssetGUID: 00000000000000000000000000000000
+    buildTimeAssetPath: 'Built-in AssetBundleManifest: AssetBundleManifest'
+--- !u!382020655 &5229232118982225899
 PluginBuildInfo:
   m_RuntimePlugins:
   - Unity.Burst.Unsafe
@@ -77,1141 +722,3 @@ PluginBuildInfo:
   - Unity.Plastic.Antlr3.Runtime
   - Serilog.Sinks.Unity3D
   - lz4x64Plastic
---- !u!1125 &1
-BuildReport:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: LastWindowsBuild
-  m_Summary:
-    buildStartTime:
-      serializedVersion: 2
-      ticks: 638156404270130977
-    buildGUID: 00000000000000000000000000000000
-    platformName: Win64
-    platformGroupName: Standalone
-    options: 16
-    assetBundleOptions: 32
-    outputPath: C:/Users/Artun/AppData/Local/Temp/DefaultCompany/FirstWorld/scene-standalonewindows64-main.vrcw
-    crc: 3222792608
-    totalSize: 92859456
-    totalTimeTicks: 767154238
-    totalErrors: 0
-    totalWarnings: 2
-    buildType: 1
-    buildResult: 1
-  m_Files:
-  - path: D:/Software/Unity Projects/FirstVRChatWorld/scene-standalonewindows64-main.vrcw/BuildPlayer-Main
-    role: Scene
-    id: 0
-    totalSize: 319884
-  - path: D:/Software/Unity Projects/FirstVRChatWorld/scene-standalonewindows64-main.vrcw/BuildPlayer-Main.sharedAssets
-    role: SharedAssets
-    id: 1
-    totalSize: 259339664
-  - path: D:/Software/Unity Projects/FirstVRChatWorld/scene-standalonewindows64-main.vrcw/BuildPlayer-Main.resource
-    role: StreamingResourceFile
-    id: 2
-    totalSize: 10870080
-  - path: D:/Software/Unity Projects/FirstVRChatWorld/scene-standalonewindows64-main.vrcw
-    role: AssetBundle
-    id: 3
-    totalSize: 92856044
-  - path: D:/Software/Unity Projects/FirstVRChatWorld/scene-standalonewindows64-main.vrcw.manifest
-    role: AssetBundleTextManifest
-    id: 4
-    totalSize: 2199
-  - path: D:/Software/Unity Projects/FirstVRChatWorld/FirstWorld/CAB-c3b0b544834c54fe7c9d47f7af9bc428
-    role: ResourcesFile
-    id: 5
-    totalSize: 4304
-  - path: D:/Software/Unity Projects/FirstVRChatWorld/FirstWorld
-    role: ManifestAssetBundle
-    id: 6
-    totalSize: 1051
-  - path: D:/Software/Unity Projects/FirstVRChatWorld/FirstWorld.manifest
-    role: AssetBundleTextManifest
-    id: 7
-    totalSize: 162
-  m_BuildSteps:
-  - stepName: Build Asset Bundles
-    durationTicks: 767154238
-    depth: 0
-    messages: []
-  - stepName: Calculate asset bundles to be built
-    durationTicks: 380079
-    depth: 1
-    messages: []
-  - stepName: Compile scripts
-    durationTicks: 53369718
-    depth: 1
-    messages: []
-  - stepName: Build player
-    durationTicks: 648184221
-    depth: 1
-    messages:
-    - type: 3
-      content: HTTPFormUseage:UrlEncoded
-  - stepName: Prepare assets for target platform
-    durationTicks: 1630742
-    depth: 2
-    messages: []
-  - stepName: Building scenes
-    durationTicks: 121789813
-    depth: 2
-    messages: []
-  - stepName: Building scene Assets/Scenes/Main.unity
-    durationTicks: 121761401
-    depth: 3
-    messages:
-    - type: 2
-      content: Script attached to 'Spot Light' in scene 'Assets/Scenes/Main.unity'
-        is missing or no valid script is attached.
-    - type: 2
-      content: Script attached to 'Floor' in scene 'Assets/Scenes/Main.unity' is
-        missing or no valid script is attached.
-  - stepName: Writing asset files
-    durationTicks: 146962753
-    depth: 2
-    messages: []
-  - stepName: Packaging assets - archive:/BuildPlayer-Main/BuildPlayer-Main.sharedAssets
-    durationTicks: 146916566
-    depth: 3
-    messages: []
-  - stepName: Creating compressed player package
-    durationTicks: 357266282
-    depth: 2
-    messages: []
-  - stepName: Postprocess built player
-    durationTicks: 3772103
-    depth: 2
-    messages: []
-  m_Appendices:
-  - {fileID: 8182545271421878242}
-  - {fileID: 2464220736907857132}
-  - {fileID: 8595845119825741695}
-  - {fileID: -936162500512521626}
-  - {fileID: -2916087314285212288}
-  - {fileID: 1670071641389247057}
---- !u!1126 &1670071641389247057
-PackedAssets:
-  m_File: 5
-  m_ShortPath: CAB-c3b0b544834c54fe7c9d47f7af9bc428
-  m_Overhead: 4096
-  m_Contents:
-  - fileID: 1
-    classID: 142
-    packedSize: 104
-    offset: 4096
-    sourceAssetGUID: 00000000000000000000000000000000
-    buildTimeAssetPath: AssetBundle Object
-  - fileID: 2
-    classID: 290
-    packedSize: 104
-    offset: 4200
-    sourceAssetGUID: 00000000000000000000000000000000
-    buildTimeAssetPath: 'Built-in AssetBundleManifest: AssetBundleManifest'
---- !u!1126 &2464220736907857132
-PackedAssets:
-  m_File: 1
-  m_ShortPath: BuildPlayer-Main.sharedAssets
-  m_Overhead: 91031
-  m_Contents:
-  - fileID: 1
-    classID: 150
-    packedSize: 49
-    offset: 91432
-    sourceAssetGUID: 00000000000000000000000000000000
-    buildTimeAssetPath: 
-  - fileID: 2
-    classID: 142
-    packedSize: 144
-    offset: 91488
-    sourceAssetGUID: 00000000000000000000000000000000
-    buildTimeAssetPath: 
-  - fileID: 3
-    classID: 21
-    packedSize: 900
-    offset: 91632
-    sourceAssetGUID: c32c84bacf0172d4b81d4c72a1df1f86
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/aviator-sunglasses/source/Aviaattorit.fbx
-  - fileID: 4
-    classID: 21
-    packedSize: 896
-    offset: 92536
-    sourceAssetGUID: c32c84bacf0172d4b81d4c72a1df1f86
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/aviator-sunglasses/source/Aviaattorit.fbx
-  - fileID: 5
-    classID: 21
-    packedSize: 896
-    offset: 93432
-    sourceAssetGUID: 321d610a2d7cfee41a2a0a0b49cd774d
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/pig-nose/source/pigNose.fbx
-  - fileID: 6
-    classID: 21
-    packedSize: 1052
-    offset: 94328
-    sourceAssetGUID: 0000000000000000f000000000000000
-    buildTimeAssetPath: Resources/unity_builtin_extra
-  - fileID: 7
-    classID: 21
-    packedSize: 252
-    offset: 95384
-    sourceAssetGUID: 0000000000000000f000000000000000
-    buildTimeAssetPath: Resources/unity_builtin_extra
-  - fileID: 8
-    classID: 21
-    packedSize: 1012
-    offset: 95640
-    sourceAssetGUID: 07f10b3edb1500149ac678d91de17a04
-    buildTimeAssetPath: Assets/Crypt Dungeon Environment/Rooms/Crypt/Materials/chandellier.mat
-  - fileID: 9
-    classID: 21
-    packedSize: 996
-    offset: 96656
-    sourceAssetGUID: aec62db37b39d744f9729ef92dde58d7
-    buildTimeAssetPath: Assets/Crypt Dungeon Environment/Rooms/Crypt/Materials/pillar.mat
-  - fileID: 10
-    classID: 21
-    packedSize: 992
-    offset: 97656
-    sourceAssetGUID: 264223b08861d0d4e9515c2270cb83d6
-    buildTimeAssetPath: Assets/Crypt Dungeon Environment/Rooms/Crypt/Materials/roof.mat
-  - fileID: 11
-    classID: 21
-    packedSize: 920
-    offset: 98648
-    sourceAssetGUID: 809aa5af4003a5340a9ab7b3b8a228b6
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/Cowboy-hat/Materials/M_Hat_1.mat
-  - fileID: 12
-    classID: 21
-    packedSize: 896
-    offset: 99568
-    sourceAssetGUID: 71a7737cded596849ad70f1cedd92ef7
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/Empty-chair/Materials/chFolding.A2.mat
-  - fileID: 13
-    classID: 21
-    packedSize: 912
-    offset: 100464
-    sourceAssetGUID: 60392938b20605e46b5ca32957fa451d
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/Knife/Asset/Materials/SteelDagger_Material_1024.mat
-  - fileID: 14
-    classID: 21
-    packedSize: 168
-    offset: 101376
-    sourceAssetGUID: b625c3fa83032b8419fb3b09a9071764
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/Shelf/Materials/shelf.mat
-  - fileID: 15
-    classID: 21
-    packedSize: 148
-    offset: 101544
-    sourceAssetGUID: 1035394dba39c5b41a002d49c4b0cb88
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/Spider/Materials/spider_01.mat
-  - fileID: 16
-    classID: 21
-    packedSize: 892
-    offset: 101696
-    sourceAssetGUID: 0e02992209077054d8500806c8373d19
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/Umbrella/Materials/Umbrella.mat
-  - fileID: 17
-    classID: 21
-    packedSize: 932
-    offset: 102592
-    sourceAssetGUID: 9fdb5531bdf185e448dd06dfa8192f8d
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/Zombie/Materials/Zombie.mat
-  - fileID: 18
-    classID: 21
-    packedSize: 936
-    offset: 103528
-    sourceAssetGUID: 89c210836c98a4d67b92ce9b1487ef85
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/bear/Materials/Fur.mat
-  - fileID: 19
-    classID: 21
-    packedSize: 888
-    offset: 104464
-    sourceAssetGUID: c528da8d987a91a4b97a394602d74aaa
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/pig-nose/Materials/pink.mat
-  - fileID: 20
-    classID: 21
-    packedSize: 892
-    offset: 105352
-    sourceAssetGUID: 86fc45e6cfe808a4c9a620de63910398
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/plush-unicorn/textures/Unicorn.mat
-  - fileID: 21
-    classID: 21
-    packedSize: 888
-    offset: 106248
-    sourceAssetGUID: eb5c04a14f65f8645a099f5c392366b1
-    buildTimeAssetPath: Assets/Materials/Gray.mat
-  - fileID: 22
-    classID: 21
-    packedSize: 932
-    offset: 107136
-    sourceAssetGUID: 50a1abf55d731b84699250226ff25ce7
-    buildTimeAssetPath: Assets/MedievalTavernPack/Material/Furniture/Table_01.mat
-  - fileID: 23
-    classID: 21
-    packedSize: 900
-    offset: 108072
-    sourceAssetGUID: 770d874acb2e37f4dbb0943d5ef8a660
-    buildTimeAssetPath: Assets/StylizedHandPaintedDungeon(Free)/Materials/Dungeon_Mat_01.mat
-  - fileID: 24
-    classID: 21
-    packedSize: 900
-    offset: 108976
-    sourceAssetGUID: 2e701f9d6b8aa304c93f2af59c1ee5d9
-    buildTimeAssetPath: Assets/StylizedHandPaintedDungeon(Free)/Materials/Dungeon_Mat_02.mat
-  - fileID: 25
-    classID: 21
-    packedSize: 892
-    offset: 109880
-    sourceAssetGUID: 99f7ea0146bcbb64d97a8468253bb347
-    buildTimeAssetPath: Packages/com.vrchat.worlds/Samples/UdonExampleScene/Materials/CubeMat2.mat
-  - fileID: 26
-    classID: 21
-    packedSize: 932
-    offset: 110776
-    sourceAssetGUID: 1c987494452b85f4ab4cac3322415907
-    buildTimeAssetPath: Packages/com.vrchat.worlds/Samples/UdonExampleScene/SampleAssetsSet/Materials/SampleAssets_matte.mat
-  - fileID: 27
-    classID: 21
-    packedSize: 896
-    offset: 111712
-    sourceAssetGUID: c32c84bacf0172d4b81d4c72a1df1f86
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/aviator-sunglasses/source/Aviaattorit.fbx
-  - fileID: 28
-    classID: 21
-    packedSize: 900
-    offset: 112608
-    sourceAssetGUID: c32c84bacf0172d4b81d4c72a1df1f86
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/aviator-sunglasses/source/Aviaattorit.fbx
-  - fileID: 29
-    classID: 21
-    packedSize: 896
-    offset: 113512
-    sourceAssetGUID: c32c84bacf0172d4b81d4c72a1df1f86
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/aviator-sunglasses/source/Aviaattorit.fbx
-  - fileID: 30
-    classID: 28
-    packedSize: 2796332
-    offset: 114408
-    sourceAssetGUID: 02b1ae709baffd24abde33fdc77f96fb
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/plush-unicorn/textures/Plush_Unicorn_Rough.png
-  - fileID: 31
-    classID: 28
-    packedSize: 1398260
-    offset: 2910744
-    sourceAssetGUID: 034cf917fe99b5344bc2192d34a1768a
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/Knife/Asset/Textures/1024/steeldagger_1024_MetallicSmoothness.png
-  - fileID: 32
-    classID: 28
-    packedSize: 2796320
-    offset: 4309008
-    sourceAssetGUID: 058242927e9494cc18c31d1afd80f95c
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/bear/textures/Image_0.png
-  - fileID: 33
-    classID: 28
-    packedSize: 2097268
-    offset: 7105328
-    sourceAssetGUID: 1084372875829164882c05b7f7f0714f
-    buildTimeAssetPath: Assets/StylizedHandPaintedDungeon(Free)/Textures/Dungeon_02_Emission.tga
-  - fileID: 34
-    classID: 28
-    packedSize: 2796332
-    offset: 9202600
-    sourceAssetGUID: 161599fd49ad21a4c86449479ee47078
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/plush-unicorn/textures/Plush_Unicorn_Base.png
-  - fileID: 35
-    classID: 28
-    packedSize: 22369760
-    offset: 11998936
-    sourceAssetGUID: 28eb3390577849b46bb0a63b13c1892f
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/Cowboy-hat/Texture_Hat_man1/T_Hat_Albedo
-      1.tga
-  - fileID: 36
-    classID: 28
-    packedSize: 2097268
-    offset: 34368696
-    sourceAssetGUID: 2ad5769c41feb7749a077e020ed56acb
-    buildTimeAssetPath: Assets/StylizedHandPaintedDungeon(Free)/Textures/Dungeon_02_Diffuse.tga
-  - fileID: 37
-    classID: 28
-    packedSize: 1398240
-    offset: 36465968
-    sourceAssetGUID: 33de7c829c3a0224c8975ad93b61b05e
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/Zombie/Textures/Zombie_metallic.tga
-  - fileID: 38
-    classID: 28
-    packedSize: 2796328
-    offset: 37864208
-    sourceAssetGUID: 39073001fed7c8a4abbc392a70ace9e0
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/Empty-chair/Textures/chFolding.A2_AO.png
-  - fileID: 39
-    classID: 28
-    packedSize: 2796348
-    offset: 40660536
-    sourceAssetGUID: 3b8e838294553f8479afabc06929aaf2
-    buildTimeAssetPath: Assets/Crypt Dungeon Environment/Rooms/Crypt/Textures/crypt_chandelier_lambert2_Emissive.png
-  - fileID: 40
-    classID: 28
-    packedSize: 174880
-    offset: 43456888
-    sourceAssetGUID: 4554793a1aa429449a71dafdacd308c7
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/Shelf/shelf_D.tga
-  - fileID: 41
-    classID: 28
-    packedSize: 5592548
-    offset: 43631768
-    sourceAssetGUID: 46f382415948bfb469c68a65a7389508
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/plush-unicorn/textures/Plush_Unicorn_Normal.png
-  - fileID: 42
-    classID: 28
-    packedSize: 2796328
-    offset: 49224320
-    sourceAssetGUID: 48c8b1fe28279d542bddc6bf2703324b
-    buildTimeAssetPath: Assets/MedievalTavernPack/Textures/Furniture/table_01_ALBEDO.png
-  - fileID: 43
-    classID: 28
-    packedSize: 1398268
-    offset: 52020648
-    sourceAssetGUID: 4ba9f24739c8721499ae85110ba2157d
-    buildTimeAssetPath: Packages/com.vrchat.worlds/Samples/UdonExampleScene/SampleAssetsSet/Textures/texture_matte/SampleAssetsSet_V1_phong1_MetallicSmoothness.png
-  - fileID: 44
-    classID: 28
-    packedSize: 699172
-    offset: 53418920
-    sourceAssetGUID: 4ef3438267568cd40b87841c3e2c22c5
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/Zombie/Textures/Zombie_ao.png
-  - fileID: 45
-    classID: 28
-    packedSize: 11184940
-    offset: 54118096
-    sourceAssetGUID: 4ff8caba85aa6c84cbf4a3e90cb7aaf2
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/Cowboy-hat/Texture_Hat_man1/T_Hat_Occlusion
-      1.tga
-  - fileID: 46
-    classID: 28
-    packedSize: 2796328
-    offset: 65303040
-    sourceAssetGUID: 55e3dc4520645574a82755d9597becfb
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/Empty-chair/Textures/chFolding.A2_D.png
-  - fileID: 47
-    classID: 28
-    packedSize: 2097268
-    offset: 68099368
-    sourceAssetGUID: 580463794dc1de446a571eb88be93bff
-    buildTimeAssetPath: Assets/StylizedHandPaintedDungeon(Free)/Textures/Dungeon_01_Diffuse.tga
-  - fileID: 48
-    classID: 28
-    packedSize: 2796344
-    offset: 70196640
-    sourceAssetGUID: 5a6d5803c4f06c249a36d58134fa824a
-    buildTimeAssetPath: Assets/Crypt Dungeon Environment/Rooms/Crypt/Textures/crypt_chandelier_lambert2_Height.png
-  - fileID: 49
-    classID: 28
-    packedSize: 1398256
-    offset: 72992984
-    sourceAssetGUID: 5e07d6e71c9ed3f409237935b1c7a96e
-    buildTimeAssetPath: Packages/com.vrchat.worlds/Samples/UdonExampleScene/SampleAssetsSet/Textures/texture_matte/SampleAssetsSet_V1_phong1_Normal.png
-  - fileID: 50
-    classID: 28
-    packedSize: 699168
-    offset: 74391240
-    sourceAssetGUID: 6291fbf5d0e7c4642ad863eaf8b60622
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/Zombie/Textures/Zombie.tga
-  - fileID: 51
-    classID: 28
-    packedSize: 2796340
-    offset: 75090408
-    sourceAssetGUID: 641fa6e59d592a64c98330ca49c2506d
-    buildTimeAssetPath: Assets/Crypt Dungeon Environment/Rooms/Crypt/Textures/crypt_roof_lambert1_Metallic.png
-  - fileID: 52
-    classID: 28
-    packedSize: 5592556
-    offset: 77886752
-    sourceAssetGUID: 672979968572af449a1d001a8a5e111c
-    buildTimeAssetPath: Assets/Crypt Dungeon Environment/Rooms/Crypt/Textures/crypt_roof_lambert1_Normal.png
-  - fileID: 53
-    classID: 28
-    packedSize: 2796348
-    offset: 83479312
-    sourceAssetGUID: 6de258f57a7dbbf499a88888b7dfd90a
-    buildTimeAssetPath: Assets/Crypt Dungeon Environment/Rooms/Crypt/Textures/crypt_chandelier_lambert2_Roughness.png
-  - fileID: 54
-    classID: 28
-    packedSize: 2796344
-    offset: 86275664
-    sourceAssetGUID: 715ac47d8578e954f86331506b672adf
-    buildTimeAssetPath: Assets/Crypt Dungeon Environment/Rooms/Crypt/Textures/crypt_roof_lambert1_Roughness.png
-  - fileID: 55
-    classID: 28
-    packedSize: 5592544
-    offset: 89072008
-    sourceAssetGUID: 7d49892fa19495841b10bcbc8a63dc5e
-    buildTimeAssetPath: Assets/MedievalTavernPack/Textures/Furniture/table_01_NORMAL.png
-  - fileID: 56
-    classID: 28
-    packedSize: 2796348
-    offset: 94664552
-    sourceAssetGUID: 8930dc110c157fb45899553f2d5130b4
-    buildTimeAssetPath: Assets/Crypt Dungeon Environment/Rooms/Crypt/Textures/crypt_chandelier_lambert2_BaseColor.png
-  - fileID: 57
-    classID: 28
-    packedSize: 2796344
-    offset: 97460904
-    sourceAssetGUID: 8c05b699eaed2a5458844a9fe951c2ce
-    buildTimeAssetPath: Assets/Crypt Dungeon Environment/Rooms/Crypt/Textures/crypt_roof_lambert1_BaseColor.png
-  - fileID: 58
-    classID: 28
-    packedSize: 2796344
-    offset: 100257248
-    sourceAssetGUID: 8d681ee6cd53da24599912c2d2d51df1
-    buildTimeAssetPath: Assets/Crypt Dungeon Environment/Rooms/Crypt/Textures/crypt_pillar_lambert1_BaseColor.png
-  - fileID: 59
-    classID: 28
-    packedSize: 349656
-    offset: 103053592
-    sourceAssetGUID: 9a592c92b8fb08949836f0771f6bd0aa
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/Shelf/shelf_N.tga
-  - fileID: 60
-    classID: 28
-    packedSize: 1398236
-    offset: 103403248
-    sourceAssetGUID: a42cd0073eaab6c45beaf0dc0b6747f8
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/Spider/spider_01.tga
-  - fileID: 61
-    classID: 28
-    packedSize: 5592544
-    offset: 104801488
-    sourceAssetGUID: a9c07e24072c8a44e897a77f52c833d3
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/Empty-chair/Textures/chFolding.A2_M.psd
-  - fileID: 62
-    classID: 28
-    packedSize: 2796356
-    offset: 110394032
-    sourceAssetGUID: ab4e1feb84159f146bd1666598bad003
-    buildTimeAssetPath: Packages/com.vrchat.worlds/Samples/UdonExampleScene/SampleAssetsSet/Textures/texture_matte/SampleAssetsSet_V1_phong1_AlbedoTransparency.png
-  - fileID: 63
-    classID: 28
-    packedSize: 2796340
-    offset: 113190392
-    sourceAssetGUID: b16630112d2a6c74eab2950405e74aaa
-    buildTimeAssetPath: Assets/Crypt Dungeon Environment/Rooms/Crypt/Textures/crypt_roof_lambert1_Height.png
-  - fileID: 64
-    classID: 28
-    packedSize: 5592556
-    offset: 115986736
-    sourceAssetGUID: b3bff9e94a2f1394191ecf147f6b2ac7
-    buildTimeAssetPath: Assets/Crypt Dungeon Environment/Rooms/Crypt/Textures/crypt_pillar_lambert1_Normal.png
-  - fileID: 65
-    classID: 28
-    packedSize: 699196
-    offset: 121579296
-    sourceAssetGUID: b5f741d2b9cddd342b07cab73156ef78
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/Knife/Asset/Textures/1024/steeldagger_1024_AlbedoTransparency.png
-  - fileID: 66
-    classID: 28
-    packedSize: 22369760
-    offset: 122278496
-    sourceAssetGUID: b92227c15d8f3eb429627b0d164b8987
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/Cowboy-hat/Texture_Hat_man1/T_Hat_Normal
-      1.tga
-  - fileID: 67
-    classID: 28
-    packedSize: 2796344
-    offset: 144648256
-    sourceAssetGUID: bfbc72129a32a114eb1ab22a1a44b75d
-    buildTimeAssetPath: Assets/Crypt Dungeon Environment/Rooms/Crypt/Textures/crypt_pillar_lambert1_Roughness.png
-  - fileID: 68
-    classID: 28
-    packedSize: 22369760
-    offset: 147444600
-    sourceAssetGUID: c027ed864644db7468caf8c6168c0b67
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/Cowboy-hat/Texture_Hat_man1/T_Hat_Metallic
-      1.tga
-  - fileID: 69
-    classID: 28
-    packedSize: 174900
-    offset: 169814360
-    sourceAssetGUID: c44c7925f0c9ca7479cbd7aa215d828a
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/plush-unicorn/textures/internal_ground_ao_texture.jpeg
-  - fileID: 70
-    classID: 28
-    packedSize: 2796348
-    offset: 169989264
-    sourceAssetGUID: c62e16ef07d4e9b4ebdabeff481cf37f
-    buildTimeAssetPath: Assets/Crypt Dungeon Environment/Rooms/Crypt/Textures/crypt_chandelier_lambert2_Metallic.png
-  - fileID: 71
-    classID: 28
-    packedSize: 699176
-    offset: 172785616
-    sourceAssetGUID: d681134af7b3e50479d8d90effa0e1eb
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/Zombie/Textures/zombie_emission.tga
-  - fileID: 72
-    classID: 28
-    packedSize: 1398236
-    offset: 173484792
-    sourceAssetGUID: decb53c07686cc94b860f8e04d438d22
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/Zombie/Textures/Zombie_nm.png
-  - fileID: 73
-    classID: 28
-    packedSize: 2796344
-    offset: 174883032
-    sourceAssetGUID: df57d99482fe16e439a9588f50478cd6
-    buildTimeAssetPath: Assets/Crypt Dungeon Environment/Rooms/Crypt/Textures/crypt_pillar_lambert1_Metallic.png
-  - fileID: 74
-    classID: 28
-    packedSize: 5592544
-    offset: 177679376
-    sourceAssetGUID: e3b012f79221ad04ca6a13a41bb9a00e
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/Empty-chair/Textures/chFolding.A2_N.png
-  - fileID: 75
-    classID: 28
-    packedSize: 2796340
-    offset: 183271920
-    sourceAssetGUID: e6a394cca72b3314c96ec51dc5c31d9c
-    buildTimeAssetPath: Assets/Crypt Dungeon Environment/Rooms/Crypt/Textures/crypt_pillar_lambert1_Height.png
-  - fileID: 76
-    classID: 28
-    packedSize: 5592560
-    offset: 186068264
-    sourceAssetGUID: ebcc675eea4948345af517f181555137
-    buildTimeAssetPath: Assets/Crypt Dungeon Environment/Rooms/Crypt/Textures/crypt_chandelier_lambert2_Normal.png
-  - fileID: 77
-    classID: 28
-    packedSize: 1398248
-    offset: 191660824
-    sourceAssetGUID: f39e0a2aed20b6e4eafd0a8a8a4c9471
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/Knife/Asset/Textures/1024/steeldagger_1024_Normal.png
-  - fileID: 78
-    classID: 43
-    packedSize: 16056
-    offset: 193059072
-    sourceAssetGUID: 8f7380da49034cd488ddff94b1ac35d1
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/Zombie/FBXs/Zombie1.FBX
-  - fileID: 79
-    classID: 43
-    packedSize: 23176
-    offset: 193075128
-    sourceAssetGUID: 8f7380da49034cd488ddff94b1ac35d1
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/Zombie/FBXs/Zombie1.FBX
-  - fileID: 80
-    classID: 43
-    packedSize: 23160
-    offset: 193098304
-    sourceAssetGUID: 04f94d26703fd274e924f2d263cc1cf3
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/Umbrella/uploads_files_3692147_Umbrella.FBX
-  - fileID: 81
-    classID: 43
-    packedSize: 9208
-    offset: 193121464
-    sourceAssetGUID: 8f7380da49034cd488ddff94b1ac35d1
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/Zombie/FBXs/Zombie1.FBX
-  - fileID: 82
-    classID: 43
-    packedSize: 12044
-    offset: 193130672
-    sourceAssetGUID: 8f7380da49034cd488ddff94b1ac35d1
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/Zombie/FBXs/Zombie1.FBX
-  - fileID: 83
-    classID: 43
-    packedSize: 758428
-    offset: 193142720
-    sourceAssetGUID: 04f94d26703fd274e924f2d263cc1cf3
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/Umbrella/uploads_files_3692147_Umbrella.FBX
-  - fileID: 84
-    classID: 43
-    packedSize: 97512
-    offset: 193901152
-    sourceAssetGUID: 8f7380da49034cd488ddff94b1ac35d1
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/Zombie/FBXs/Zombie1.FBX
-  - fileID: 85
-    classID: 43
-    packedSize: 15820
-    offset: 193998664
-    sourceAssetGUID: 8f7380da49034cd488ddff94b1ac35d1
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/Zombie/FBXs/Zombie1.FBX
-  - fileID: 86
-    classID: 43
-    packedSize: 22404
-    offset: 194014488
-    sourceAssetGUID: 8f7380da49034cd488ddff94b1ac35d1
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/Zombie/FBXs/Zombie1.FBX
-  - fileID: 87
-    classID: 43
-    packedSize: 293684
-    offset: 194036896
-    sourceAssetGUID: 04f94d26703fd274e924f2d263cc1cf3
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/Umbrella/uploads_files_3692147_Umbrella.FBX
-  - fileID: 88
-    classID: 43
-    packedSize: 42036
-    offset: 194330584
-    sourceAssetGUID: 321d610a2d7cfee41a2a0a0b49cd774d
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/pig-nose/source/pigNose.fbx
-  - fileID: 89
-    classID: 43
-    packedSize: 639004
-    offset: 194372624
-    sourceAssetGUID: bce88a95bf5bc44fd8beceda454f28ce
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/bear/source/bear1untitled.fbx
-  - fileID: 90
-    classID: 43
-    packedSize: 91888
-    offset: 195011632
-    sourceAssetGUID: 321d610a2d7cfee41a2a0a0b49cd774d
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/pig-nose/source/pigNose.fbx
-  - fileID: 91
-    classID: 43
-    packedSize: 14228
-    offset: 195103520
-    sourceAssetGUID: 8f7380da49034cd488ddff94b1ac35d1
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/Zombie/FBXs/Zombie1.FBX
-  - fileID: 92
-    classID: 43
-    packedSize: 40128
-    offset: 195117752
-    sourceAssetGUID: 1fed90e8722c1334d9b51e0b56f26e4e
-    buildTimeAssetPath: Assets/StylizedHandPaintedDungeon(Free)/Originals/Door.fbx
-  - fileID: 93
-    classID: 43
-    packedSize: 71028
-    offset: 195157880
-    sourceAssetGUID: 37e97f97931e06f4b9318bb7a9fa399d
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/Empty-chair/Meshes/chFolding.A_LOD0.fbx
-  - fileID: 94
-    classID: 43
-    packedSize: 42360
-    offset: 195228912
-    sourceAssetGUID: 4fc36cdfd84e6f841b7f575a859b83c8
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/Empty-chair/Meshes/chFolding.A_LOD1.fbx
-  - fileID: 95
-    classID: 43
-    packedSize: 4656
-    offset: 195271272
-    sourceAssetGUID: 9c33f225c6ee98243a57390a7235bd50
-    buildTimeAssetPath: Assets/StylizedHandPaintedDungeon(Free)/Originals/Wall.fbx
-  - fileID: 96
-    classID: 43
-    packedSize: 636
-    offset: 195275928
-    sourceAssetGUID: b31c62c35ced11c4383176ecffe930c9
-    buildTimeAssetPath: Assets/StylizedHandPaintedDungeon(Free)/Originals/Floor.fbx
-  - fileID: 97
-    classID: 43
-    packedSize: 14824
-    offset: 195276568
-    sourceAssetGUID: b520dd2e830b53248a9a07d2d9f3f3dd
-    buildTimeAssetPath: Assets/StylizedHandPaintedDungeon(Free)/Originals/Pillar.fbx
-  - fileID: 98
-    classID: 43
-    packedSize: 158404
-    offset: 195291392
-    sourceAssetGUID: bc600cce01eb57a409f4e69025868a2c
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/Spider/spider_myOldOne.FBX
-  - fileID: 99
-    classID: 43
-    packedSize: 8152
-    offset: 195449800
-    sourceAssetGUID: dac93943bb9decd49b148b1e25a13ab8
-    buildTimeAssetPath: Assets/MedievalTavernPack/Meshes/Furniture/table_01.fbx
-  - fileID: 100
-    classID: 43
-    packedSize: 1837936
-    offset: 195457952
-    sourceAssetGUID: fa741a1464dc1084592c89eb9fd74c6c
-    buildTimeAssetPath: Assets/Crypt Dungeon Environment/Rooms/Crypt/Models/crypt_pillar.fbx
-  - fileID: 101
-    classID: 43
-    packedSize: 11404
-    offset: 197295888
-    sourceAssetGUID: fb722742004760c45933393f71a67dfa
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/Shelf/shelf.fbx
-  - fileID: 102
-    classID: 43
-    packedSize: 67048
-    offset: 197307296
-    sourceAssetGUID: fdc27d8a5bffd964e86bce10091249ae
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/Knife/Asset/Models/dagger.fbx
-  - fileID: 103
-    classID: 43
-    packedSize: 19796
-    offset: 197374344
-    sourceAssetGUID: 70108d78e82c2ec488d6b504865508e0
-    buildTimeAssetPath: Packages/com.vrchat.worlds/Samples/UdonExampleScene/SampleAssetsSet/SampleAssetsSet_V1.fbx
-  - fileID: 104
-    classID: 43
-    packedSize: 1228196
-    offset: 197394144
-    sourceAssetGUID: 8d21d1605928a4d46b68ae5628341f42
-    buildTimeAssetPath: Assets/Crypt Dungeon Environment/Rooms/Crypt/Models/crypt_roof.fbx
-  - fileID: 105
-    classID: 43
-    packedSize: 1228196
-    offset: 198622344
-    sourceAssetGUID: 8d21d1605928a4d46b68ae5628341f42
-    buildTimeAssetPath: Assets/Crypt Dungeon Environment/Rooms/Crypt/Models/crypt_roof.fbx
-  - fileID: 106
-    classID: 43
-    packedSize: 1228196
-    offset: 199850544
-    sourceAssetGUID: 8d21d1605928a4d46b68ae5628341f42
-    buildTimeAssetPath: Assets/Crypt Dungeon Environment/Rooms/Crypt/Models/crypt_roof.fbx
-  - fileID: 107
-    classID: 43
-    packedSize: 1228196
-    offset: 201078744
-    sourceAssetGUID: 8d21d1605928a4d46b68ae5628341f42
-    buildTimeAssetPath: Assets/Crypt Dungeon Environment/Rooms/Crypt/Models/crypt_roof.fbx
-  - fileID: 108
-    classID: 43
-    packedSize: 36128
-    offset: 202306944
-    sourceAssetGUID: f48bdefdcbaa779498f3681fe52ccf6a
-    buildTimeAssetPath: Assets/Crypt Dungeon Environment/Rooms/Crypt/Models/crypt_chandelier.fbx
-  - fileID: 109
-    classID: 43
-    packedSize: 2124704
-    offset: 202343072
-    sourceAssetGUID: f48bdefdcbaa779498f3681fe52ccf6a
-    buildTimeAssetPath: Assets/Crypt Dungeon Environment/Rooms/Crypt/Models/crypt_chandelier.fbx
-  - fileID: 110
-    classID: 43
-    packedSize: 1021900
-    offset: 204467776
-    sourceAssetGUID: f48bdefdcbaa779498f3681fe52ccf6a
-    buildTimeAssetPath: Assets/Crypt Dungeon Environment/Rooms/Crypt/Models/crypt_chandelier.fbx
-  - fileID: 111
-    classID: 43
-    packedSize: 1893872
-    offset: 205489680
-    sourceAssetGUID: f48bdefdcbaa779498f3681fe52ccf6a
-    buildTimeAssetPath: Assets/Crypt Dungeon Environment/Rooms/Crypt/Models/crypt_chandelier.fbx
-  - fileID: 112
-    classID: 43
-    packedSize: 43768
-    offset: 207383552
-    sourceAssetGUID: 8f7380da49034cd488ddff94b1ac35d1
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/Zombie/FBXs/Zombie1.FBX
-  - fileID: 113
-    classID: 43
-    packedSize: 103376
-    offset: 207427320
-    sourceAssetGUID: 617023eea96dc3541a9a8d9ca45d6728
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/Cowboy-hat/Mesh/Hat_1.fbx
-  - fileID: 114
-    classID: 43
-    packedSize: 1963600
-    offset: 207530696
-    sourceAssetGUID: c32c84bacf0172d4b81d4c72a1df1f86
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/aviator-sunglasses/source/Aviaattorit.fbx
-  - fileID: 115
-    classID: 43
-    packedSize: 615332
-    offset: 209494296
-    sourceAssetGUID: 04f94d26703fd274e924f2d263cc1cf3
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/Umbrella/uploads_files_3692147_Umbrella.FBX
-  - fileID: 116
-    classID: 43
-    packedSize: 25752
-    offset: 210109632
-    sourceAssetGUID: 04f94d26703fd274e924f2d263cc1cf3
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/Umbrella/uploads_files_3692147_Umbrella.FBX
-  - fileID: 117
-    classID: 43
-    packedSize: 7860
-    offset: 210135384
-    sourceAssetGUID: 8f7380da49034cd488ddff94b1ac35d1
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/Zombie/FBXs/Zombie1.FBX
-  - fileID: 118
-    classID: 43
-    packedSize: 113304
-    offset: 210143248
-    sourceAssetGUID: 7c72df6df34a7bd45bb410e2c4678f28
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/plush-unicorn/source/Plush Unicorn.fbx
-  - fileID: 119
-    classID: 43
-    packedSize: 38977516
-    offset: 210256552
-    sourceAssetGUID: 04f94d26703fd274e924f2d263cc1cf3
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/Umbrella/uploads_files_3692147_Umbrella.FBX
-  - fileID: 120
-    classID: 43
-    packedSize: 2143648
-    offset: 249234072
-    sourceAssetGUID: 04f94d26703fd274e924f2d263cc1cf3
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/Umbrella/uploads_files_3692147_Umbrella.FBX
-  - fileID: 121
-    classID: 43
-    packedSize: 7860
-    offset: 251377720
-    sourceAssetGUID: 8f7380da49034cd488ddff94b1ac35d1
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/Zombie/FBXs/Zombie1.FBX
-  - fileID: 122
-    classID: 43
-    packedSize: 12044
-    offset: 251385584
-    sourceAssetGUID: 8f7380da49034cd488ddff94b1ac35d1
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/Zombie/FBXs/Zombie1.FBX
-  - fileID: 123
-    classID: 43
-    packedSize: 59788
-    offset: 251397632
-    sourceAssetGUID: 04f94d26703fd274e924f2d263cc1cf3
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/Umbrella/uploads_files_3692147_Umbrella.FBX
-  - fileID: 124
-    classID: 43
-    packedSize: 2708188
-    offset: 251457424
-    sourceAssetGUID: 04f94d26703fd274e924f2d263cc1cf3
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/Umbrella/uploads_files_3692147_Umbrella.FBX
-  - fileID: 125
-    classID: 43
-    packedSize: 1109928
-    offset: 254165616
-    sourceAssetGUID: 04f94d26703fd274e924f2d263cc1cf3
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/Umbrella/uploads_files_3692147_Umbrella.FBX
-  - fileID: 126
-    classID: 43
-    packedSize: 23164
-    offset: 255275544
-    sourceAssetGUID: 04f94d26703fd274e924f2d263cc1cf3
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/Umbrella/uploads_files_3692147_Umbrella.FBX
-  - fileID: 127
-    classID: 43
-    packedSize: 9208
-    offset: 255298712
-    sourceAssetGUID: 8f7380da49034cd488ddff94b1ac35d1
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/Zombie/FBXs/Zombie1.FBX
-  - fileID: 128
-    classID: 43
-    packedSize: 22404
-    offset: 255307920
-    sourceAssetGUID: 8f7380da49034cd488ddff94b1ac35d1
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/Zombie/FBXs/Zombie1.FBX
-  - fileID: 129
-    classID: 48
-    packedSize: 68732
-    offset: 255330328
-    sourceAssetGUID: 0000000000000000f000000000000000
-    buildTimeAssetPath: Resources/unity_builtin_extra
-  - fileID: 130
-    classID: 48
-    packedSize: 23380
-    offset: 255399064
-    sourceAssetGUID: 0000000000000000f000000000000000
-    buildTimeAssetPath: Resources/unity_builtin_extra
-  - fileID: 131
-    classID: 48
-    packedSize: 63704
-    offset: 255422448
-    sourceAssetGUID: 0000000000000000f000000000000000
-    buildTimeAssetPath: Resources/unity_builtin_extra
-  - fileID: 132
-    classID: 48
-    packedSize: 298640
-    offset: 255486152
-    sourceAssetGUID: 0000000000000000f000000000000000
-    buildTimeAssetPath: Resources/unity_builtin_extra
-  - fileID: 133
-    classID: 48
-    packedSize: 530048
-    offset: 255784792
-    sourceAssetGUID: 0000000000000000f000000000000000
-    buildTimeAssetPath: Resources/unity_builtin_extra
-  - fileID: 134
-    classID: 48
-    packedSize: 747380
-    offset: 256314840
-    sourceAssetGUID: 0000000000000000f000000000000000
-    buildTimeAssetPath: Resources/unity_builtin_extra
-  - fileID: 135
-    classID: 48
-    packedSize: 25304
-    offset: 257062224
-    sourceAssetGUID: 0000000000000000f000000000000000
-    buildTimeAssetPath: Resources/unity_builtin_extra
-  - fileID: 136
-    classID: 48
-    packedSize: 65664
-    offset: 257087528
-    sourceAssetGUID: 0000000000000000f000000000000000
-    buildTimeAssetPath: Resources/unity_builtin_extra
-  - fileID: 137
-    classID: 48
-    packedSize: 13452
-    offset: 257153192
-    sourceAssetGUID: 0000000000000000f000000000000000
-    buildTimeAssetPath: Resources/unity_builtin_extra
-  - fileID: 138
-    classID: 48
-    packedSize: 426304
-    offset: 257166648
-    sourceAssetGUID: 5a73e777e622b594389b69e43e3e7a72
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/Cowboy-hat/Prefab/Stand/Standard-2Sided.shader
-  - fileID: 139
-    classID: 74
-    packedSize: 45768
-    offset: 257592952
-    sourceAssetGUID: bc600cce01eb57a409f4e69025868a2c
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/Spider/spider_myOldOne.FBX
-  - fileID: 140
-    classID: 74
-    packedSize: 79396
-    offset: 257638720
-    sourceAssetGUID: bc600cce01eb57a409f4e69025868a2c
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/Spider/spider_myOldOne.FBX
-  - fileID: 141
-    classID: 74
-    packedSize: 99220
-    offset: 257718120
-    sourceAssetGUID: bc600cce01eb57a409f4e69025868a2c
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/Spider/spider_myOldOne.FBX
-  - fileID: 142
-    classID: 74
-    packedSize: 82988
-    offset: 257817344
-    sourceAssetGUID: bc600cce01eb57a409f4e69025868a2c
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/Spider/spider_myOldOne.FBX
-  - fileID: 143
-    classID: 74
-    packedSize: 84504
-    offset: 257900336
-    sourceAssetGUID: bc600cce01eb57a409f4e69025868a2c
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/Spider/spider_myOldOne.FBX
-  - fileID: 144
-    classID: 74
-    packedSize: 45524
-    offset: 257984840
-    sourceAssetGUID: bc600cce01eb57a409f4e69025868a2c
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/Spider/spider_myOldOne.FBX
-  - fileID: 145
-    classID: 74
-    packedSize: 77012
-    offset: 258030368
-    sourceAssetGUID: bc600cce01eb57a409f4e69025868a2c
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/Spider/spider_myOldOne.FBX
-  - fileID: 146
-    classID: 74
-    packedSize: 80452
-    offset: 258107384
-    sourceAssetGUID: bc600cce01eb57a409f4e69025868a2c
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/Spider/spider_myOldOne.FBX
-  - fileID: 147
-    classID: 74
-    packedSize: 90344
-    offset: 258187840
-    sourceAssetGUID: bc600cce01eb57a409f4e69025868a2c
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/Spider/spider_myOldOne.FBX
-  - fileID: 148
-    classID: 74
-    packedSize: 127256
-    offset: 258278184
-    sourceAssetGUID: bc600cce01eb57a409f4e69025868a2c
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/Spider/spider_myOldOne.FBX
-  - fileID: 149
-    classID: 74
-    packedSize: 118860
-    offset: 258405440
-    sourceAssetGUID: bc600cce01eb57a409f4e69025868a2c
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/Spider/spider_myOldOne.FBX
-  - fileID: 150
-    classID: 74
-    packedSize: 103128
-    offset: 258524304
-    sourceAssetGUID: bc600cce01eb57a409f4e69025868a2c
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/Spider/spider_myOldOne.FBX
-  - fileID: 151
-    classID: 74
-    packedSize: 663304
-    offset: 258627432
-    sourceAssetGUID: bc600cce01eb57a409f4e69025868a2c
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/Spider/spider_myOldOne.FBX
-  - fileID: 152
-    classID: 74
-    packedSize: 2772
-    offset: 259290736
-    sourceAssetGUID: fb722742004760c45933393f71a67dfa
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/Shelf/shelf.fbx
-  - fileID: 153
-    classID: 83
-    packedSize: 124
-    offset: 259293512
-    sourceAssetGUID: 041c47720c7037041a14185d271ec300
-    buildTimeAssetPath: Assets/Audio/65_Dungeon_I.mp3
-  - fileID: 154
-    classID: 115
-    packedSize: 100
-    offset: 90688
-    sourceAssetGUID: 661092b4961be7145bfbe56e1e62337b
-    buildTimeAssetPath: Packages/com.vrchat.worlds/Runtime/VRCSDK/Plugins/VRCSDK3.dll
-  - fileID: 155
-    classID: 115
-    packedSize: 96
-    offset: 90792
-    sourceAssetGUID: 4ecd63eff847044b68db9453ce219299
-    buildTimeAssetPath: Packages/com.vrchat.base/Runtime/VRCSDK/Plugins/VRCCore-Editor.dll
-  - fileID: 156
-    classID: 115
-    packedSize: 116
-    offset: 90888
-    sourceAssetGUID: 661092b4961be7145bfbe56e1e62337b
-    buildTimeAssetPath: Packages/com.vrchat.worlds/Runtime/VRCSDK/Plugins/VRCSDK3.dll
-  - fileID: 157
-    classID: 115
-    packedSize: 108
-    offset: 91008
-    sourceAssetGUID: 661092b4961be7145bfbe56e1e62337b
-    buildTimeAssetPath: Packages/com.vrchat.worlds/Runtime/VRCSDK/Plugins/VRCSDK3.dll
-  - fileID: 158
-    classID: 115
-    packedSize: 88
-    offset: 91120
-    sourceAssetGUID: 45115577ef41a5b4ca741ed302693907
-    buildTimeAssetPath: Packages/com.vrchat.worlds/Runtime/Udon/UdonBehaviour.cs
-  - fileID: 159
-    classID: 115
-    packedSize: 128
-    offset: 91208
-    sourceAssetGUID: bf61d954ecb803046953c666facfb904
-    buildTimeAssetPath: Packages/com.vrchat.worlds/Runtime/Udon/ProgramSources/SerializedUdonProgramAsset.cs
-  - fileID: 160
-    classID: 115
-    packedSize: 92
-    offset: 91336
-    sourceAssetGUID: 661092b4961be7145bfbe56e1e62337b
-    buildTimeAssetPath: Packages/com.vrchat.worlds/Runtime/VRCSDK/Plugins/VRCSDK3.dll
-  - fileID: 161
-    classID: 114
-    packedSize: 17068
-    offset: 259293640
-    sourceAssetGUID: ccb5e0f139937f54690a6ff709d4dba2
-    buildTimeAssetPath: Assets/SerializedUdonPrograms/c8df303ceb45ae84f85a11591f741734.asset
-  - fileID: 162
-    classID: 114
-    packedSize: 28952
-    offset: 259310712
-    sourceAssetGUID: 066f3af3c5289fd468eddc9652c8960f
-    buildTimeAssetPath: Packages/com.vrchat.worlds/Samples/UdonExampleScene/SerializedUdonPrograms/19c6455fcf036f447a988be402108b3c.asset
---- !u!668709126 &8182545271421878242
-BuiltAssetBundleInfoSet:
-  bundleInfos:
-  - bundleName: scene-standalonewindows64-main.vrcw
-    bundleArchiveFile: 3
-    packagedFileIndices: 000000000100000002000000
-  - bundleName: FirstWorld
-    bundleArchiveFile: 6
-    packagedFileIndices: 05000000
---- !u!1126 &8595845119825741695
-PackedAssets:
-  m_File: 2
-  m_ShortPath: BuildPlayer-Main.resource
-  m_Overhead: 0
-  m_Contents:
-  - fileID: 0
-    classID: 83
-    packedSize: 10870080
-    offset: 0
-    sourceAssetGUID: 041c47720c7037041a14185d271ec300
-    buildTimeAssetPath: Assets/Audio/65_Dungeon_I.mp3
