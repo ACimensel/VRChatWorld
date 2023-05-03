@@ -1,11 +1,15 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!641289076 &-8996900947493858998
-AudioBuildInfo:
-  m_IsAudioDisabled: 0
-  m_AudioClipCount: 0
-  m_AudioMixerCount: 0
---- !u!1126 &-4511579816541790322
+--- !u!668709126 &-7107122550894671977
+BuiltAssetBundleInfoSet:
+  bundleInfos:
+  - bundleName: scene-standalonewindows64-artuntestscene.vrcw
+    bundleArchiveFile: 2
+    packagedFileIndices: 0000000001000000
+  - bundleName: FirstWorld
+    bundleArchiveFile: 5
+    packagedFileIndices: 04000000
+--- !u!1126 &-4125870965635507887
 PackedAssets:
   m_File: 1
   m_ShortPath: BuildPlayer-ArtunTestScene.sharedAssets
@@ -517,140 +521,7 @@ PackedAssets:
     offset: 5379088
     sourceAssetGUID: 869c42aa9d0e8aa4cbba7e1cb2f1d469
     buildTimeAssetPath: Packages/com.vrchat.worlds/Samples/UdonExampleScene/SerializedUdonPrograms/46df060d25eb3bc42be5fcfae616147c.asset
---- !u!1125 &1
-BuildReport:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: LastWindowsBuild
-  m_Summary:
-    buildStartTime:
-      serializedVersion: 2
-      ticks: 638185199185166046
-    buildGUID: 00000000000000000000000000000000
-    platformName: Win64
-    platformGroupName: Standalone
-    options: 16
-    assetBundleOptions: 32
-    outputPath: C:/Users/Artun/AppData/Local/Temp/DefaultCompany/FirstWorld/scene-standalonewindows64-artuntestscene.vrcw
-    crc: 889832917
-    totalSize: 2018844
-    totalTimeTicks: 146726705
-    totalErrors: 0
-    totalWarnings: 0
-    buildType: 1
-    buildResult: 1
-  m_Files:
-  - path: D:/Software/Unity Projects/FirstVRChatWorld/scene-standalonewindows64-artuntestscene.vrcw/BuildPlayer-ArtunTestScene
-    role: Scene
-    id: 0
-    totalSize: 512372
-  - path: D:/Software/Unity Projects/FirstVRChatWorld/scene-standalonewindows64-artuntestscene.vrcw/BuildPlayer-ArtunTestScene.sharedAssets
-    role: SharedAssets
-    id: 1
-    totalSize: 5407172
-  - path: D:/Software/Unity Projects/FirstVRChatWorld/scene-standalonewindows64-artuntestscene.vrcw
-    role: AssetBundle
-    id: 2
-    totalSize: 2014947
-  - path: D:/Software/Unity Projects/FirstVRChatWorld/scene-standalonewindows64-artuntestscene.vrcw.manifest
-    role: AssetBundleTextManifest
-    id: 3
-    totalSize: 2668
-  - path: D:/Software/Unity Projects/FirstVRChatWorld/FirstWorld/CAB-c3b0b544834c54fe7c9d47f7af9bc428
-    role: ResourcesFile
-    id: 4
-    totalSize: 4316
-  - path: D:/Software/Unity Projects/FirstVRChatWorld/FirstWorld
-    role: ManifestAssetBundle
-    id: 5
-    totalSize: 1056
-  - path: D:/Software/Unity Projects/FirstVRChatWorld/FirstWorld.manifest
-    role: AssetBundleTextManifest
-    id: 6
-    totalSize: 173
-  m_BuildSteps:
-  - stepName: Build Asset Bundles
-    durationTicks: 146726705
-    depth: 0
-    messages: []
-  - stepName: Calculate asset bundles to be built
-    durationTicks: 334167
-    depth: 1
-    messages: []
-  - stepName: Compile scripts
-    durationTicks: 47901824
-    depth: 1
-    messages: []
-  - stepName: Build player
-    durationTicks: 37213030
-    depth: 1
-    messages:
-    - type: 3
-      content: HTTPFormUseage:UrlEncoded
-  - stepName: Prepare assets for target platform
-    durationTicks: 1824359
-    depth: 2
-    messages: []
-  - stepName: Building scenes
-    durationTicks: 7425769
-    depth: 2
-    messages: []
-  - stepName: Building scene Assets/Scenes/ArtunTestScene.unity
-    durationTicks: 7397211
-    depth: 3
-    messages: []
-  - stepName: Writing asset files
-    durationTicks: 3846008
-    depth: 2
-    messages: []
-  - stepName: Packaging assets - archive:/BuildPlayer-ArtunTestScene/BuildPlayer-ArtunTestScene.sharedAssets
-    durationTicks: 3804940
-    depth: 3
-    messages: []
-  - stepName: Creating compressed player package
-    durationTicks: 9867845
-    depth: 2
-    messages: []
-  - stepName: Postprocess built player
-    durationTicks: 134046
-    depth: 2
-    messages: []
-  m_Appendices:
-  - {fileID: 3635319015708218819}
-  - {fileID: -4511579816541790322}
-  - {fileID: 5229232118982225899}
-  - {fileID: -8996900947493858998}
-  - {fileID: 3778531827156917192}
---- !u!668709126 &3635319015708218819
-BuiltAssetBundleInfoSet:
-  bundleInfos:
-  - bundleName: scene-standalonewindows64-artuntestscene.vrcw
-    bundleArchiveFile: 2
-    packagedFileIndices: 0000000001000000
-  - bundleName: FirstWorld
-    bundleArchiveFile: 5
-    packagedFileIndices: 04000000
---- !u!1126 &3778531827156917192
-PackedAssets:
-  m_File: 4
-  m_ShortPath: CAB-c3b0b544834c54fe7c9d47f7af9bc428
-  m_Overhead: 4096
-  m_Contents:
-  - fileID: 1
-    classID: 142
-    packedSize: 104
-    offset: 4096
-    sourceAssetGUID: 00000000000000000000000000000000
-    buildTimeAssetPath: AssetBundle Object
-  - fileID: 2
-    classID: 290
-    packedSize: 116
-    offset: 4200
-    sourceAssetGUID: 00000000000000000000000000000000
-    buildTimeAssetPath: 'Built-in AssetBundleManifest: AssetBundleManifest'
---- !u!382020655 &5229232118982225899
+--- !u!382020655 &-3489868584641861502
 PluginBuildInfo:
   m_RuntimePlugins:
   - Unity.Burst.Unsafe
@@ -722,3 +593,130 @@ PluginBuildInfo:
   - Unity.Plastic.Antlr3.Runtime
   - Serilog.Sinks.Unity3D
   - lz4x64Plastic
+--- !u!641289076 &-2107299714288296103
+AudioBuildInfo:
+  m_IsAudioDisabled: 0
+  m_AudioClipCount: 0
+  m_AudioMixerCount: 0
+--- !u!1125 &1
+BuildReport:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: LastWindowsBuild
+  m_Summary:
+    buildStartTime:
+      serializedVersion: 2
+      ticks: 638185661106619767
+    buildGUID: 00000000000000000000000000000000
+    platformName: Win64
+    platformGroupName: Standalone
+    options: 16
+    assetBundleOptions: 32
+    outputPath: C:/Users/Artun/AppData/Local/Temp/DefaultCompany/FirstWorld/scene-standalonewindows64-artuntestscene.vrcw
+    crc: 2047193542
+    totalSize: 2018808
+    totalTimeTicks: 267009405
+    totalErrors: 0
+    totalWarnings: 0
+    buildType: 1
+    buildResult: 1
+  m_Files:
+  - path: D:/Software/Unity Projects/FirstVRChatWorld/scene-standalonewindows64-artuntestscene.vrcw/BuildPlayer-ArtunTestScene
+    role: Scene
+    id: 0
+    totalSize: 512380
+  - path: D:/Software/Unity Projects/FirstVRChatWorld/scene-standalonewindows64-artuntestscene.vrcw/BuildPlayer-ArtunTestScene.sharedAssets
+    role: SharedAssets
+    id: 1
+    totalSize: 5407172
+  - path: D:/Software/Unity Projects/FirstVRChatWorld/scene-standalonewindows64-artuntestscene.vrcw
+    role: AssetBundle
+    id: 2
+    totalSize: 2014911
+  - path: D:/Software/Unity Projects/FirstVRChatWorld/scene-standalonewindows64-artuntestscene.vrcw.manifest
+    role: AssetBundleTextManifest
+    id: 3
+    totalSize: 2669
+  - path: D:/Software/Unity Projects/FirstVRChatWorld/FirstWorld/CAB-c3b0b544834c54fe7c9d47f7af9bc428
+    role: ResourcesFile
+    id: 4
+    totalSize: 4316
+  - path: D:/Software/Unity Projects/FirstVRChatWorld/FirstWorld
+    role: ManifestAssetBundle
+    id: 5
+    totalSize: 1056
+  - path: D:/Software/Unity Projects/FirstVRChatWorld/FirstWorld.manifest
+    role: AssetBundleTextManifest
+    id: 6
+    totalSize: 172
+  m_BuildSteps:
+  - stepName: Build Asset Bundles
+    durationTicks: 267009405
+    depth: 0
+    messages: []
+  - stepName: Calculate asset bundles to be built
+    durationTicks: 3513047
+    depth: 1
+    messages: []
+  - stepName: Compile scripts
+    durationTicks: 95747479
+    depth: 1
+    messages: []
+  - stepName: Build player
+    durationTicks: 98067750
+    depth: 1
+    messages: []
+  - stepName: Prepare assets for target platform
+    durationTicks: 2098658
+    depth: 2
+    messages: []
+  - stepName: Building scenes
+    durationTicks: 32691352
+    depth: 2
+    messages: []
+  - stepName: Building scene Assets/Scenes/ArtunTestScene.unity
+    durationTicks: 32663509
+    depth: 3
+    messages: []
+  - stepName: Writing asset files
+    durationTicks: 36025510
+    depth: 2
+    messages: []
+  - stepName: Packaging assets - archive:/BuildPlayer-ArtunTestScene/BuildPlayer-ArtunTestScene.sharedAssets
+    durationTicks: 35984989
+    depth: 3
+    messages: []
+  - stepName: Creating compressed player package
+    durationTicks: 10096172
+    depth: 2
+    messages: []
+  - stepName: Postprocess built player
+    durationTicks: 76424
+    depth: 2
+    messages: []
+  m_Appendices:
+  - {fileID: -7107122550894671977}
+  - {fileID: -4125870965635507887}
+  - {fileID: -3489868584641861502}
+  - {fileID: -2107299714288296103}
+  - {fileID: 5679194974547050533}
+--- !u!1126 &5679194974547050533
+PackedAssets:
+  m_File: 4
+  m_ShortPath: CAB-c3b0b544834c54fe7c9d47f7af9bc428
+  m_Overhead: 4096
+  m_Contents:
+  - fileID: 1
+    classID: 142
+    packedSize: 104
+    offset: 4096
+    sourceAssetGUID: 00000000000000000000000000000000
+    buildTimeAssetPath: AssetBundle Object
+  - fileID: 2
+    classID: 290
+    packedSize: 116
+    offset: 4200
+    sourceAssetGUID: 00000000000000000000000000000000
+    buildTimeAssetPath: 'Built-in AssetBundleManifest: AssetBundleManifest'
