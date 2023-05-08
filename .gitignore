@@ -87,13 +87,11 @@ Assets/Toon Fantasy Nature/Scenes/Demo_Scene_Pines_2.unity
 Assets/Toon Fantasy Nature/Scenes/Demo_Scene_Pines_2.unity.meta
 Assets/Toon Fantasy Nature/Scenes/Demo_Scene_Puddle.unity
 Assets/Toon Fantasy Nature/Scenes/Demo_Scene_Puddle.unity.meta
-Assets/Toon Fantasy Nature/Terrain/Layer_TFF_Terrain_Grass_1A_D.terrainlayer
-Assets/Toon Fantasy Nature/Terrain/Layer_TFF_Terrain_Grass_1A_D.terrainlayer.meta
-Assets/Toon Fantasy Nature/Terrain/Layer_TFF_Terrain_Sand_1A_D.terrainlayer
-Assets/Toon Fantasy Nature/Terrain/Layer_TFF_Terrain_Sand_1A_D.terrainlayer.meta
-Assets/Toon Fantasy Nature/Terrain/TFF_Terrain_Grass_1A_D.tif
-Assets/Toon Fantasy Nature/Terrain/TFF_Terrain_Grass_1A_D.tif.meta
-Assets/Toon Fantasy Nature/Terrain/TFF_Terrain_Sand_1A_D.tif
-Assets/Toon Fantasy Nature/Terrain/TFF_Terrain_Sand_1A_D.tif.meta
-Assets/Scenes/ArtunLakeScene.unity
-Assets/Scenes/ArtunLakeScene.unity.meta
+Assets/Toon Fantasy Nature/Terrain/xLayer_TFF_Terrain_Grass_1A_D.terrainlayer
+Assets/Toon Fantasy Nature/Terrain/xLayer_TFF_Terrain_Grass_1A_D.terrainlayer.meta
+Assets/Toon Fantasy Nature/Terrain/xLayer_TFF_Terrain_Sand_1A_D.terrainlayer
+Assets/Toon Fantasy Nature/Terrain/xLayer_TFF_Terrain_Sand_1A_D.terrainlayer.meta
+Assets/Toon Fantasy Nature/Terrain/xTFF_Terrain_Grass_1A_D.tif
+Assets/Toon Fantasy Nature/Terrain/xTFF_Terrain_Grass_1A_D.tif.meta
+Assets/Toon Fantasy Nature/Terrain/xTFF_Terrain_Sand_1A_D.tif
+Assets/Toon Fantasy Nature/Terrain/xTFF_Terrain_Sand_1A_D.tif.meta
