@@ -1,11 +1,20 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!641289076 &-2916087314285212288
+--- !u!668709126 &-8707342618425723801
+BuiltAssetBundleInfoSet:
+  bundleInfos:
+  - bundleName: scene-standalonewindows64-artunlakescene.vrcw
+    bundleArchiveFile: 2
+    packagedFileIndices: 0000000001000000
+  - bundleName: FirstWorld
+    bundleArchiveFile: 5
+    packagedFileIndices: 04000000
+--- !u!641289076 &-7827506550704422060
 AudioBuildInfo:
   m_IsAudioDisabled: 0
-  m_AudioClipCount: 1
+  m_AudioClipCount: 0
   m_AudioMixerCount: 0
---- !u!382020655 &-936162500512521626
+--- !u!382020655 &-4648067816610394474
 PluginBuildInfo:
   m_RuntimePlugins:
   - Unity.Burst.Unsafe
@@ -77,126 +86,9 @@ PluginBuildInfo:
   - Unity.Plastic.Antlr3.Runtime
   - Serilog.Sinks.Unity3D
   - lz4x64Plastic
---- !u!1125 &1
-BuildReport:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: LastWindowsBuild
-  m_Summary:
-    buildStartTime:
-      serializedVersion: 2
-      ticks: 638156404270130977
-    buildGUID: 00000000000000000000000000000000
-    platformName: Win64
-    platformGroupName: Standalone
-    options: 16
-    assetBundleOptions: 32
-    outputPath: C:/Users/Artun/AppData/Local/Temp/DefaultCompany/FirstWorld/scene-standalonewindows64-main.vrcw
-    crc: 3222792608
-    totalSize: 92859456
-    totalTimeTicks: 767154238
-    totalErrors: 0
-    totalWarnings: 2
-    buildType: 1
-    buildResult: 1
-  m_Files:
-  - path: D:/Software/Unity Projects/FirstVRChatWorld/scene-standalonewindows64-main.vrcw/BuildPlayer-Main
-    role: Scene
-    id: 0
-    totalSize: 319884
-  - path: D:/Software/Unity Projects/FirstVRChatWorld/scene-standalonewindows64-main.vrcw/BuildPlayer-Main.sharedAssets
-    role: SharedAssets
-    id: 1
-    totalSize: 259339664
-  - path: D:/Software/Unity Projects/FirstVRChatWorld/scene-standalonewindows64-main.vrcw/BuildPlayer-Main.resource
-    role: StreamingResourceFile
-    id: 2
-    totalSize: 10870080
-  - path: D:/Software/Unity Projects/FirstVRChatWorld/scene-standalonewindows64-main.vrcw
-    role: AssetBundle
-    id: 3
-    totalSize: 92856044
-  - path: D:/Software/Unity Projects/FirstVRChatWorld/scene-standalonewindows64-main.vrcw.manifest
-    role: AssetBundleTextManifest
-    id: 4
-    totalSize: 2199
-  - path: D:/Software/Unity Projects/FirstVRChatWorld/FirstWorld/CAB-c3b0b544834c54fe7c9d47f7af9bc428
-    role: ResourcesFile
-    id: 5
-    totalSize: 4304
-  - path: D:/Software/Unity Projects/FirstVRChatWorld/FirstWorld
-    role: ManifestAssetBundle
-    id: 6
-    totalSize: 1051
-  - path: D:/Software/Unity Projects/FirstVRChatWorld/FirstWorld.manifest
-    role: AssetBundleTextManifest
-    id: 7
-    totalSize: 162
-  m_BuildSteps:
-  - stepName: Build Asset Bundles
-    durationTicks: 767154238
-    depth: 0
-    messages: []
-  - stepName: Calculate asset bundles to be built
-    durationTicks: 380079
-    depth: 1
-    messages: []
-  - stepName: Compile scripts
-    durationTicks: 53369718
-    depth: 1
-    messages: []
-  - stepName: Build player
-    durationTicks: 648184221
-    depth: 1
-    messages:
-    - type: 3
-      content: HTTPFormUseage:UrlEncoded
-  - stepName: Prepare assets for target platform
-    durationTicks: 1630742
-    depth: 2
-    messages: []
-  - stepName: Building scenes
-    durationTicks: 121789813
-    depth: 2
-    messages: []
-  - stepName: Building scene Assets/Scenes/Main.unity
-    durationTicks: 121761401
-    depth: 3
-    messages:
-    - type: 2
-      content: Script attached to 'Spot Light' in scene 'Assets/Scenes/Main.unity'
-        is missing or no valid script is attached.
-    - type: 2
-      content: Script attached to 'Floor' in scene 'Assets/Scenes/Main.unity' is
-        missing or no valid script is attached.
-  - stepName: Writing asset files
-    durationTicks: 146962753
-    depth: 2
-    messages: []
-  - stepName: Packaging assets - archive:/BuildPlayer-Main/BuildPlayer-Main.sharedAssets
-    durationTicks: 146916566
-    depth: 3
-    messages: []
-  - stepName: Creating compressed player package
-    durationTicks: 357266282
-    depth: 2
-    messages: []
-  - stepName: Postprocess built player
-    durationTicks: 3772103
-    depth: 2
-    messages: []
-  m_Appendices:
-  - {fileID: 8182545271421878242}
-  - {fileID: 2464220736907857132}
-  - {fileID: 8595845119825741695}
-  - {fileID: -936162500512521626}
-  - {fileID: -2916087314285212288}
-  - {fileID: 1670071641389247057}
---- !u!1126 &1670071641389247057
+--- !u!1126 &-936635261687355589
 PackedAssets:
-  m_File: 5
+  m_File: 4
   m_ShortPath: CAB-c3b0b544834c54fe7c9d47f7af9bc428
   m_Overhead: 4096
   m_Contents:
@@ -208,1010 +100,1971 @@ PackedAssets:
     buildTimeAssetPath: AssetBundle Object
   - fileID: 2
     classID: 290
-    packedSize: 104
+    packedSize: 116
     offset: 4200
     sourceAssetGUID: 00000000000000000000000000000000
     buildTimeAssetPath: 'Built-in AssetBundleManifest: AssetBundleManifest'
---- !u!1126 &2464220736907857132
+--- !u!1125 &1
+BuildReport:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: LastWindowsBuild
+  m_Summary:
+    buildStartTime:
+      serializedVersion: 2
+      ticks: 638191762151280763
+    buildGUID: 00000000000000000000000000000000
+    platformName: Win64
+    platformGroupName: Standalone
+    options: 16
+    assetBundleOptions: 32
+    outputPath: C:/Users/Artun/AppData/Local/Temp/DefaultCompany/FirstWorld/scene-standalonewindows64-artunlakescene.vrcw
+    crc: 2243165786
+    totalSize: 44193402
+    totalTimeTicks: 857814499
+    totalErrors: 0
+    totalWarnings: 6
+    buildType: 1
+    buildResult: 1
+  m_Files:
+  - path: D:/Software/Unity Projects/FirstVRChatWorld/scene-standalonewindows64-artunlakescene.vrcw/BuildPlayer-ArtunLakeScene
+    role: Scene
+    id: 0
+    totalSize: 59957188
+  - path: D:/Software/Unity Projects/FirstVRChatWorld/scene-standalonewindows64-artunlakescene.vrcw/BuildPlayer-ArtunLakeScene.sharedAssets
+    role: SharedAssets
+    id: 1
+    totalSize: 96687048
+  - path: D:/Software/Unity Projects/FirstVRChatWorld/scene-standalonewindows64-artunlakescene.vrcw
+    role: AssetBundle
+    id: 2
+    totalSize: 44190300
+  - path: D:/Software/Unity Projects/FirstVRChatWorld/scene-standalonewindows64-artunlakescene.vrcw.manifest
+    role: AssetBundleTextManifest
+    id: 3
+    totalSize: 1872
+  - path: D:/Software/Unity Projects/FirstVRChatWorld/FirstWorld/CAB-c3b0b544834c54fe7c9d47f7af9bc428
+    role: ResourcesFile
+    id: 4
+    totalSize: 4316
+  - path: D:/Software/Unity Projects/FirstVRChatWorld/FirstWorld
+    role: ManifestAssetBundle
+    id: 5
+    totalSize: 1057
+  - path: D:/Software/Unity Projects/FirstVRChatWorld/FirstWorld.manifest
+    role: AssetBundleTextManifest
+    id: 6
+    totalSize: 173
+  m_BuildSteps:
+  - stepName: Build Asset Bundles
+    durationTicks: 857814499
+    depth: 0
+    messages: []
+  - stepName: Calculate asset bundles to be built
+    durationTicks: 20097317
+    depth: 1
+    messages: []
+  - stepName: Compile scripts
+    durationTicks: 44373871
+    depth: 1
+    messages: []
+  - stepName: Build player
+    durationTicks: 645021811
+    depth: 1
+    messages: []
+  - stepName: Prepare assets for target platform
+    durationTicks: 2388743
+    depth: 2
+    messages: []
+  - stepName: Building scenes
+    durationTicks: 213288192
+    depth: 2
+    messages: []
+  - stepName: Building scene Assets/Scenes/ArtunLakeScene.unity
+    durationTicks: 213258895
+    depth: 3
+    messages: []
+  - stepName: Writing asset files
+    durationTicks: 47628014
+    depth: 2
+    messages: []
+  - stepName: Packaging assets - archive:/BuildPlayer-ArtunLakeScene/BuildPlayer-ArtunLakeScene.sharedAssets
+    durationTicks: 47572150
+    depth: 3
+    messages:
+    - type: 2
+      content: The tree TFF_Aspen_Tree_01A must use the Nature/Soft Occlusion shader.
+        Otherwise billboarding/lighting will not work correctly.
+    - type: 2
+      content: The tree TFF_Aspen_Tree_01A must use the Nature/Soft Occlusion shader.
+        Otherwise billboarding/lighting will not work correctly.
+    - type: 2
+      content: The tree TFF_Aspen_Tree_02A must use the Nature/Soft Occlusion shader.
+        Otherwise billboarding/lighting will not work correctly.
+    - type: 2
+      content: The tree TFF_Aspen_Tree_02A must use the Nature/Soft Occlusion shader.
+        Otherwise billboarding/lighting will not work correctly.
+    - type: 2
+      content: The tree TFF_Aspen_Tree_03A must use the Nature/Soft Occlusion shader.
+        Otherwise billboarding/lighting will not work correctly.
+    - type: 2
+      content: The tree TFF_Aspen_Tree_03A must use the Nature/Soft Occlusion shader.
+        Otherwise billboarding/lighting will not work correctly.
+  - stepName: Creating compressed player package
+    durationTicks: 324324336
+    depth: 2
+    messages: []
+  - stepName: Postprocess built player
+    durationTicks: 276728
+    depth: 2
+    messages: []
+  m_Appendices:
+  - {fileID: -8707342618425723801}
+  - {fileID: 4226655795155081681}
+  - {fileID: -4648067816610394474}
+  - {fileID: -7827506550704422060}
+  - {fileID: -936635261687355589}
+--- !u!1126 &4226655795155081681
 PackedAssets:
   m_File: 1
-  m_ShortPath: BuildPlayer-Main.sharedAssets
-  m_Overhead: 91031
+  m_ShortPath: BuildPlayer-ArtunLakeScene.sharedAssets
+  m_Overhead: 116278
   m_Contents:
   - fileID: 1
     classID: 150
     packedSize: 49
-    offset: 91432
+    offset: 116120
     sourceAssetGUID: 00000000000000000000000000000000
     buildTimeAssetPath: 
   - fileID: 2
     classID: 142
-    packedSize: 144
-    offset: 91488
+    packedSize: 168
+    offset: 116176
     sourceAssetGUID: 00000000000000000000000000000000
     buildTimeAssetPath: 
   - fileID: 3
     classID: 21
-    packedSize: 900
-    offset: 91632
-    sourceAssetGUID: c32c84bacf0172d4b81d4c72a1df1f86
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/aviator-sunglasses/source/Aviaattorit.fbx
+    packedSize: 196
+    offset: 116344
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
   - fileID: 4
     classID: 21
-    packedSize: 896
-    offset: 92536
-    sourceAssetGUID: c32c84bacf0172d4b81d4c72a1df1f86
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/aviator-sunglasses/source/Aviaattorit.fbx
+    packedSize: 956
+    offset: 116544
+    sourceAssetGUID: d58efd6df12bdb2479c16971a251c34d
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/Materials/Glass_Windows_01A_D.mat
   - fileID: 5
     classID: 21
-    packedSize: 896
-    offset: 93432
-    sourceAssetGUID: 321d610a2d7cfee41a2a0a0b49cd774d
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/pig-nose/source/pigNose.fbx
+    packedSize: 864
+    offset: 117504
+    sourceAssetGUID: abf70ed82fc2ebf4c9b510478b549045
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/Materials/TFF_Atlas_1A_D.mat
   - fileID: 6
     classID: 21
-    packedSize: 1052
-    offset: 94328
-    sourceAssetGUID: 0000000000000000f000000000000000
-    buildTimeAssetPath: Resources/unity_builtin_extra
+    packedSize: 1232
+    offset: 118368
+    sourceAssetGUID: 6841bfcb9852f474ab2fb5995ef5c6b3
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/Materials/TFF_Atlas_Lights_1A_D.mat
   - fileID: 7
     classID: 21
-    packedSize: 252
-    offset: 95384
-    sourceAssetGUID: 0000000000000000f000000000000000
-    buildTimeAssetPath: Resources/unity_builtin_extra
+    packedSize: 748
+    offset: 119600
+    sourceAssetGUID: 8e5f32b8cf9df8c42ab6df03c2f2d632
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/Materials/TFF_Atlas_Vegetation_1A_D.mat
   - fileID: 8
     classID: 21
-    packedSize: 1012
-    offset: 95640
-    sourceAssetGUID: 07f10b3edb1500149ac678d91de17a04
-    buildTimeAssetPath: Assets/Crypt Dungeon Environment/Rooms/Crypt/Materials/chandellier.mat
+    packedSize: 952
+    offset: 120352
+    sourceAssetGUID: f33739e7534aaaf4e8051fe2902951ef
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/Materials/TFF_Flower_Patch_01A.mat
   - fileID: 9
     classID: 21
-    packedSize: 996
-    offset: 96656
-    sourceAssetGUID: aec62db37b39d744f9729ef92dde58d7
-    buildTimeAssetPath: Assets/Crypt Dungeon Environment/Rooms/Crypt/Materials/pillar.mat
+    packedSize: 952
+    offset: 121304
+    sourceAssetGUID: a4c7e13cfe432d44baaf69ca8cd3fe0d
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/Materials/TFF_Flower_Patch_01B.mat
   - fileID: 10
     classID: 21
-    packedSize: 992
-    offset: 97656
-    sourceAssetGUID: 264223b08861d0d4e9515c2270cb83d6
-    buildTimeAssetPath: Assets/Crypt Dungeon Environment/Rooms/Crypt/Materials/roof.mat
+    packedSize: 952
+    offset: 122256
+    sourceAssetGUID: 6448bc4d062e8ff4782e38a7d8baf1dd
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/Materials/TFF_Flower_Patch_01C.mat
   - fileID: 11
     classID: 21
-    packedSize: 920
-    offset: 98648
-    sourceAssetGUID: 809aa5af4003a5340a9ab7b3b8a228b6
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/Cowboy-hat/Materials/M_Hat_1.mat
+    packedSize: 952
+    offset: 123208
+    sourceAssetGUID: 92accb8e7887fee428fc5051c1e370ee
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/Materials/TFF_Flower_Patch_01D.mat
   - fileID: 12
     classID: 21
-    packedSize: 896
-    offset: 99568
-    sourceAssetGUID: 71a7737cded596849ad70f1cedd92ef7
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/Empty-chair/Materials/chFolding.A2.mat
+    packedSize: 952
+    offset: 124160
+    sourceAssetGUID: 8fd27bdaa55f67f45a05b1c2d5aa0e8f
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/Materials/TFF_Flower_Patch_01E.mat
   - fileID: 13
     classID: 21
-    packedSize: 912
-    offset: 100464
-    sourceAssetGUID: 60392938b20605e46b5ca32957fa451d
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/Knife/Asset/Materials/SteelDagger_Material_1024.mat
+    packedSize: 952
+    offset: 125112
+    sourceAssetGUID: d76cf98ae4f99924d94024277517821f
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/Materials/TFF_Flower_Patch_02A.mat
   - fileID: 14
     classID: 21
-    packedSize: 168
-    offset: 101376
-    sourceAssetGUID: b625c3fa83032b8419fb3b09a9071764
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/Shelf/Materials/shelf.mat
+    packedSize: 964
+    offset: 126064
+    sourceAssetGUID: 75e9f4706d18f104580d5ad30f56e376
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/Materials/TFF_Grass_Patch_01A.mat
   - fileID: 15
     classID: 21
-    packedSize: 148
-    offset: 101544
-    sourceAssetGUID: 1035394dba39c5b41a002d49c4b0cb88
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/Spider/Materials/spider_01.mat
+    packedSize: 980
+    offset: 127032
+    sourceAssetGUID: 7c7a6fcf27667bd408e4a8e2356e183d
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/Materials/TFF_Grass_Patch_01B.mat
   - fileID: 16
     classID: 21
-    packedSize: 892
-    offset: 101696
-    sourceAssetGUID: 0e02992209077054d8500806c8373d19
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/Umbrella/Materials/Umbrella.mat
+    packedSize: 980
+    offset: 128016
+    sourceAssetGUID: 1f2f2697b9310e44ea398106d58541ef
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/Materials/TFF_Grass_Patch_01C.mat
   - fileID: 17
     classID: 21
     packedSize: 932
-    offset: 102592
-    sourceAssetGUID: 9fdb5531bdf185e448dd06dfa8192f8d
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/Zombie/Materials/Zombie.mat
+    offset: 129000
+    sourceAssetGUID: c937e7fb5816b6a49ba6d003ce761742
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/Materials/TFF_Grass_Patch_02A.mat
   - fileID: 18
     classID: 21
-    packedSize: 936
-    offset: 103528
-    sourceAssetGUID: 89c210836c98a4d67b92ce9b1487ef85
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/bear/Materials/Fur.mat
+    packedSize: 932
+    offset: 129936
+    sourceAssetGUID: 8cf2bc36191a8274cb511c25b62d0f2c
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/Materials/TFF_Grass_Patch_02B.mat
   - fileID: 19
     classID: 21
-    packedSize: 888
-    offset: 104464
-    sourceAssetGUID: c528da8d987a91a4b97a394602d74aaa
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/pig-nose/Materials/pink.mat
+    packedSize: 932
+    offset: 130872
+    sourceAssetGUID: 8744c0b47ee9c014b9f9724943c67618
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/Materials/TFF_Grass_Patch_02C.mat
   - fileID: 20
     classID: 21
-    packedSize: 892
-    offset: 105352
-    sourceAssetGUID: 86fc45e6cfe808a4c9a620de63910398
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/plush-unicorn/textures/Unicorn.mat
+    packedSize: 932
+    offset: 131808
+    sourceAssetGUID: 8e9de7817eb5f6b44a14ac9c2cc20b26
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/Materials/TFF_Grass_Patch_02D.mat
   - fileID: 21
     classID: 21
-    packedSize: 888
-    offset: 106248
-    sourceAssetGUID: eb5c04a14f65f8645a099f5c392366b1
-    buildTimeAssetPath: Assets/Materials/Gray.mat
+    packedSize: 880
+    offset: 132744
+    sourceAssetGUID: c46a2b5fa5a09bb4888f9e49d427998d
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/Materials/TFF_Water_01A.mat
   - fileID: 22
     classID: 21
-    packedSize: 932
-    offset: 107136
-    sourceAssetGUID: 50a1abf55d731b84699250226ff25ce7
-    buildTimeAssetPath: Assets/MedievalTavernPack/Material/Furniture/Table_01.mat
+    packedSize: 1192
+    offset: 133624
+    sourceAssetGUID: 04874e7b2bffb06458bab8acf9165896
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Particles/Materials/TFF_Ember_01A.mat
   - fileID: 23
     classID: 21
-    packedSize: 900
-    offset: 108072
-    sourceAssetGUID: 770d874acb2e37f4dbb0943d5ef8a660
-    buildTimeAssetPath: Assets/StylizedHandPaintedDungeon(Free)/Materials/Dungeon_Mat_01.mat
+    packedSize: 1188
+    offset: 134816
+    sourceAssetGUID: 860d177ae82069b4480fa4cc95a5ed8c
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Particles/Materials/TFF_Smoke_01A.mat
   - fileID: 24
     classID: 21
-    packedSize: 900
-    offset: 108976
-    sourceAssetGUID: 2e701f9d6b8aa304c93f2af59c1ee5d9
-    buildTimeAssetPath: Assets/StylizedHandPaintedDungeon(Free)/Materials/Dungeon_Mat_02.mat
+    packedSize: 528
+    offset: 136008
+    sourceAssetGUID: 8f05c5b4bcfd20646a814da0b5c9a455
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Particles/Materials/TFF_Sun_Shaft_01A.mat
   - fileID: 25
     classID: 21
-    packedSize: 892
-    offset: 109880
-    sourceAssetGUID: 99f7ea0146bcbb64d97a8468253bb347
-    buildTimeAssetPath: Packages/com.vrchat.worlds/Samples/UdonExampleScene/Materials/CubeMat2.mat
+    packedSize: 596
+    offset: 136536
+    sourceAssetGUID: 96a0b30b82ba10348b24d1d31c8c78ad
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Particles/Materials/TFF_Toon_Fire.mat
   - fileID: 26
     classID: 21
-    packedSize: 932
-    offset: 110776
-    sourceAssetGUID: 1c987494452b85f4ab4cac3322415907
-    buildTimeAssetPath: Packages/com.vrchat.worlds/Samples/UdonExampleScene/SampleAssetsSet/Materials/SampleAssets_matte.mat
+    packedSize: 1084
+    offset: 137136
+    sourceAssetGUID: 9873fbde6fe03504a9da2612241c5d71
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Skyboxes/TFF_Skybox_Day_01A.mat
   - fileID: 27
-    classID: 21
-    packedSize: 896
-    offset: 111712
-    sourceAssetGUID: c32c84bacf0172d4b81d4c72a1df1f86
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/aviator-sunglasses/source/Aviaattorit.fbx
+    classID: 28
+    packedSize: 5592552
+    offset: 138224
+    sourceAssetGUID: 038c56af2090de54d8aa879268abf1c3
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Terrain/TFF_Terrain_Earth_3A_D.tif
   - fileID: 28
-    classID: 21
-    packedSize: 900
-    offset: 112608
-    sourceAssetGUID: c32c84bacf0172d4b81d4c72a1df1f86
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/aviator-sunglasses/source/Aviaattorit.fbx
+    classID: 28
+    packedSize: 4194404
+    offset: 5730776
+    sourceAssetGUID: 03a469b770a79bf408aed14da3560e26
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Skyboxes/Textures/Day_1/px.png
   - fileID: 29
-    classID: 21
-    packedSize: 896
-    offset: 113512
-    sourceAssetGUID: c32c84bacf0172d4b81d4c72a1df1f86
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/aviator-sunglasses/source/Aviaattorit.fbx
+    classID: 28
+    packedSize: 262252
+    offset: 9925184
+    sourceAssetGUID: 1107fb1c60b1cbe40b0dc1a2684c79a8
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Textures/TFF_Noise_3.psd
   - fileID: 30
     classID: 28
-    packedSize: 2796332
-    offset: 114408
-    sourceAssetGUID: 02b1ae709baffd24abde33fdc77f96fb
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/plush-unicorn/textures/Plush_Unicorn_Rough.png
+    packedSize: 4194404
+    offset: 10187440
+    sourceAssetGUID: 3120ca9ed378972499eb4bdb92c4ae73
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Skyboxes/Textures/Day_1/nz.png
   - fileID: 31
     classID: 28
-    packedSize: 1398260
-    offset: 2910744
-    sourceAssetGUID: 034cf917fe99b5344bc2192d34a1768a
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/Knife/Asset/Textures/1024/steeldagger_1024_MetallicSmoothness.png
+    packedSize: 1048696
+    offset: 14381848
+    sourceAssetGUID: 31e1e361d493e7f4683ef681e743210b
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Textures/TFF_Atlas_Lights_1A_D.psd
   - fileID: 32
     classID: 28
-    packedSize: 2796320
-    offset: 4309008
-    sourceAssetGUID: 058242927e9494cc18c31d1afd80f95c
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/bear/textures/Image_0.png
+    packedSize: 174892
+    offset: 15430544
+    sourceAssetGUID: 3bcbac575aa9acc4199254e4388b37a0
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Particles/Textures/TFF_Sun_Shaft_01A_D.psd
   - fileID: 33
     classID: 28
-    packedSize: 2097268
-    offset: 7105328
-    sourceAssetGUID: 1084372875829164882c05b7f7f0714f
-    buildTimeAssetPath: Assets/StylizedHandPaintedDungeon(Free)/Textures/Dungeon_02_Emission.tga
+    packedSize: 5592552
+    offset: 15605440
+    sourceAssetGUID: 40b05e1edee0066469adff5ca1723217
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Terrain/TFF_Terrain_Earth_1A_D.tif
   - fileID: 34
     classID: 28
-    packedSize: 2796332
-    offset: 9202600
-    sourceAssetGUID: 161599fd49ad21a4c86449479ee47078
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/plush-unicorn/textures/Plush_Unicorn_Base.png
+    packedSize: 349660
+    offset: 21197992
+    sourceAssetGUID: 41d01fe6e8db970449385e7f43d4aa06
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Textures/TFF_Noise_2.tga
   - fileID: 35
     classID: 28
-    packedSize: 22369760
-    offset: 11998936
-    sourceAssetGUID: 28eb3390577849b46bb0a63b13c1892f
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/Cowboy-hat/Texture_Hat_man1/T_Hat_Albedo
-      1.tga
+    packedSize: 262260
+    offset: 21547656
+    sourceAssetGUID: 43bc73bb2a15a8547b52bdcbb9cb6922
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Textures/TFF_Grass_Patch_02C.tif
   - fileID: 36
     classID: 28
-    packedSize: 2097268
-    offset: 34368696
-    sourceAssetGUID: 2ad5769c41feb7749a077e020ed56acb
-    buildTimeAssetPath: Assets/StylizedHandPaintedDungeon(Free)/Textures/Dungeon_02_Diffuse.tga
+    packedSize: 5592552
+    offset: 21809920
+    sourceAssetGUID: 48760bf563ac2e5499b609e4eeb06100
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Terrain/TFF_Terrain_Earth_2A_D.tif
   - fileID: 37
     classID: 28
-    packedSize: 1398240
-    offset: 36465968
-    sourceAssetGUID: 33de7c829c3a0224c8975ad93b61b05e
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/Zombie/Textures/Zombie_metallic.tga
+    packedSize: 4194428
+    offset: 27402472
+    sourceAssetGUID: 4b71b8645d49baf4f9f7c2b20f1564fd
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Textures/TFF_Atlas_Vegetation_1A_D.psd
   - fileID: 38
     classID: 28
-    packedSize: 2796328
-    offset: 37864208
-    sourceAssetGUID: 39073001fed7c8a4abbc392a70ace9e0
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/Empty-chair/Textures/chFolding.A2_AO.png
+    packedSize: 5592556
+    offset: 31596904
+    sourceAssetGUID: 4ca2e0774ed02284bb6a2d4d4b06b0f3
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Terrain/TFF_Terrain_Dirt_Road_1A_D.tif
   - fileID: 39
     classID: 28
-    packedSize: 2796348
-    offset: 40660536
-    sourceAssetGUID: 3b8e838294553f8479afabc06929aaf2
-    buildTimeAssetPath: Assets/Crypt Dungeon Environment/Rooms/Crypt/Textures/crypt_chandelier_lambert2_Emissive.png
+    packedSize: 43816
+    offset: 37189464
+    sourceAssetGUID: 5d3f7343487f9c4458a6218ed448fdd4
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Particles/Textures/TFF_Ember_01A.psd
   - fileID: 40
     classID: 28
-    packedSize: 174880
-    offset: 43456888
-    sourceAssetGUID: 4554793a1aa429449a71dafdacd308c7
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/Shelf/shelf_D.tga
+    packedSize: 349668
+    offset: 37233280
+    sourceAssetGUID: 6983655b1d3da8a4595782a6a5a85f81
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Textures/TFF_Flower_Patch_02A.tif
   - fileID: 41
     classID: 28
-    packedSize: 5592548
-    offset: 43631768
-    sourceAssetGUID: 46f382415948bfb469c68a65a7389508
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/plush-unicorn/textures/Plush_Unicorn_Normal.png
+    packedSize: 5592552
+    offset: 37582952
+    sourceAssetGUID: 69d54a83d5986774eb5b8a0a062f4762
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Terrain/TFF_Terrain_Grass_2A_D.tif
   - fileID: 42
     classID: 28
-    packedSize: 2796328
-    offset: 49224320
-    sourceAssetGUID: 48c8b1fe28279d542bddc6bf2703324b
-    buildTimeAssetPath: Assets/MedievalTavernPack/Textures/Furniture/table_01_ALBEDO.png
+    packedSize: 349668
+    offset: 43175504
+    sourceAssetGUID: 6dfac5936eac3a1488110f915102ee4b
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Textures/TFF_Flower_Patch_01C.tif
   - fileID: 43
     classID: 28
-    packedSize: 1398268
-    offset: 52020648
-    sourceAssetGUID: 4ba9f24739c8721499ae85110ba2157d
-    buildTimeAssetPath: Packages/com.vrchat.worlds/Samples/UdonExampleScene/SampleAssetsSet/Textures/texture_matte/SampleAssetsSet_V1_phong1_MetallicSmoothness.png
+    packedSize: 65652
+    offset: 43525176
+    sourceAssetGUID: 6f1976b262bf3224a82eca3e872fb819
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Textures/TFF_Gradient_Mask_1.psd
   - fileID: 44
     classID: 28
-    packedSize: 699172
-    offset: 53418920
-    sourceAssetGUID: 4ef3438267568cd40b87841c3e2c22c5
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/Zombie/Textures/Zombie_ao.png
+    packedSize: 4194404
+    offset: 43590832
+    sourceAssetGUID: 6f9860211d3aa6049b7ba4df5d61f758
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Skyboxes/Textures/Day_1/pz.png
   - fileID: 45
     classID: 28
-    packedSize: 11184940
-    offset: 54118096
-    sourceAssetGUID: 4ff8caba85aa6c84cbf4a3e90cb7aaf2
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/Cowboy-hat/Texture_Hat_man1/T_Hat_Occlusion
-      1.tga
+    packedSize: 349664
+    offset: 47785240
+    sourceAssetGUID: 7249e673f1ee4ea4d939ad102936e9fd
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Particles/Textures/TFF_Smoke_01A.psd
   - fileID: 46
     classID: 28
-    packedSize: 2796328
-    offset: 65303040
-    sourceAssetGUID: 55e3dc4520645574a82755d9597becfb
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/Empty-chair/Textures/chFolding.A2_D.png
+    packedSize: 699176
+    offset: 48134904
+    sourceAssetGUID: 7868cfb9ed44d16498ff847c13b758d0
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Textures/TFF_Atlas_1A_D.psd
   - fileID: 47
     classID: 28
-    packedSize: 2097268
-    offset: 68099368
-    sourceAssetGUID: 580463794dc1de446a571eb88be93bff
-    buildTimeAssetPath: Assets/StylizedHandPaintedDungeon(Free)/Textures/Dungeon_01_Diffuse.tga
+    packedSize: 5592552
+    offset: 48834080
+    sourceAssetGUID: 93526ec4d8a4ffd4081db47c602ba856
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Terrain/TFF_Terrain_Dirt_1A_D.tif
   - fileID: 48
     classID: 28
-    packedSize: 2796344
-    offset: 70196640
-    sourceAssetGUID: 5a6d5803c4f06c249a36d58134fa824a
-    buildTimeAssetPath: Assets/Crypt Dungeon Environment/Rooms/Crypt/Textures/crypt_chandelier_lambert2_Height.png
+    packedSize: 262260
+    offset: 54426632
+    sourceAssetGUID: 97eb4f18afa31214998ad9abfd5e3c3e
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Textures/TFF_Grass_Patch_02A.tif
   - fileID: 49
     classID: 28
-    packedSize: 1398256
-    offset: 72992984
-    sourceAssetGUID: 5e07d6e71c9ed3f409237935b1c7a96e
-    buildTimeAssetPath: Packages/com.vrchat.worlds/Samples/UdonExampleScene/SampleAssetsSet/Textures/texture_matte/SampleAssetsSet_V1_phong1_Normal.png
+    packedSize: 4194404
+    offset: 54688896
+    sourceAssetGUID: a689b5dd8ce55664ab5503dc665b862f
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Skyboxes/Textures/Day_1/py.png
   - fileID: 50
     classID: 28
-    packedSize: 699168
-    offset: 74391240
-    sourceAssetGUID: 6291fbf5d0e7c4642ad863eaf8b60622
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/Zombie/Textures/Zombie.tga
+    packedSize: 4194404
+    offset: 58883304
+    sourceAssetGUID: bb84516b3df40f24e8c6b6916011a8c8
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Skyboxes/Textures/Day_1/ny.png
   - fileID: 51
     classID: 28
-    packedSize: 2796340
-    offset: 75090408
-    sourceAssetGUID: 641fa6e59d592a64c98330ca49c2506d
-    buildTimeAssetPath: Assets/Crypt Dungeon Environment/Rooms/Crypt/Textures/crypt_roof_lambert1_Metallic.png
+    packedSize: 174884
+    offset: 63077712
+    sourceAssetGUID: bdca5e9a5f4be924782b84af1614d624
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Textures/TFF_Noise_1.psd
   - fileID: 52
     classID: 28
-    packedSize: 5592556
-    offset: 77886752
-    sourceAssetGUID: 672979968572af449a1d001a8a5e111c
-    buildTimeAssetPath: Assets/Crypt Dungeon Environment/Rooms/Crypt/Textures/crypt_roof_lambert1_Normal.png
+    packedSize: 632
+    offset: 63252600
+    sourceAssetGUID: c19f7ff6a74893e4fa49b569cd1141b5
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Textures/TFF_Toon_Ramp_1B.psd
   - fileID: 53
     classID: 28
-    packedSize: 2796348
-    offset: 83479312
-    sourceAssetGUID: 6de258f57a7dbbf499a88888b7dfd90a
-    buildTimeAssetPath: Assets/Crypt Dungeon Environment/Rooms/Crypt/Textures/crypt_chandelier_lambert2_Roughness.png
+    packedSize: 262260
+    offset: 63253232
+    sourceAssetGUID: cc7e7bd6e8649344dbadd965a58f1123
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Textures/TFF_Grass_Patch_01A.tif
   - fileID: 54
     classID: 28
-    packedSize: 2796344
-    offset: 86275664
-    sourceAssetGUID: 715ac47d8578e954f86331506b672adf
-    buildTimeAssetPath: Assets/Crypt Dungeon Environment/Rooms/Crypt/Textures/crypt_roof_lambert1_Roughness.png
+    packedSize: 4194404
+    offset: 63515496
+    sourceAssetGUID: ce16faab0c2335348a2a20ea442feb3c
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Skyboxes/Textures/Day_1/nx.png
   - fileID: 55
     classID: 28
-    packedSize: 5592544
-    offset: 89072008
-    sourceAssetGUID: 7d49892fa19495841b10bcbc8a63dc5e
-    buildTimeAssetPath: Assets/MedievalTavernPack/Textures/Furniture/table_01_NORMAL.png
+    packedSize: 349668
+    offset: 67709904
+    sourceAssetGUID: d83f5cde804214041a8e8e3f6f3feecf
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Textures/TFF_Flower_Patch_01A.tif
   - fileID: 56
     classID: 28
-    packedSize: 2796348
-    offset: 94664552
-    sourceAssetGUID: 8930dc110c157fb45899553f2d5130b4
-    buildTimeAssetPath: Assets/Crypt Dungeon Environment/Rooms/Crypt/Textures/crypt_chandelier_lambert2_BaseColor.png
+    packedSize: 5592548
+    offset: 68059576
+    sourceAssetGUID: db76e0ea49f14f147bee066871c70d88
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Textures/TFF_Water_Normal_1.png
   - fileID: 57
     classID: 28
-    packedSize: 2796344
-    offset: 97460904
-    sourceAssetGUID: 8c05b699eaed2a5458844a9fe951c2ce
-    buildTimeAssetPath: Assets/Crypt Dungeon Environment/Rooms/Crypt/Textures/crypt_roof_lambert1_BaseColor.png
+    packedSize: 349668
+    offset: 73652128
+    sourceAssetGUID: e384afba2a6962148bd98ae341e6ebf9
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Textures/TFF_Flower_Patch_01B.tif
   - fileID: 58
     classID: 28
-    packedSize: 2796344
-    offset: 100257248
-    sourceAssetGUID: 8d681ee6cd53da24599912c2d2d51df1
-    buildTimeAssetPath: Assets/Crypt Dungeon Environment/Rooms/Crypt/Textures/crypt_pillar_lambert1_BaseColor.png
+    packedSize: 1398208
+    offset: 74001800
+    sourceAssetGUID: 8615ed62ea1471d4483d84898f8646cb
+    buildTimeAssetPath: Assets/LakeTerrain.asset
   - fileID: 59
     classID: 28
-    packedSize: 349656
-    offset: 103053592
-    sourceAssetGUID: 9a592c92b8fb08949836f0771f6bd0aa
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/Shelf/shelf_N.tga
+    packedSize: 1398208
+    offset: 75400008
+    sourceAssetGUID: 8615ed62ea1471d4483d84898f8646cb
+    buildTimeAssetPath: Assets/LakeTerrain.asset
   - fileID: 60
-    classID: 28
-    packedSize: 1398236
-    offset: 103403248
-    sourceAssetGUID: a42cd0073eaab6c45beaf0dc0b6747f8
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/Spider/spider_01.tga
+    classID: 43
+    packedSize: 20208
+    offset: 76798216
+    sourceAssetGUID: 000ead5fc7f8bf7409acce37d63d4d22
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Wooden_Chair_01B.fbx
   - fileID: 61
-    classID: 28
-    packedSize: 5592544
-    offset: 104801488
-    sourceAssetGUID: a9c07e24072c8a44e897a77f52c833d3
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/Empty-chair/Textures/chFolding.A2_M.psd
+    classID: 43
+    packedSize: 28936
+    offset: 76818424
+    sourceAssetGUID: 00a37b87e52db3540b99b75644004f08
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Bush_01A_LOD_1.fbx
   - fileID: 62
-    classID: 28
-    packedSize: 2796356
-    offset: 110394032
-    sourceAssetGUID: ab4e1feb84159f146bd1666598bad003
-    buildTimeAssetPath: Packages/com.vrchat.worlds/Samples/UdonExampleScene/SampleAssetsSet/Textures/texture_matte/SampleAssetsSet_V1_phong1_AlbedoTransparency.png
+    classID: 43
+    packedSize: 880
+    offset: 76847360
+    sourceAssetGUID: 035f403eaed148247a84503821c53025
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Flower_01B.fbx
   - fileID: 63
-    classID: 28
-    packedSize: 2796340
-    offset: 113190392
-    sourceAssetGUID: b16630112d2a6c74eab2950405e74aaa
-    buildTimeAssetPath: Assets/Crypt Dungeon Environment/Rooms/Crypt/Textures/crypt_roof_lambert1_Height.png
+    classID: 43
+    packedSize: 55560
+    offset: 76848240
+    sourceAssetGUID: 084aacf86c9aa6c45a58bd1af4434897
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Rock_Medium_03A.fbx
   - fileID: 64
-    classID: 28
-    packedSize: 5592556
-    offset: 115986736
-    sourceAssetGUID: b3bff9e94a2f1394191ecf147f6b2ac7
-    buildTimeAssetPath: Assets/Crypt Dungeon Environment/Rooms/Crypt/Textures/crypt_pillar_lambert1_Normal.png
+    classID: 43
+    packedSize: 4508
+    offset: 76903800
+    sourceAssetGUID: 0885c858afd712f4dadf3bbedf2a8918
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Mushrooms_10A.fbx
   - fileID: 65
-    classID: 28
-    packedSize: 699196
-    offset: 121579296
-    sourceAssetGUID: b5f741d2b9cddd342b07cab73156ef78
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/Knife/Asset/Textures/1024/steeldagger_1024_AlbedoTransparency.png
+    classID: 43
+    packedSize: 52080
+    offset: 76908312
+    sourceAssetGUID: 0a15779f3e9a2534384bb350d7ffbbd1
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Tree_Log_03A.fbx
   - fileID: 66
-    classID: 28
-    packedSize: 22369760
-    offset: 122278496
-    sourceAssetGUID: b92227c15d8f3eb429627b0d164b8987
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/Cowboy-hat/Texture_Hat_man1/T_Hat_Normal
-      1.tga
+    classID: 43
+    packedSize: 8460
+    offset: 76960392
+    sourceAssetGUID: 0ab2f64b6745e764bb29fb276c65b859
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Rock_Small_02A.fbx
   - fileID: 67
-    classID: 28
-    packedSize: 2796344
-    offset: 144648256
-    sourceAssetGUID: bfbc72129a32a114eb1ab22a1a44b75d
-    buildTimeAssetPath: Assets/Crypt Dungeon Environment/Rooms/Crypt/Textures/crypt_pillar_lambert1_Roughness.png
+    classID: 43
+    packedSize: 6592
+    offset: 76968856
+    sourceAssetGUID: 0ac048cdb1adbf04f84ae569272d092e
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Twigs_01A.fbx
   - fileID: 68
-    classID: 28
-    packedSize: 22369760
-    offset: 147444600
-    sourceAssetGUID: c027ed864644db7468caf8c6168c0b67
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/Cowboy-hat/Texture_Hat_man1/T_Hat_Metallic
-      1.tga
+    classID: 43
+    packedSize: 297672
+    offset: 76975448
+    sourceAssetGUID: 0ce31edef87e40d469349304a7adf799
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Birch_Tree_01A.fbx
   - fileID: 69
-    classID: 28
-    packedSize: 174900
-    offset: 169814360
-    sourceAssetGUID: c44c7925f0c9ca7479cbd7aa215d828a
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/plush-unicorn/textures/internal_ground_ao_texture.jpeg
+    classID: 43
+    packedSize: 9756
+    offset: 77273120
+    sourceAssetGUID: 0dd8c53639e814e49a71422e032cd458
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Wooden_Pole_01A.fbx
   - fileID: 70
-    classID: 28
-    packedSize: 2796348
-    offset: 169989264
-    sourceAssetGUID: c62e16ef07d4e9b4ebdabeff481cf37f
-    buildTimeAssetPath: Assets/Crypt Dungeon Environment/Rooms/Crypt/Textures/crypt_chandelier_lambert2_Metallic.png
+    classID: 43
+    packedSize: 880
+    offset: 77282880
+    sourceAssetGUID: 0e835724ebbc101488c793e70956f0cf
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Flower_01A.fbx
   - fileID: 71
-    classID: 28
-    packedSize: 699176
-    offset: 172785616
-    sourceAssetGUID: d681134af7b3e50479d8d90effa0e1eb
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/Zombie/Textures/zombie_emission.tga
+    classID: 43
+    packedSize: 4124
+    offset: 77283760
+    sourceAssetGUID: 11e253602f5c91345b33916f65ae0a23
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/Colliders/TFF_Rock_Medium_01A_MeshCollider.fbx
   - fileID: 72
-    classID: 28
-    packedSize: 1398236
-    offset: 173484792
-    sourceAssetGUID: decb53c07686cc94b860f8e04d438d22
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/Zombie/Textures/Zombie_nm.png
+    classID: 43
+    packedSize: 12816
+    offset: 77287888
+    sourceAssetGUID: 11f0d59fd1fb95342b7bc194d16fd641
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Lotus_Flower_02B.fbx
   - fileID: 73
-    classID: 28
-    packedSize: 2796344
-    offset: 174883032
-    sourceAssetGUID: df57d99482fe16e439a9588f50478cd6
-    buildTimeAssetPath: Assets/Crypt Dungeon Environment/Rooms/Crypt/Textures/crypt_pillar_lambert1_Metallic.png
+    classID: 43
+    packedSize: 42892
+    offset: 77300704
+    sourceAssetGUID: 12067aa4e2b2f924da1cec9eb911ce5b
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Bush_03C_LOD_1.fbx
   - fileID: 74
-    classID: 28
-    packedSize: 5592544
-    offset: 177679376
-    sourceAssetGUID: e3b012f79221ad04ca6a13a41bb9a00e
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/Empty-chair/Textures/chFolding.A2_N.png
+    classID: 43
+    packedSize: 12816
+    offset: 77343600
+    sourceAssetGUID: 1255a37089fc1d841ad61e337f7056e2
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Lotus_Flower_02A.fbx
   - fileID: 75
-    classID: 28
-    packedSize: 2796340
-    offset: 183271920
-    sourceAssetGUID: e6a394cca72b3314c96ec51dc5c31d9c
-    buildTimeAssetPath: Assets/Crypt Dungeon Environment/Rooms/Crypt/Textures/crypt_pillar_lambert1_Height.png
+    classID: 43
+    packedSize: 136624
+    offset: 77356416
+    sourceAssetGUID: 129e04987a348d648b8cc0888eaa46aa
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Aspen_Tree_01A_LOD_2.fbx
   - fileID: 76
-    classID: 28
-    packedSize: 5592560
-    offset: 186068264
-    sourceAssetGUID: ebcc675eea4948345af517f181555137
-    buildTimeAssetPath: Assets/Crypt Dungeon Environment/Rooms/Crypt/Textures/crypt_chandelier_lambert2_Normal.png
+    classID: 43
+    packedSize: 225020
+    offset: 77493040
+    sourceAssetGUID: 13dc5ed5d6ea49042b7be0336b125c0c
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Aspen_Tree_02A.fbx
   - fileID: 77
-    classID: 28
-    packedSize: 1398248
-    offset: 191660824
-    sourceAssetGUID: f39e0a2aed20b6e4eafd0a8a8a4c9471
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/Knife/Asset/Textures/1024/steeldagger_1024_Normal.png
+    classID: 43
+    packedSize: 92444
+    offset: 77718064
+    sourceAssetGUID: 16991578ab7748640ac55587a48418c0
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Vine_01C.fbx
   - fileID: 78
     classID: 43
-    packedSize: 16056
-    offset: 193059072
-    sourceAssetGUID: 8f7380da49034cd488ddff94b1ac35d1
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/Zombie/FBXs/Zombie1.FBX
+    packedSize: 5520
+    offset: 77810512
+    sourceAssetGUID: 194f4b27f7377a744b24ffb79aed63c9
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Water_LillY_Leaf_02A.fbx
   - fileID: 79
     classID: 43
-    packedSize: 23176
-    offset: 193075128
-    sourceAssetGUID: 8f7380da49034cd488ddff94b1ac35d1
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/Zombie/FBXs/Zombie1.FBX
+    packedSize: 71212
+    offset: 77816032
+    sourceAssetGUID: 19fb4b9752f375a4e81486a621cced44
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Vine_01C_LOD_1.fbx
   - fileID: 80
     classID: 43
-    packedSize: 23160
-    offset: 193098304
-    sourceAssetGUID: 04f94d26703fd274e924f2d263cc1cf3
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/Umbrella/uploads_files_3692147_Umbrella.FBX
+    packedSize: 13756
+    offset: 77887248
+    sourceAssetGUID: 1c0c06caf0f99584bab1fa09db23f125
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Branch_Fallen_01A.fbx
   - fileID: 81
     classID: 43
-    packedSize: 9208
-    offset: 193121464
-    sourceAssetGUID: 8f7380da49034cd488ddff94b1ac35d1
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/Zombie/FBXs/Zombie1.FBX
+    packedSize: 5040
+    offset: 77901008
+    sourceAssetGUID: 1c4ad66452fd4054d82e527ff6d652ab
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Mushrooms_16A.fbx
   - fileID: 82
     classID: 43
-    packedSize: 12044
-    offset: 193130672
-    sourceAssetGUID: 8f7380da49034cd488ddff94b1ac35d1
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/Zombie/FBXs/Zombie1.FBX
+    packedSize: 22172
+    offset: 77906048
+    sourceAssetGUID: 1d4884484d9c7e8429fd1ff4fb1c9c49
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Wooden_Fence_01A.fbx
   - fileID: 83
     classID: 43
-    packedSize: 758428
-    offset: 193142720
-    sourceAssetGUID: 04f94d26703fd274e924f2d263cc1cf3
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/Umbrella/uploads_files_3692147_Umbrella.FBX
+    packedSize: 16820
+    offset: 77928224
+    sourceAssetGUID: 209d56a384547db45b6aa63a2cbe00ae
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Branch_Fallen_02B.fbx
   - fileID: 84
     classID: 43
-    packedSize: 97512
-    offset: 193901152
-    sourceAssetGUID: 8f7380da49034cd488ddff94b1ac35d1
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/Zombie/FBXs/Zombie1.FBX
+    packedSize: 201580
+    offset: 77945048
+    sourceAssetGUID: 20c1d518f05501a47880ded08ac4891b
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Rock_Large_06A_LOD_1.fbx
   - fileID: 85
     classID: 43
-    packedSize: 15820
-    offset: 193998664
-    sourceAssetGUID: 8f7380da49034cd488ddff94b1ac35d1
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/Zombie/FBXs/Zombie1.FBX
+    packedSize: 32636
+    offset: 78146632
+    sourceAssetGUID: 220ecc14a24ada64aa9768ba5c333296
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Tree_Log_02B.fbx
   - fileID: 86
     classID: 43
-    packedSize: 22404
-    offset: 194014488
-    sourceAssetGUID: 8f7380da49034cd488ddff94b1ac35d1
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/Zombie/FBXs/Zombie1.FBX
+    packedSize: 98336
+    offset: 78179272
+    sourceAssetGUID: 2288bfa3830b05343aec2bdf372ff06c
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Aspen_Tree_03A_LOD_1.fbx
   - fileID: 87
     classID: 43
-    packedSize: 293684
-    offset: 194036896
-    sourceAssetGUID: 04f94d26703fd274e924f2d263cc1cf3
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/Umbrella/uploads_files_3692147_Umbrella.FBX
+    packedSize: 280440
+    offset: 78277608
+    sourceAssetGUID: 238788a73439dbb438b0806b82b82daa
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Oak_Tree_01A_LOD_1.fbx
   - fileID: 88
     classID: 43
-    packedSize: 42036
-    offset: 194330584
-    sourceAssetGUID: 321d610a2d7cfee41a2a0a0b49cd774d
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/pig-nose/source/pigNose.fbx
+    packedSize: 33640
+    offset: 78558048
+    sourceAssetGUID: 2450c3f03dafc4d4996a7ae8061511cd
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Gas_Lamp_01A.fbx
   - fileID: 89
     classID: 43
-    packedSize: 639004
-    offset: 194372624
-    sourceAssetGUID: bce88a95bf5bc44fd8beceda454f28ce
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/bear/source/bear1untitled.fbx
+    packedSize: 143320
+    offset: 78591688
+    sourceAssetGUID: 27c026a5ad3f2fc41ac31beeaf223e66
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Rock_Large_03A.fbx
   - fileID: 90
     classID: 43
-    packedSize: 91888
-    offset: 195011632
-    sourceAssetGUID: 321d610a2d7cfee41a2a0a0b49cd774d
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/pig-nose/source/pigNose.fbx
+    packedSize: 42892
+    offset: 78735008
+    sourceAssetGUID: 29eedac356c8b7840b5630c88994a379
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Bush_03D_LOD_1.fbx
   - fileID: 91
     classID: 43
-    packedSize: 14228
-    offset: 195103520
-    sourceAssetGUID: 8f7380da49034cd488ddff94b1ac35d1
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/Zombie/FBXs/Zombie1.FBX
+    packedSize: 4048
+    offset: 78777904
+    sourceAssetGUID: 2ac1488f3f799a545be5a099ce80372b
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/Colliders/TFF_Tree_Fallen_01A_MeshCollider.fbx
   - fileID: 92
     classID: 43
-    packedSize: 40128
-    offset: 195117752
-    sourceAssetGUID: 1fed90e8722c1334d9b51e0b56f26e4e
-    buildTimeAssetPath: Assets/StylizedHandPaintedDungeon(Free)/Originals/Door.fbx
+    packedSize: 11856
+    offset: 78781952
+    sourceAssetGUID: 2b00fab06a5608b42a9ce0348c478a91
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Plant_01B.fbx
   - fileID: 93
     classID: 43
-    packedSize: 71028
-    offset: 195157880
-    sourceAssetGUID: 37e97f97931e06f4b9318bb7a9fa399d
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/Empty-chair/Meshes/chFolding.A_LOD0.fbx
+    packedSize: 58460
+    offset: 78793808
+    sourceAssetGUID: 2b6da6d0cce4d154487efa1cfb795ef6
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Bush_03C.fbx
   - fileID: 94
     classID: 43
-    packedSize: 42360
-    offset: 195228912
-    sourceAssetGUID: 4fc36cdfd84e6f841b7f575a859b83c8
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/Empty-chair/Meshes/chFolding.A_LOD1.fbx
+    packedSize: 17808
+    offset: 78852272
+    sourceAssetGUID: 2c4ea9811ae2d5240b1bdc933944a231
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Glowing_Lilly_01C.fbx
   - fileID: 95
     classID: 43
-    packedSize: 4656
-    offset: 195271272
-    sourceAssetGUID: 9c33f225c6ee98243a57390a7235bd50
-    buildTimeAssetPath: Assets/StylizedHandPaintedDungeon(Free)/Originals/Wall.fbx
+    packedSize: 15224
+    offset: 78870080
+    sourceAssetGUID: 2e44f11accea83748b41e8d6bc54820f
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Mushrooms_05A.fbx
   - fileID: 96
     classID: 43
-    packedSize: 636
-    offset: 195275928
-    sourceAssetGUID: b31c62c35ced11c4383176ecffe930c9
-    buildTimeAssetPath: Assets/StylizedHandPaintedDungeon(Free)/Originals/Floor.fbx
+    packedSize: 4068
+    offset: 78885304
+    sourceAssetGUID: 2e6a2f414cb73344a92715de12f5a953
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Rock_Small_05A.fbx
   - fileID: 97
     classID: 43
-    packedSize: 14824
-    offset: 195276568
-    sourceAssetGUID: b520dd2e830b53248a9a07d2d9f3f3dd
-    buildTimeAssetPath: Assets/StylizedHandPaintedDungeon(Free)/Originals/Pillar.fbx
+    packedSize: 3576
+    offset: 78889376
+    sourceAssetGUID: 2e824601c8381ee4c81f73ca67438ba0
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/Colliders/TFF_Wooden_Swing_Seat_01A_MeshCollider.fbx
   - fileID: 98
     classID: 43
-    packedSize: 158404
-    offset: 195291392
-    sourceAssetGUID: bc600cce01eb57a409f4e69025868a2c
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/Spider/spider_myOldOne.FBX
+    packedSize: 876
+    offset: 78892952
+    sourceAssetGUID: 2e97280c1d0857d42be2adccb0ca9e55
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Leaf_01B.fbx
   - fileID: 99
     classID: 43
-    packedSize: 8152
-    offset: 195449800
-    sourceAssetGUID: dac93943bb9decd49b148b1e25a13ab8
-    buildTimeAssetPath: Assets/MedievalTavernPack/Meshes/Furniture/table_01.fbx
+    packedSize: 15180
+    offset: 78893832
+    sourceAssetGUID: 2f2d8cb7eb087cb44987a8ee404fa899
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Debris_03A.fbx
   - fileID: 100
     classID: 43
-    packedSize: 1837936
-    offset: 195457952
-    sourceAssetGUID: fa741a1464dc1084592c89eb9fd74c6c
-    buildTimeAssetPath: Assets/Crypt Dungeon Environment/Rooms/Crypt/Models/crypt_pillar.fbx
+    packedSize: 3912
+    offset: 78909016
+    sourceAssetGUID: 2f8509fa2a5c13d4b8ae389688fd8c99
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Wood_Plank_01A.fbx
   - fileID: 101
     classID: 43
-    packedSize: 11404
-    offset: 197295888
-    sourceAssetGUID: fb722742004760c45933393f71a67dfa
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/Shelf/shelf.fbx
+    packedSize: 2396
+    offset: 78912928
+    sourceAssetGUID: 30e3a54c12bc780438417c3168041ccc
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Grass_Patch_01.fbx
   - fileID: 102
     classID: 43
-    packedSize: 67048
-    offset: 197307296
-    sourceAssetGUID: fdc27d8a5bffd964e86bce10091249ae
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/Knife/Asset/Models/dagger.fbx
+    packedSize: 112748
+    offset: 78915328
+    sourceAssetGUID: 324635901d2aa494d90bfee441db920c
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Birch_Tree_Dry_01A_LOD_1.fbx
   - fileID: 103
     classID: 43
-    packedSize: 19796
-    offset: 197374344
-    sourceAssetGUID: 70108d78e82c2ec488d6b504865508e0
-    buildTimeAssetPath: Packages/com.vrchat.worlds/Samples/UdonExampleScene/SampleAssetsSet/SampleAssetsSet_V1.fbx
+    packedSize: 3464
+    offset: 79028080
+    sourceAssetGUID: 374d378f596ae6c4fa17c04466739c4b
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/Colliders/TFF_Birch_Tree_01A_MeshCollider.fbx
   - fileID: 104
     classID: 43
-    packedSize: 1228196
-    offset: 197394144
-    sourceAssetGUID: 8d21d1605928a4d46b68ae5628341f42
-    buildTimeAssetPath: Assets/Crypt Dungeon Environment/Rooms/Crypt/Models/crypt_roof.fbx
+    packedSize: 3056
+    offset: 79031544
+    sourceAssetGUID: 3772b8ae1f4df3c4babcb16eb2bf185d
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Flower_Patch_01.fbx
   - fileID: 105
     classID: 43
-    packedSize: 1228196
-    offset: 198622344
-    sourceAssetGUID: 8d21d1605928a4d46b68ae5628341f42
-    buildTimeAssetPath: Assets/Crypt Dungeon Environment/Rooms/Crypt/Models/crypt_roof.fbx
+    packedSize: 95508
+    offset: 79034600
+    sourceAssetGUID: 455784fc7711c5c4caa64a81a5c5c2bf
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Birch_Tree_Dry_02A_LOD_2.fbx
   - fileID: 106
     classID: 43
-    packedSize: 1228196
-    offset: 199850544
-    sourceAssetGUID: 8d21d1605928a4d46b68ae5628341f42
-    buildTimeAssetPath: Assets/Crypt Dungeon Environment/Rooms/Crypt/Models/crypt_roof.fbx
+    packedSize: 1956
+    offset: 79130112
+    sourceAssetGUID: 487cb0943c5a1b942861e0a642a191b7
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Flower_Patch_02.fbx
   - fileID: 107
     classID: 43
-    packedSize: 1228196
-    offset: 201078744
-    sourceAssetGUID: 8d21d1605928a4d46b68ae5628341f42
-    buildTimeAssetPath: Assets/Crypt Dungeon Environment/Rooms/Crypt/Models/crypt_roof.fbx
+    packedSize: 3904
+    offset: 79132072
+    sourceAssetGUID: 4ea5137e49172774490660f14d7359da
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/Colliders/TFF_Wooden_Table_01A_MeshCollider.fbx
   - fileID: 108
     classID: 43
-    packedSize: 36128
-    offset: 202306944
-    sourceAssetGUID: f48bdefdcbaa779498f3681fe52ccf6a
-    buildTimeAssetPath: Assets/Crypt Dungeon Environment/Rooms/Crypt/Models/crypt_chandelier.fbx
+    packedSize: 419316
+    offset: 79135976
+    sourceAssetGUID: 4f33e75c31f4d814c8b25407c5bb28a1
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Oak_Tree_01A.fbx
   - fileID: 109
     classID: 43
-    packedSize: 2124704
-    offset: 202343072
-    sourceAssetGUID: f48bdefdcbaa779498f3681fe52ccf6a
-    buildTimeAssetPath: Assets/Crypt Dungeon Environment/Rooms/Crypt/Models/crypt_chandelier.fbx
+    packedSize: 11688
+    offset: 79555296
+    sourceAssetGUID: 5073ee626ca422c49b6cd92571fb9e61
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Lotus_Leaf_02B.fbx
   - fileID: 110
     classID: 43
-    packedSize: 1021900
-    offset: 204467776
-    sourceAssetGUID: f48bdefdcbaa779498f3681fe52ccf6a
-    buildTimeAssetPath: Assets/Crypt Dungeon Environment/Rooms/Crypt/Models/crypt_chandelier.fbx
+    packedSize: 15876
+    offset: 79566984
+    sourceAssetGUID: 51a73c12cea48db4cabd947ce2ada5a7
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Rock_Medium_05A.fbx
   - fileID: 111
     classID: 43
-    packedSize: 1893872
-    offset: 205489680
-    sourceAssetGUID: f48bdefdcbaa779498f3681fe52ccf6a
-    buildTimeAssetPath: Assets/Crypt Dungeon Environment/Rooms/Crypt/Models/crypt_chandelier.fbx
+    packedSize: 102800
+    offset: 79582864
+    sourceAssetGUID: 5a21ef4b913d5e14486781f7b322d577
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Tree_Fallen_01B.fbx
   - fileID: 112
     classID: 43
-    packedSize: 43768
-    offset: 207383552
-    sourceAssetGUID: 8f7380da49034cd488ddff94b1ac35d1
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/Zombie/FBXs/Zombie1.FBX
+    packedSize: 3472
+    offset: 79685664
+    sourceAssetGUID: 5e78e9d91a748f141af3ffcba2b04d92
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/Colliders/TFF_Rock_Medium_02A_MeshCollider.fbx
   - fileID: 113
     classID: 43
-    packedSize: 103376
-    offset: 207427320
-    sourceAssetGUID: 617023eea96dc3541a9a8d9ca45d6728
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/Cowboy-hat/Mesh/Hat_1.fbx
+    packedSize: 351580
+    offset: 79689136
+    sourceAssetGUID: 5f97e8a936168874f8d8e15a91bbd1a4
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Rock_Large_06A.fbx
   - fileID: 114
     classID: 43
-    packedSize: 1963600
-    offset: 207530696
-    sourceAssetGUID: c32c84bacf0172d4b81d4c72a1df1f86
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/aviator-sunglasses/source/Aviaattorit.fbx
+    packedSize: 159824
+    offset: 80040720
+    sourceAssetGUID: 60cb8afaf436cfd468b53d2de13e002b
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Aspen_Tree_02A_LOD_1.fbx
   - fileID: 115
     classID: 43
-    packedSize: 615332
-    offset: 209494296
-    sourceAssetGUID: 04f94d26703fd274e924f2d263cc1cf3
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/Umbrella/uploads_files_3692147_Umbrella.FBX
+    packedSize: 32636
+    offset: 80200544
+    sourceAssetGUID: 68ba1a02ecad2014e9d2be615058a804
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Tree_Log_02A.fbx
   - fileID: 116
     classID: 43
-    packedSize: 25752
-    offset: 210109632
-    sourceAssetGUID: 04f94d26703fd274e924f2d263cc1cf3
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/Umbrella/uploads_files_3692147_Umbrella.FBX
+    packedSize: 33744
+    offset: 80233184
+    sourceAssetGUID: 6b40bda7253833644afe254a8bd2f931
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Tree_Trunk_01B.fbx
   - fileID: 117
     classID: 43
-    packedSize: 7860
-    offset: 210135384
-    sourceAssetGUID: 8f7380da49034cd488ddff94b1ac35d1
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/Zombie/FBXs/Zombie1.FBX
+    packedSize: 14524
+    offset: 80266928
+    sourceAssetGUID: 6c4f9a94b15851943bdbf42454251025
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Plant_02B_LOD_1.fbx
   - fileID: 118
     classID: 43
-    packedSize: 113304
-    offset: 210143248
-    sourceAssetGUID: 7c72df6df34a7bd45bb410e2c4678f28
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/plush-unicorn/source/Plush Unicorn.fbx
+    packedSize: 32948
+    offset: 80281456
+    sourceAssetGUID: 6c5d0853a8153ed4686e4f2bb0116b8e
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Rock_Medium_01A.fbx
   - fileID: 119
     classID: 43
-    packedSize: 38977516
-    offset: 210256552
-    sourceAssetGUID: 04f94d26703fd274e924f2d263cc1cf3
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/Umbrella/uploads_files_3692147_Umbrella.FBX
+    packedSize: 2776
+    offset: 80314408
+    sourceAssetGUID: 6f2d1e7d732fafe4cad4c8486893f3e4
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/Colliders/TFF_Tree_Broken_01A_MeshCollider.fbx
   - fileID: 120
     classID: 43
-    packedSize: 2143648
-    offset: 249234072
-    sourceAssetGUID: 04f94d26703fd274e924f2d263cc1cf3
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/Umbrella/uploads_files_3692147_Umbrella.FBX
+    packedSize: 163576
+    offset: 80317184
+    sourceAssetGUID: 6f400eb6f5ca7d841a73df3581d62d67
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Birch_Tree_01A_LOD_1.fbx
   - fileID: 121
     classID: 43
-    packedSize: 7860
-    offset: 251377720
-    sourceAssetGUID: 8f7380da49034cd488ddff94b1ac35d1
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/Zombie/FBXs/Zombie1.FBX
+    packedSize: 13064
+    offset: 80480760
+    sourceAssetGUID: 6f760f0036ca5044c9ffeccb88147427
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Lotus_Flower_01B.fbx
   - fileID: 122
     classID: 43
-    packedSize: 12044
-    offset: 251385584
-    sourceAssetGUID: 8f7380da49034cd488ddff94b1ac35d1
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/Zombie/FBXs/Zombie1.FBX
+    packedSize: 13064
+    offset: 80493824
+    sourceAssetGUID: 7265418faae3fbe48a111e4087d8b071
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Lotus_Flower_01A.fbx
   - fileID: 123
     classID: 43
-    packedSize: 59788
-    offset: 251397632
-    sourceAssetGUID: 04f94d26703fd274e924f2d263cc1cf3
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/Umbrella/uploads_files_3692147_Umbrella.FBX
+    packedSize: 9592
+    offset: 80506888
+    sourceAssetGUID: 72d4160b06e01d041b0736ea92028e9c
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Reed_02A.fbx
   - fileID: 124
     classID: 43
-    packedSize: 2708188
-    offset: 251457424
-    sourceAssetGUID: 04f94d26703fd274e924f2d263cc1cf3
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/Umbrella/uploads_files_3692147_Umbrella.FBX
+    packedSize: 16508
+    offset: 80516480
+    sourceAssetGUID: 73529d7b7bd60c34685c8becd219fb23
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Fern_01B.fbx
   - fileID: 125
     classID: 43
-    packedSize: 1109928
-    offset: 254165616
-    sourceAssetGUID: 04f94d26703fd274e924f2d263cc1cf3
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/Umbrella/uploads_files_3692147_Umbrella.FBX
+    packedSize: 21912
+    offset: 80532992
+    sourceAssetGUID: 76f7ee4fa75f3854ab72808504db2ea1
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Plant_02A.fbx
   - fileID: 126
     classID: 43
-    packedSize: 23164
-    offset: 255275544
-    sourceAssetGUID: 04f94d26703fd274e924f2d263cc1cf3
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/Umbrella/uploads_files_3692147_Umbrella.FBX
+    packedSize: 214384
+    offset: 80554904
+    sourceAssetGUID: 7744475cb6c232446a1f31a7d7d546e2
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Oak_Tree_01A_LOD_2.fbx
   - fileID: 127
     classID: 43
-    packedSize: 9208
-    offset: 255298712
-    sourceAssetGUID: 8f7380da49034cd488ddff94b1ac35d1
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/Zombie/FBXs/Zombie1.FBX
+    packedSize: 18032
+    offset: 80769288
+    sourceAssetGUID: 774e97f97ef9d9545b2b47bc7677f8a2
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Glowing_Lilly_01A.fbx
   - fileID: 128
     classID: 43
-    packedSize: 22404
-    offset: 255307920
-    sourceAssetGUID: 8f7380da49034cd488ddff94b1ac35d1
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/Zombie/FBXs/Zombie1.FBX
+    packedSize: 5472
+    offset: 80787320
+    sourceAssetGUID: 7928f77e109fae24d827970c0ca4354a
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Rock_Small_03A.fbx
   - fileID: 129
-    classID: 48
-    packedSize: 68732
-    offset: 255330328
-    sourceAssetGUID: 0000000000000000f000000000000000
-    buildTimeAssetPath: Resources/unity_builtin_extra
+    classID: 43
+    packedSize: 38280
+    offset: 80792792
+    sourceAssetGUID: 7b25b40d0fb3698428bdb4fc74f3806c
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Nettle_01A.fbx
   - fileID: 130
-    classID: 48
-    packedSize: 23380
-    offset: 255399064
-    sourceAssetGUID: 0000000000000000f000000000000000
-    buildTimeAssetPath: Resources/unity_builtin_extra
+    classID: 43
+    packedSize: 24672
+    offset: 80831072
+    sourceAssetGUID: 7b5df4a08df520f4d955dff6981faa22
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Nettle_02A.fbx
   - fileID: 131
-    classID: 48
-    packedSize: 63704
-    offset: 255422448
-    sourceAssetGUID: 0000000000000000f000000000000000
-    buildTimeAssetPath: Resources/unity_builtin_extra
+    classID: 43
+    packedSize: 11772
+    offset: 80855744
+    sourceAssetGUID: 7d185716e38f7cf4e827b1fdb3a7006d
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Debris_01A.fbx
   - fileID: 132
-    classID: 48
-    packedSize: 298640
-    offset: 255486152
-    sourceAssetGUID: 0000000000000000f000000000000000
-    buildTimeAssetPath: Resources/unity_builtin_extra
+    classID: 43
+    packedSize: 38128
+    offset: 80867520
+    sourceAssetGUID: 7d6634ff41069394f965105e71279e32
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Camp_Fire_01A.fbx
   - fileID: 133
-    classID: 48
-    packedSize: 530048
-    offset: 255784792
-    sourceAssetGUID: 0000000000000000f000000000000000
-    buildTimeAssetPath: Resources/unity_builtin_extra
+    classID: 43
+    packedSize: 55248
+    offset: 80905648
+    sourceAssetGUID: 87386fd0ba9900845a86c5622d5a2b19
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Tree_Broken_01B.fbx
   - fileID: 134
-    classID: 48
-    packedSize: 747380
-    offset: 256314840
-    sourceAssetGUID: 0000000000000000f000000000000000
-    buildTimeAssetPath: Resources/unity_builtin_extra
+    classID: 43
+    packedSize: 8240
+    offset: 80960896
+    sourceAssetGUID: 87817947376204947bbbd6a4a8dc7483
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Rock_Small_01A.fbx
   - fileID: 135
-    classID: 48
-    packedSize: 25304
-    offset: 257062224
-    sourceAssetGUID: 0000000000000000f000000000000000
-    buildTimeAssetPath: Resources/unity_builtin_extra
+    classID: 43
+    packedSize: 9276
+    offset: 80969136
+    sourceAssetGUID: 880c96a6f3c1f3548b1c0208a5c8a6f1
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Rock_Medium_04A.fbx
   - fileID: 136
-    classID: 48
-    packedSize: 65664
-    offset: 257087528
-    sourceAssetGUID: 0000000000000000f000000000000000
-    buildTimeAssetPath: Resources/unity_builtin_extra
+    classID: 43
+    packedSize: 16508
+    offset: 80978416
+    sourceAssetGUID: 8901914b4d371a8449bf8277ae457e9b
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Fern_02B.fbx
   - fileID: 137
+    classID: 43
+    packedSize: 25256
+    offset: 80994928
+    sourceAssetGUID: 896dcf5b65c513c4a87e336010e47b58
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Mushrooms_12A.fbx
+  - fileID: 138
+    classID: 43
+    packedSize: 5520
+    offset: 81020184
+    sourceAssetGUID: 8a8c19e0d9573a744bbb0a0c3c007882
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Water_LillY_Leaf_02B.fbx
+  - fileID: 139
+    classID: 43
+    packedSize: 6704
+    offset: 81025704
+    sourceAssetGUID: 8b47c0b257427e04aa78c600431a3089
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Reed_01A.fbx
+  - fileID: 140
+    classID: 43
+    packedSize: 29848
+    offset: 81032408
+    sourceAssetGUID: 8ba7edea238f52d4b9b44c08637ae5c4
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/Colliders/TFF_Rock_Large_03A_MeshCollider.fbx
+  - fileID: 141
+    classID: 43
+    packedSize: 2188
+    offset: 81062256
+    sourceAssetGUID: 8fc60c55f3326c24989dfd54313539fb
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Decal_Debris_02A.fbx
+  - fileID: 142
+    classID: 43
+    packedSize: 876
+    offset: 81064448
+    sourceAssetGUID: 92a2a763054fc8749b4ec1c0e17bee10
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Leaf_01C.fbx
+  - fileID: 143
+    classID: 43
+    packedSize: 10880
+    offset: 81065328
+    sourceAssetGUID: 955d4871a9d86ba45b9fb90ae5290d0a
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Mushrooms_07A.fbx
+  - fileID: 144
+    classID: 43
+    packedSize: 16508
+    offset: 81076208
+    sourceAssetGUID: 95dd42a2476d2c64295823e5af26704c
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Fern_02A.fbx
+  - fileID: 145
+    classID: 43
+    packedSize: 189696
+    offset: 81092720
+    sourceAssetGUID: 985bb817fbb2610428b81cedb8e9f7ab
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Birch_Tree_Dry_02A.fbx
+  - fileID: 146
+    classID: 43
+    packedSize: 3732
+    offset: 81282416
+    sourceAssetGUID: 9950354c278b1e54f9aef97077eee66b
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Water_LillY_Leaf_01B.fbx
+  - fileID: 147
+    classID: 43
+    packedSize: 51752
+    offset: 81286152
+    sourceAssetGUID: 9af8809a41823bc41aa26b9dc0d66751
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Tree_Trunk_04A.fbx
+  - fileID: 148
+    classID: 43
+    packedSize: 2248
+    offset: 81337904
+    sourceAssetGUID: 9d9191344997cd14fa500c2944bb8782
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/Colliders/TFF_Tree_Log_03A_MeshCollider.fbx
+  - fileID: 149
+    classID: 43
+    packedSize: 94784
+    offset: 81340152
+    sourceAssetGUID: 9e4579731bfb6fa4cb4b26c9d3fd47e2
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Birch_Tree_01A_LOD_2.fbx
+  - fileID: 150
+    classID: 43
+    packedSize: 24596
+    offset: 81434936
+    sourceAssetGUID: 9efa17c479f3eb24f9ba2f777fc46320
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Bush_02B.fbx
+  - fileID: 151
+    classID: 43
+    packedSize: 16592
+    offset: 81459536
+    sourceAssetGUID: a3150f899f8f22d40b38eceb217ef831
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Mushrooms_02A.fbx
+  - fileID: 152
+    classID: 43
+    packedSize: 21912
+    offset: 81476128
+    sourceAssetGUID: a66887580c1357d4abf1e6b4e248f466
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Plant_02B.fbx
+  - fileID: 153
+    classID: 43
+    packedSize: 3336
+    offset: 81498040
+    sourceAssetGUID: a70343c6c6aa45b48b596a12b9750bb9
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Wood_Plank_02A.fbx
+  - fileID: 154
+    classID: 43
+    packedSize: 58460
+    offset: 81501376
+    sourceAssetGUID: a86ce464584e4704aa419de88c5223b4
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Bush_03B.fbx
+  - fileID: 155
+    classID: 43
+    packedSize: 16532
+    offset: 81559840
+    sourceAssetGUID: a932ee23430f8484e8d318d23e316ac1
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/Colliders/TFF_Rock_Large_05A_MeshCollider.fbx
+  - fileID: 156
+    classID: 43
+    packedSize: 140236
+    offset: 81576376
+    sourceAssetGUID: a9f4e315accb8fe4fa3dd23137116b05
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Aspen_Tree_03A.fbx
+  - fileID: 157
+    classID: 43
+    packedSize: 5184
+    offset: 81716616
+    sourceAssetGUID: aad993fdcffca764cbda408626dd3259
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Wood_Log_02A.fbx
+  - fileID: 158
+    classID: 43
+    packedSize: 11688
+    offset: 81721800
+    sourceAssetGUID: ac6a1086a5515d24790e0bd93ddd44df
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Lotus_Leaf_02A.fbx
+  - fileID: 159
+    classID: 43
+    packedSize: 53924
+    offset: 81733488
+    sourceAssetGUID: b4faa2141c16dce4ca0958f3035745cd
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Bush_01A.fbx
+  - fileID: 160
+    classID: 43
+    packedSize: 11668
+    offset: 81787416
+    sourceAssetGUID: b57d1b66d746bb74d83d35af0253f5b1
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Mushrooms_14A.fbx
+  - fileID: 161
+    classID: 43
+    packedSize: 24596
+    offset: 81799088
+    sourceAssetGUID: b7f19dc6373b1624d902469cd8aef236
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Bush_02A.fbx
+  - fileID: 162
+    classID: 43
+    packedSize: 91876
+    offset: 81823688
+    sourceAssetGUID: b88d7c55fbc0991418c42b60d2b8d1df
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Rock_Large_06A_LOD_2.fbx
+  - fileID: 163
+    classID: 43
+    packedSize: 29956
+    offset: 81915568
+    sourceAssetGUID: b98e107b0bc94cb4ba8956abbb69acfb
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Wooden_Fence_02A.fbx
+  - fileID: 164
+    classID: 43
+    packedSize: 12528
+    offset: 81945528
+    sourceAssetGUID: b9c5a64a8d0a598468320a89f1c75361
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/Colliders/TFF_Rock_Large_01A_MeshCollider.fbx
+  - fileID: 165
+    classID: 43
+    packedSize: 31220
+    offset: 81958056
+    sourceAssetGUID: bab80613b0ec3d94dbaab226bfaeec42
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/Colliders/TFF_Rock_Large_06A_MeshCollider.fbx
+  - fileID: 166
+    classID: 43
+    packedSize: 12116
+    offset: 81989280
+    sourceAssetGUID: bad71705b2aa3ca4d9ff1c0de7e25b50
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Reed_03A.fbx
+  - fileID: 167
+    classID: 43
+    packedSize: 17584
+    offset: 82001400
+    sourceAssetGUID: bbc48832aa6afb249b9b60c98b295810
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Glowing_Lilly_01B.fbx
+  - fileID: 168
+    classID: 43
+    packedSize: 58460
+    offset: 82018984
+    sourceAssetGUID: bc700d5a3f2fb7846a750898da47f544
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Bush_03D.fbx
+  - fileID: 169
+    classID: 43
+    packedSize: 21704
+    offset: 82077448
+    sourceAssetGUID: c184e8204e274da48a4aaee24afe4f89
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Wooden_Table_01B.fbx
+  - fileID: 170
+    classID: 43
+    packedSize: 242988
+    offset: 82099152
+    sourceAssetGUID: c3d1c050e3b42de43914128cf5bf6db2
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Birch_Tree_Dry_01A.fbx
+  - fileID: 171
+    classID: 43
+    packedSize: 35200
+    offset: 82342144
+    sourceAssetGUID: c50c36eb8410d2f419349c488f833a37
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Wooden_Swing_01B.fbx
+  - fileID: 172
+    classID: 43
+    packedSize: 2836
+    offset: 82377344
+    sourceAssetGUID: c8529c51ad24d3a4f92c8578f111c5f3
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Grass_Patch_02.fbx
+  - fileID: 173
+    classID: 43
+    packedSize: 10328
+    offset: 82380184
+    sourceAssetGUID: c878b4ab61a7d1a4cbc2a36341b5b40e
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Lotus_Leaf_01A.fbx
+  - fileID: 174
+    classID: 43
+    packedSize: 9564
+    offset: 82390512
+    sourceAssetGUID: c8c3f0be00d3f1e4e8ae91a7e1dab53c
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Debris_02A.fbx
+  - fileID: 175
+    classID: 43
+    packedSize: 58460
+    offset: 82400080
+    sourceAssetGUID: c938512605ffc58428ec4543822a2c71
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Bush_03A.fbx
+  - fileID: 176
+    classID: 43
+    packedSize: 114304
+    offset: 82458544
+    sourceAssetGUID: c9692b2b81a1e064da8b738bf9c46b99
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Birch_Tree_02A_LOD_2.fbx
+  - fileID: 177
+    classID: 43
+    packedSize: 82236
+    offset: 82572848
+    sourceAssetGUID: c98430d83d6b16b47ba3c83d6af6d842
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Birch_Tree_Dry_01A_LOD_2.fbx
+  - fileID: 178
+    classID: 43
+    packedSize: 72192
+    offset: 82655088
+    sourceAssetGUID: cd2574a3ebb6a5b4e821f60c7ae75164
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Aspen_Tree_02A_LOD_2.fbx
+  - fileID: 179
+    classID: 43
+    packedSize: 2056
+    offset: 82727280
+    sourceAssetGUID: ce7d2f2f188c16e419dced271d94ae51
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Decal_Debris_01A.fbx
+  - fileID: 180
+    classID: 43
+    packedSize: 16624
+    offset: 82729336
+    sourceAssetGUID: d013ea26ead5bd448ad336b79866aaf5
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Wooden_Pole_02A.fbx
+  - fileID: 181
+    classID: 43
+    packedSize: 3732
+    offset: 82745960
+    sourceAssetGUID: d09412bf51c0e5f4c8b332ff2db438bf
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Water_LillY_Leaf_01A.fbx
+  - fileID: 182
+    classID: 43
+    packedSize: 123176
+    offset: 82749696
+    sourceAssetGUID: d0d95c0c3da93604aa23f44482398094
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Birch_Tree_Dry_02A_LOD_1.fbx
+  - fileID: 183
+    classID: 43
+    packedSize: 17920
+    offset: 82872872
+    sourceAssetGUID: d1d82e6b875cb184f99e1bb8ab7f64ac
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/Colliders/TFF_Rock_Large_02A_MeshCollider.fbx
+  - fileID: 184
+    classID: 43
+    packedSize: 12816
+    offset: 82890792
+    sourceAssetGUID: d2ce952c9c644e94e909dac76b444d93
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Lotus_Flower_02C.fbx
+  - fileID: 185
+    classID: 43
+    packedSize: 8392
+    offset: 82903608
+    sourceAssetGUID: d36215813c2179243bf14434ae290ee8
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Mushrooms_01A.fbx
+  - fileID: 186
+    classID: 43
+    packedSize: 222892
+    offset: 82912000
+    sourceAssetGUID: d700ad11607eb9a449e35d35941a7d1b
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Birch_Tree_02A.fbx
+  - fileID: 187
+    classID: 43
+    packedSize: 43864
+    offset: 83134896
+    sourceAssetGUID: d78a7d5a257d51a4094232ead4f2f5e8
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Rock_Large_02A.fbx
+  - fileID: 188
+    classID: 43
+    packedSize: 30488
+    offset: 83178760
+    sourceAssetGUID: d88fbc9d7bab4194a85f72407fe7e7e3
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Tree_Trunk_03B.fbx
+  - fileID: 189
+    classID: 43
+    packedSize: 14524
+    offset: 83209248
+    sourceAssetGUID: d8a2d60e9af8d3945be5981934a5dfaa
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Plant_02A_LOD_1.fbx
+  - fileID: 190
+    classID: 43
+    packedSize: 5916
+    offset: 83223776
+    sourceAssetGUID: d9cfd624df7f68d40968fd1ce326a59d
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/Colliders/TFF_Birch_Tree_02A_MeshCollider.fbx
+  - fileID: 191
+    classID: 43
+    packedSize: 42892
+    offset: 83229696
+    sourceAssetGUID: dddda28969f40a24881c9bc1b402f2a8
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Bush_03A_LOD_1.fbx
+  - fileID: 192
+    classID: 43
+    packedSize: 4620
+    offset: 83272592
+    sourceAssetGUID: e1a0ca14622e9734f81a2346e8d87cb7
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Rock_Small_04A.fbx
+  - fileID: 193
+    classID: 43
+    packedSize: 40252
+    offset: 83277216
+    sourceAssetGUID: e32afc30f0608d743976094fa81d54ac
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Wooden_Bridge_01A.fbx
+  - fileID: 194
+    classID: 43
+    packedSize: 45584
+    offset: 83317472
+    sourceAssetGUID: e8dd6d5a037c6034e82acae0afeda764
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Rock_Large_01A.fbx
+  - fileID: 195
+    classID: 43
+    packedSize: 11856
+    offset: 83363056
+    sourceAssetGUID: ecb94a7f73db6a541a4f0ff3345c914b
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Plant_01A.fbx
+  - fileID: 196
+    classID: 43
+    packedSize: 3180
+    offset: 83374912
+    sourceAssetGUID: eea1b8c69f5823f438ade15b0c8d846f
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/Colliders/TFF_Wooden_Swing_01A_MeshCollider.fbx
+  - fileID: 197
+    classID: 43
+    packedSize: 227344
+    offset: 83378096
+    sourceAssetGUID: ef55eb47f764c494ba6e14d556a6baa3
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Aspen_Tree_01A_LOD_1.fbx
+  - fileID: 198
+    classID: 43
+    packedSize: 28936
+    offset: 83605440
+    sourceAssetGUID: f0bbacbebedb0a240951e46378b79812
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Bush_01B_LOD_1.fbx
+  - fileID: 199
+    classID: 43
+    packedSize: 42892
+    offset: 83634376
+    sourceAssetGUID: f5c2c4fe2974e654bba0a05794640080
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Bush_03B_LOD_1.fbx
+  - fileID: 200
+    classID: 43
+    packedSize: 53924
+    offset: 83677272
+    sourceAssetGUID: f688ec2735f3ada4a904c324d58d1db3
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Bush_01B.fbx
+  - fileID: 201
+    classID: 43
+    packedSize: 314632
+    offset: 83731200
+    sourceAssetGUID: f81deb958887e4e429ded035b43db140
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Aspen_Tree_01A.fbx
+  - fileID: 202
+    classID: 43
+    packedSize: 15740
+    offset: 84045832
+    sourceAssetGUID: f85b6ac778412504e9810b2aba984bfa
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Stone_Slab_01A.fbx
+  - fileID: 203
+    classID: 43
+    packedSize: 52584
+    offset: 84061576
+    sourceAssetGUID: f9987932e4772ae4fa1d4619f055480c
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Rock_Medium_02A.fbx
+  - fileID: 204
+    classID: 43
+    packedSize: 13064
+    offset: 84114160
+    sourceAssetGUID: faad2bb1bc72594428e3a70c9b9b195d
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Lotus_Flower_01C.fbx
+  - fileID: 205
+    classID: 43
+    packedSize: 136540
+    offset: 84127224
+    sourceAssetGUID: faf4490e54e692d4dbb982513c8bf5fa
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Birch_Tree_02A_LOD_1.fbx
+  - fileID: 206
+    classID: 43
+    packedSize: 13428
+    offset: 84263768
+    sourceAssetGUID: fd47c785ea370ed41b889307dfce6025
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Rock_Medium_06A.fbx
+  - fileID: 207
+    classID: 43
+    packedSize: 10328
+    offset: 84277200
+    sourceAssetGUID: fe77c0082e270064c89924e5b3c7caa3
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Lotus_Leaf_01B.fbx
+  - fileID: 208
+    classID: 43
+    packedSize: 10052
+    offset: 84287528
+    sourceAssetGUID: ff94261e926444249abc4b26ecb6683e
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Mushrooms_13A.fbx
+  - fileID: 209
+    classID: 43
+    packedSize: 6248
+    offset: 84297584
+    sourceAssetGUID: 0885c858afd712f4dadf3bbedf2a8918
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Mushrooms_10A.fbx
+  - fileID: 210
+    classID: 43
+    packedSize: 3320
+    offset: 84303832
+    sourceAssetGUID: 0a15779f3e9a2534384bb350d7ffbbd1
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Tree_Log_03A.fbx
+  - fileID: 211
+    classID: 43
+    packedSize: 5972
+    offset: 84307152
+    sourceAssetGUID: 1c4ad66452fd4054d82e527ff6d652ab
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Mushrooms_16A.fbx
+  - fileID: 212
+    classID: 43
+    packedSize: 3104
+    offset: 84313128
+    sourceAssetGUID: 2450c3f03dafc4d4996a7ae8061511cd
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Gas_Lamp_01A.fbx
+  - fileID: 213
+    classID: 43
+    packedSize: 15112
+    offset: 84316232
+    sourceAssetGUID: 2e44f11accea83748b41e8d6bc54820f
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Mushrooms_05A.fbx
+  - fileID: 214
+    classID: 43
+    packedSize: 4816
+    offset: 84331344
+    sourceAssetGUID: 30e3a54c12bc780438417c3168041ccc
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Grass_Patch_01.fbx
+  - fileID: 215
+    classID: 43
+    packedSize: 4156
+    offset: 84336160
+    sourceAssetGUID: 3772b8ae1f4df3c4babcb16eb2bf185d
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Flower_Patch_01.fbx
+  - fileID: 216
+    classID: 43
+    packedSize: 3496
+    offset: 84340320
+    sourceAssetGUID: 487cb0943c5a1b942861e0a642a191b7
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Flower_Patch_02.fbx
+  - fileID: 217
+    classID: 43
+    packedSize: 125568
+    offset: 84343816
+    sourceAssetGUID: 814a7a3f7031b764e80fe4a9dfca7023
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Rock_Large_05A.fbx
+  - fileID: 218
+    classID: 43
+    packedSize: 16508
+    offset: 84469384
+    sourceAssetGUID: 889469faf539adb42a7573f77fff5442
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Fern_01A.fbx
+  - fileID: 219
+    classID: 43
+    packedSize: 25088
+    offset: 84485896
+    sourceAssetGUID: 896dcf5b65c513c4a87e336010e47b58
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Mushrooms_12A.fbx
+  - fileID: 220
+    classID: 43
+    packedSize: 10432
+    offset: 84510984
+    sourceAssetGUID: 955d4871a9d86ba45b9fb90ae5290d0a
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Mushrooms_07A.fbx
+  - fileID: 221
+    classID: 43
+    packedSize: 14696
+    offset: 84521416
+    sourceAssetGUID: a3150f899f8f22d40b38eceb217ef831
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Mushrooms_02A.fbx
+  - fileID: 222
+    classID: 43
+    packedSize: 7964
+    offset: 84536112
+    sourceAssetGUID: b57d1b66d746bb74d83d35af0253f5b1
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Mushrooms_14A.fbx
+  - fileID: 223
+    classID: 43
+    packedSize: 28828
+    offset: 84544080
+    sourceAssetGUID: c50c36eb8410d2f419349c488f833a37
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Wooden_Swing_01B.fbx
+  - fileID: 224
+    classID: 43
+    packedSize: 4816
+    offset: 84572912
+    sourceAssetGUID: c8529c51ad24d3a4f92c8578f111c5f3
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Grass_Patch_02.fbx
+  - fileID: 225
+    classID: 43
+    packedSize: 15108
+    offset: 84577728
+    sourceAssetGUID: d36215813c2179243bf14434ae290ee8
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Mushrooms_01A.fbx
+  - fileID: 226
+    classID: 43
+    packedSize: 10332
+    offset: 84592840
+    sourceAssetGUID: ff94261e926444249abc4b26ecb6683e
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Mushrooms_13A.fbx
+  - fileID: 227
+    classID: 43
+    packedSize: 6248
+    offset: 84603176
+    sourceAssetGUID: 0885c858afd712f4dadf3bbedf2a8918
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Mushrooms_10A.fbx
+  - fileID: 228
+    classID: 43
+    packedSize: 5804
+    offset: 84609424
+    sourceAssetGUID: 1c4ad66452fd4054d82e527ff6d652ab
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Mushrooms_16A.fbx
+  - fileID: 229
+    classID: 43
+    packedSize: 11856
+    offset: 84615232
+    sourceAssetGUID: 30e3a54c12bc780438417c3168041ccc
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Grass_Patch_01.fbx
+  - fileID: 230
+    classID: 43
+    packedSize: 7896
+    offset: 84627088
+    sourceAssetGUID: 3772b8ae1f4df3c4babcb16eb2bf185d
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Flower_Patch_01.fbx
+  - fileID: 231
+    classID: 43
+    packedSize: 8140
+    offset: 84634984
+    sourceAssetGUID: 955d4871a9d86ba45b9fb90ae5290d0a
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Mushrooms_07A.fbx
+  - fileID: 232
+    classID: 43
+    packedSize: 16032
+    offset: 84643128
+    sourceAssetGUID: a3150f899f8f22d40b38eceb217ef831
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Mushrooms_02A.fbx
+  - fileID: 233
+    classID: 43
+    packedSize: 11948
+    offset: 84659160
+    sourceAssetGUID: b57d1b66d746bb74d83d35af0253f5b1
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Mushrooms_14A.fbx
+  - fileID: 234
+    classID: 43
+    packedSize: 9656
+    offset: 84671112
+    sourceAssetGUID: c8529c51ad24d3a4f92c8578f111c5f3
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Grass_Patch_02.fbx
+  - fileID: 235
+    classID: 43
+    packedSize: 14100
+    offset: 84680768
+    sourceAssetGUID: d36215813c2179243bf14434ae290ee8
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Mushrooms_01A.fbx
+  - fileID: 236
+    classID: 43
+    packedSize: 10724
+    offset: 84694872
+    sourceAssetGUID: ff94261e926444249abc4b26ecb6683e
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Mushrooms_13A.fbx
+  - fileID: 237
+    classID: 43
+    packedSize: 6248
+    offset: 84705600
+    sourceAssetGUID: 0885c858afd712f4dadf3bbedf2a8918
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Mushrooms_10A.fbx
+  - fileID: 238
+    classID: 43
+    packedSize: 5972
+    offset: 84711848
+    sourceAssetGUID: 1c4ad66452fd4054d82e527ff6d652ab
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Mushrooms_16A.fbx
+  - fileID: 239
+    classID: 43
+    packedSize: 1296
+    offset: 84717824
+    sourceAssetGUID: 30e3a54c12bc780438417c3168041ccc
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Grass_Patch_01.fbx
+  - fileID: 240
+    classID: 43
+    packedSize: 10092
+    offset: 84719120
+    sourceAssetGUID: 955d4871a9d86ba45b9fb90ae5290d0a
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Mushrooms_07A.fbx
+  - fileID: 241
+    classID: 43
+    packedSize: 5972
+    offset: 84729216
+    sourceAssetGUID: 1c4ad66452fd4054d82e527ff6d652ab
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Mushrooms_16A.fbx
+  - fileID: 242
+    classID: 43
+    packedSize: 10656
+    offset: 84735192
+    sourceAssetGUID: 955d4871a9d86ba45b9fb90ae5290d0a
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Mushrooms_07A.fbx
+  - fileID: 243
+    classID: 43
+    packedSize: 6716
+    offset: 84745848
+    sourceAssetGUID: 1c4ad66452fd4054d82e527ff6d652ab
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Mushrooms_16A.fbx
+  - fileID: 244
+    classID: 43
+    packedSize: 1296
+    offset: 84752568
+    sourceAssetGUID: c8529c51ad24d3a4f92c8578f111c5f3
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Grass_Patch_02.fbx
+  - fileID: 245
     classID: 48
-    packedSize: 13452
-    offset: 257153192
+    packedSize: 37860
+    offset: 84753864
     sourceAssetGUID: 0000000000000000f000000000000000
     buildTimeAssetPath: Resources/unity_builtin_extra
-  - fileID: 138
+  - fileID: 246
     classID: 48
-    packedSize: 426304
-    offset: 257166648
-    sourceAssetGUID: 5a73e777e622b594389b69e43e3e7a72
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/Cowboy-hat/Prefab/Stand/Standard-2Sided.shader
-  - fileID: 139
+    packedSize: 190988
+    offset: 84791728
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 247
+    classID: 48
+    packedSize: 531052
+    offset: 84982720
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 248
+    classID: 48
+    packedSize: 23136
+    offset: 85513776
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 249
+    classID: 48
+    packedSize: 12712
+    offset: 85536912
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 250
+    classID: 48
+    packedSize: 34668
+    offset: 85549624
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 251
+    classID: 48
+    packedSize: 144
+    offset: 85584296
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 252
+    classID: 48
+    packedSize: 211180
+    offset: 85584440
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 253
+    classID: 48
+    packedSize: 292256
+    offset: 85795624
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 254
+    classID: 48
+    packedSize: 277292
+    offset: 86087880
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 255
+    classID: 48
+    packedSize: 1880808
+    offset: 86365176
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 256
+    classID: 48
+    packedSize: 635092
+    offset: 88245984
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 257
+    classID: 48
+    packedSize: 1923224
+    offset: 88881080
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 258
+    classID: 48
+    packedSize: 5500
+    offset: 90804304
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 259
+    classID: 48
+    packedSize: 8352
+    offset: 90809808
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 260
+    classID: 48
+    packedSize: 7124
+    offset: 90818160
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 261
+    classID: 48
+    packedSize: 7804
+    offset: 90825288
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 262
+    classID: 48
+    packedSize: 12284
+    offset: 90833096
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 263
+    classID: 48
+    packedSize: 6176
+    offset: 90845384
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 264
+    classID: 48
+    packedSize: 5508
+    offset: 90851560
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 265
+    classID: 48
+    packedSize: 1698296
+    offset: 90857072
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 266
+    classID: 48
+    packedSize: 1668120
+    offset: 92555368
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 267
+    classID: 48
+    packedSize: 642768
+    offset: 94223488
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 268
+    classID: 48
+    packedSize: 14416
+    offset: 94866256
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 269
+    classID: 48
+    packedSize: 22628
+    offset: 94880672
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 270
+    classID: 48
+    packedSize: 4992
+    offset: 94903304
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 271
+    classID: 48
+    packedSize: 5476
+    offset: 94908296
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 272
+    classID: 48
+    packedSize: 11584
+    offset: 94913776
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 273
+    classID: 48
+    packedSize: 5824
+    offset: 94925360
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 274
+    classID: 48
+    packedSize: 78016
+    offset: 94931184
+    sourceAssetGUID: 21b2f218fa38d334daf2f2012e6c546d
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/ToonShading/Shaders/TFF_ToonWater.shader
+  - fileID: 275
+    classID: 48
+    packedSize: 306492
+    offset: 95009200
+    sourceAssetGUID: 2fcab0b6e64ffa64da84ab855bac8735
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/ToonShading/Shaders/TFF_CustomGrass.shader
+  - fileID: 276
+    classID: 48
+    packedSize: 298172
+    offset: 95315696
+    sourceAssetGUID: 4bc209c6fbf1d28439d5b0aab35bc007
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/ToonShading/Shaders/TFF_CustomToonVegetation.shader
+  - fileID: 277
+    classID: 48
+    packedSize: 193812
+    offset: 95613872
+    sourceAssetGUID: 52f9fd64a6bd0ce44a2c16efc79b23e9
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/ToonShading/Shaders/TFF_ToonFire.shader
+  - fileID: 278
+    classID: 48
+    packedSize: 277568
+    offset: 95807688
+    sourceAssetGUID: 624af6937d89584418e65fd55a7f0450
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/ToonShading/Shaders/TFF_CustomToonOutline.shader
+  - fileID: 279
     classID: 74
-    packedSize: 45768
-    offset: 257592952
-    sourceAssetGUID: bc600cce01eb57a409f4e69025868a2c
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/Spider/spider_myOldOne.FBX
-  - fileID: 140
+    packedSize: 3120
+    offset: 96085256
+    sourceAssetGUID: aae54308dbb3dea468401bd43ee0256e
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Animations/TFF_Fire_Idle_01.anim
+  - fileID: 280
     classID: 74
-    packedSize: 79396
-    offset: 257638720
-    sourceAssetGUID: bc600cce01eb57a409f4e69025868a2c
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/Spider/spider_myOldOne.FBX
-  - fileID: 141
-    classID: 74
-    packedSize: 99220
-    offset: 257718120
-    sourceAssetGUID: bc600cce01eb57a409f4e69025868a2c
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/Spider/spider_myOldOne.FBX
-  - fileID: 142
-    classID: 74
-    packedSize: 82988
-    offset: 257817344
-    sourceAssetGUID: bc600cce01eb57a409f4e69025868a2c
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/Spider/spider_myOldOne.FBX
-  - fileID: 143
-    classID: 74
-    packedSize: 84504
-    offset: 257900336
-    sourceAssetGUID: bc600cce01eb57a409f4e69025868a2c
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/Spider/spider_myOldOne.FBX
-  - fileID: 144
-    classID: 74
-    packedSize: 45524
-    offset: 257984840
-    sourceAssetGUID: bc600cce01eb57a409f4e69025868a2c
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/Spider/spider_myOldOne.FBX
-  - fileID: 145
-    classID: 74
-    packedSize: 77012
-    offset: 258030368
-    sourceAssetGUID: bc600cce01eb57a409f4e69025868a2c
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/Spider/spider_myOldOne.FBX
-  - fileID: 146
-    classID: 74
-    packedSize: 80452
-    offset: 258107384
-    sourceAssetGUID: bc600cce01eb57a409f4e69025868a2c
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/Spider/spider_myOldOne.FBX
-  - fileID: 147
-    classID: 74
-    packedSize: 90344
-    offset: 258187840
-    sourceAssetGUID: bc600cce01eb57a409f4e69025868a2c
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/Spider/spider_myOldOne.FBX
-  - fileID: 148
-    classID: 74
-    packedSize: 127256
-    offset: 258278184
-    sourceAssetGUID: bc600cce01eb57a409f4e69025868a2c
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/Spider/spider_myOldOne.FBX
-  - fileID: 149
-    classID: 74
-    packedSize: 118860
-    offset: 258405440
-    sourceAssetGUID: bc600cce01eb57a409f4e69025868a2c
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/Spider/spider_myOldOne.FBX
-  - fileID: 150
-    classID: 74
-    packedSize: 103128
-    offset: 258524304
-    sourceAssetGUID: bc600cce01eb57a409f4e69025868a2c
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/Spider/spider_myOldOne.FBX
-  - fileID: 151
-    classID: 74
-    packedSize: 663304
-    offset: 258627432
-    sourceAssetGUID: bc600cce01eb57a409f4e69025868a2c
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/Spider/spider_myOldOne.FBX
-  - fileID: 152
-    classID: 74
-    packedSize: 2772
-    offset: 259290736
-    sourceAssetGUID: fb722742004760c45933393f71a67dfa
-    buildTimeAssetPath: Assets/IsItMagic/IsItMagic/Shelf/shelf.fbx
-  - fileID: 153
-    classID: 83
-    packedSize: 124
-    offset: 259293512
-    sourceAssetGUID: 041c47720c7037041a14185d271ec300
-    buildTimeAssetPath: Assets/Audio/65_Dungeon_I.mp3
-  - fileID: 154
-    classID: 115
-    packedSize: 100
-    offset: 90688
-    sourceAssetGUID: 661092b4961be7145bfbe56e1e62337b
-    buildTimeAssetPath: Packages/com.vrchat.worlds/Runtime/VRCSDK/Plugins/VRCSDK3.dll
-  - fileID: 155
+    packedSize: 2588
+    offset: 96088376
+    sourceAssetGUID: 7eabcf8f06939eb46a8ad40da24196c0
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Animations/TFF_Wooden_Swing_01B_Idle.anim
+  - fileID: 281
+    classID: 91
+    packedSize: 436
+    offset: 96090968
+    sourceAssetGUID: 964b60aa1d193154e8c76b60baeddd58
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Animations/TFF_Fire_01.controller
+  - fileID: 282
+    classID: 91
+    packedSize: 460
+    offset: 96091408
+    sourceAssetGUID: 789e484813df0d34fad27bc54a1d0096
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Animations/TFF_Wooden_Swing_01B.controller
+  - fileID: 283
     classID: 115
     packedSize: 96
-    offset: 90792
+    offset: 115696
     sourceAssetGUID: 4ecd63eff847044b68db9453ce219299
     buildTimeAssetPath: Packages/com.vrchat.base/Runtime/VRCSDK/Plugins/VRCCore-Editor.dll
-  - fileID: 156
-    classID: 115
-    packedSize: 116
-    offset: 90888
-    sourceAssetGUID: 661092b4961be7145bfbe56e1e62337b
-    buildTimeAssetPath: Packages/com.vrchat.worlds/Runtime/VRCSDK/Plugins/VRCSDK3.dll
-  - fileID: 157
+  - fileID: 284
     classID: 115
     packedSize: 108
-    offset: 91008
+    offset: 115792
     sourceAssetGUID: 661092b4961be7145bfbe56e1e62337b
     buildTimeAssetPath: Packages/com.vrchat.worlds/Runtime/VRCSDK/Plugins/VRCSDK3.dll
-  - fileID: 158
+  - fileID: 285
     classID: 115
     packedSize: 88
-    offset: 91120
+    offset: 115904
     sourceAssetGUID: 45115577ef41a5b4ca741ed302693907
     buildTimeAssetPath: Packages/com.vrchat.worlds/Runtime/Udon/UdonBehaviour.cs
-  - fileID: 159
+  - fileID: 286
     classID: 115
     packedSize: 128
-    offset: 91208
+    offset: 115992
     sourceAssetGUID: bf61d954ecb803046953c666facfb904
     buildTimeAssetPath: Packages/com.vrchat.worlds/Runtime/Udon/ProgramSources/SerializedUdonProgramAsset.cs
-  - fileID: 160
-    classID: 115
-    packedSize: 92
-    offset: 91336
-    sourceAssetGUID: 661092b4961be7145bfbe56e1e62337b
-    buildTimeAssetPath: Packages/com.vrchat.worlds/Runtime/VRCSDK/Plugins/VRCSDK3.dll
-  - fileID: 161
+  - fileID: 287
+    classID: 1
+    packedSize: 71
+    offset: 96091872
+    sourceAssetGUID: 13dc5ed5d6ea49042b7be0336b125c0c
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Aspen_Tree_02A.fbx
+  - fileID: 288
+    classID: 1
+    packedSize: 71
+    offset: 96091944
+    sourceAssetGUID: a9f4e315accb8fe4fa3dd23137116b05
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Aspen_Tree_03A.fbx
+  - fileID: 289
+    classID: 1
+    packedSize: 71
+    offset: 96092016
+    sourceAssetGUID: f81deb958887e4e429ded035b43db140
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Aspen_Tree_01A.fbx
+  - fileID: 290
+    classID: 4
+    packedSize: 68
+    offset: 96092088
+    sourceAssetGUID: 13dc5ed5d6ea49042b7be0336b125c0c
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Aspen_Tree_02A.fbx
+  - fileID: 291
+    classID: 4
+    packedSize: 68
+    offset: 96092160
+    sourceAssetGUID: a9f4e315accb8fe4fa3dd23137116b05
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Aspen_Tree_03A.fbx
+  - fileID: 292
+    classID: 4
+    packedSize: 68
+    offset: 96092232
+    sourceAssetGUID: f81deb958887e4e429ded035b43db140
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Aspen_Tree_01A.fbx
+  - fileID: 293
+    classID: 23
+    packedSize: 152
+    offset: 96092304
+    sourceAssetGUID: 13dc5ed5d6ea49042b7be0336b125c0c
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Aspen_Tree_02A.fbx
+  - fileID: 294
+    classID: 23
+    packedSize: 152
+    offset: 96092456
+    sourceAssetGUID: a9f4e315accb8fe4fa3dd23137116b05
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Aspen_Tree_03A.fbx
+  - fileID: 295
+    classID: 23
+    packedSize: 152
+    offset: 96092608
+    sourceAssetGUID: f81deb958887e4e429ded035b43db140
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Aspen_Tree_01A.fbx
+  - fileID: 296
+    classID: 33
+    packedSize: 24
+    offset: 96092760
+    sourceAssetGUID: 13dc5ed5d6ea49042b7be0336b125c0c
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Aspen_Tree_02A.fbx
+  - fileID: 297
+    classID: 33
+    packedSize: 24
+    offset: 96092784
+    sourceAssetGUID: a9f4e315accb8fe4fa3dd23137116b05
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Aspen_Tree_03A.fbx
+  - fileID: 298
+    classID: 33
+    packedSize: 24
+    offset: 96092808
+    sourceAssetGUID: f81deb958887e4e429ded035b43db140
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Models/TFF_Aspen_Tree_01A.fbx
+  - fileID: 299
+    classID: 1953259897
+    packedSize: 176
+    offset: 96092832
+    sourceAssetGUID: e202698675a9dda49beb30db3052df97
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Terrain/Layer_TFF_Terrain_Dirt_1A_D.terrainlayer
+  - fileID: 300
+    classID: 1953259897
+    packedSize: 180
+    offset: 96093008
+    sourceAssetGUID: 82a167d3820573d4995700bfcf9b3d08
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Terrain/Layer_TFF_Terrain_Dirt_Road_1A_D.terrainlayer
+  - fileID: 301
+    classID: 1953259897
+    packedSize: 176
+    offset: 96093192
+    sourceAssetGUID: 200be16447503174a9c0e065e9f1c6d2
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Terrain/Layer_TFF_Terrain_Earth_1A_D.terrainlayer
+  - fileID: 302
+    classID: 1953259897
+    packedSize: 176
+    offset: 96093368
+    sourceAssetGUID: e33601c6c0b16da4ea298d948f929e20
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Terrain/Layer_TFF_Terrain_Earth_2A_D.terrainlayer
+  - fileID: 303
+    classID: 1953259897
+    packedSize: 176
+    offset: 96093544
+    sourceAssetGUID: 5ae6a6247d9fd7145bd438b27f9badc2
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Terrain/Layer_TFF_Terrain_Earth_3A_D.terrainlayer
+  - fileID: 304
+    classID: 1953259897
+    packedSize: 176
+    offset: 96093720
+    sourceAssetGUID: 37c8914a12a1d364086d8d56d9d6d289
+    buildTimeAssetPath: Assets/Toon Fantasy Nature/Terrain/Layer_TFF_Terrain_Grass_2A_D.terrainlayer
+  - fileID: 305
     classID: 114
     packedSize: 17068
-    offset: 259293640
+    offset: 96093896
     sourceAssetGUID: ccb5e0f139937f54690a6ff709d4dba2
     buildTimeAssetPath: Assets/SerializedUdonPrograms/c8df303ceb45ae84f85a11591f741734.asset
-  - fileID: 162
-    classID: 114
-    packedSize: 28952
-    offset: 259310712
-    sourceAssetGUID: 066f3af3c5289fd468eddc9652c8960f
-    buildTimeAssetPath: Packages/com.vrchat.worlds/Samples/UdonExampleScene/SerializedUdonPrograms/19c6455fcf036f447a988be402108b3c.asset
---- !u!668709126 &8182545271421878242
-BuiltAssetBundleInfoSet:
-  bundleInfos:
-  - bundleName: scene-standalonewindows64-main.vrcw
-    bundleArchiveFile: 3
-    packagedFileIndices: 000000000100000002000000
-  - bundleName: FirstWorld
-    bundleArchiveFile: 6
-    packagedFileIndices: 05000000
---- !u!1126 &8595845119825741695
-PackedAssets:
-  m_File: 2
-  m_ShortPath: BuildPlayer-Main.resource
-  m_Overhead: 0
-  m_Contents:
-  - fileID: 0
-    classID: 83
-    packedSize: 10870080
-    offset: 0
-    sourceAssetGUID: 041c47720c7037041a14185d271ec300
-    buildTimeAssetPath: Assets/Audio/65_Dungeon_I.mp3
+  - fileID: 306
+    classID: 156
+    packedSize: 576080
+    offset: 96110968
+    sourceAssetGUID: 8615ed62ea1471d4483d84898f8646cb
+    buildTimeAssetPath: Assets/LakeTerrain.asset
